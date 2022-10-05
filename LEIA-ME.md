@@ -15,11 +15,11 @@ No `flake.nix`:
 
 ```nix
 {
-  # Use este repositório como o endereço do `nixpkgs`
-  inputs.nixpkgs.url = "github:nixosbrasil/nixpkgs-brasil";
+  # Use o repositório `nbr` (Nix BRasil) como o endereço do `nixpkgs`
+  inputs.nbr.url = "github:nixosbrasil/nixpkgs-brasil";
 
   outputs = { self, nixpkgs }:
-    let pkgs = nixpkg.legacyPackages.${"YOUR_SYSTEM_STRING"}; in
+    let pkgs = nbr.legacyPackages.${"linux-x86_64"}; in
     {
       ...
     };
