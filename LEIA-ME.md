@@ -5,6 +5,7 @@ Repositório brasileiro de pacotes Nix. (É um overlay.)
 ## Objetivos
 * Acesso livre (sem abrir requisição ou revisão) para membros do grupo NixOS Brasil. (Solicite no Telegram.)
 * Atualização automática de pacotes por automação. Só abrindo requisição em quebra de pacote.
+* Se algo for importante, deve existir teste. E se não é importante, pode quebrar.
 * Idioma oficial: Português
 
 ## Como ativar
