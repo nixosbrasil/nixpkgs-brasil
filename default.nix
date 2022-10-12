@@ -1,5 +1,5 @@
 self: super:  {
 
-  hexchat-themes = prev.callPackage ./pacotes/diversos/hexchat-themes { };
+  hexchat-themes = super.callPackage ./pacotes/diversos/hexchat-themes { };
 
 }
