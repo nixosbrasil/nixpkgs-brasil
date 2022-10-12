@@ -1,11 +1,7 @@
 {
-  description = "nixpkgs hue edition";
+  description = "nix overlay hue edition";
 
-  inputs = {
-    nixpkgs.url =  "github:NixOS/nixpkgs/nixos-unstable";
-  };
-
-  outputs = { self, nixpkgs }: {
+  outputs = { self }: {
     overlay = final: prev: import ./default.nix final prev;
   };
 }
