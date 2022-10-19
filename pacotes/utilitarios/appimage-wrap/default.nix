@@ -43,7 +43,7 @@ let
       vulkan-loader
       mesa
       libglvnd
-      mesa_drivers
+      mesa.drivers
 
       desktop-file-utils
       xorg.libXcomposite
