@@ -1,5 +1,2 @@
-self: super:  {
-
-  hexchat-themes = super.callPackage ./pacotes/diversos/hexchat-themes { };
-
-}
+{ pkgs ? import <nixpkgs> {} }:
+import ./overlay.nix pkgs pkgs
