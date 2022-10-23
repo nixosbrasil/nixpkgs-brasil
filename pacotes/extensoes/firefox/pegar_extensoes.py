@@ -6,7 +6,7 @@ import re
 import traceback
 
 ESTA_PASTA=Path(__file__).parent
-print(ESTA_PASTA)
+print("Pasta onde estão os dados: ", ESTA_PASTA)
 
 ESTADO_JSON = ESTA_PASTA / "dados.json"
 
@@ -52,15 +52,15 @@ def handle_extensao(slug: str, name = None):
         traceback.print_exc()
 
 # coloque cada uma das extensões a serem buscadas aqui
-handle_extensao("sponsorblock")
-handle_extensao("ublock-origin")
 handle_extensao("bitwarden-password-manager")
-handle_extensao("biluteteia")
-handle_extensao("languagetool")
-handle_extensao("tampermonkey")
-handle_extensao("tweak-new-twitter")
+handle_extensao("facebook-container")
 handle_extensao("darkreader")
 handle_extensao("i-dont-care-about-cookies")
+handle_extensao("languagetool")
+handle_extensao("sponsorblock")
+handle_extensao("tampermonkey")
+handle_extensao("tweak-new-twitter")
+handle_extensao("ublock-origin")
 
 with open(str(ESTADO_JSON), 'w') as f:
     dump(DADOS, f)
