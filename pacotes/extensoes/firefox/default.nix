@@ -18,5 +18,6 @@ in builtins.mapAttrs (nome: dados: (fetchFirefoxAddon {
         url = dados.download_url;
         sha256 = dados.download_hash;
       };
+      extid = "nixos@${nome}";
     };
   })) jsonData
