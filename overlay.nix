@@ -5,4 +5,6 @@ self: super:  {
   appimage-wrap = super.callPackage ./pacotes/utilitarios/appimage-wrap/default.nix { };
 
   firefoxExtensions = super.callPackage ./pacotes/extensoes/firefox { };
+
+  discord = super.callPackage ./pacotes/comunicacao/discord { };
 }
