@@ -1,4 +1,4 @@
-#!/usr/bin/env sh
+#!/usr/bin/env bash
 
 set -eu
 
@@ -26,7 +26,7 @@ fi | while read pasta_para_procurar; do
     export ALI="$AQUI/$pasta_para_procurar"
     pushd "$ALI" > /dev/null
         if [ -f "$ALI/atualizar.sh" ]; then
-            sh "$ALI/atualizar.sh" 2>&1 | while read linha; do
+            bash "$ALI/atualizar.sh" 2>&1 | while read linha; do
                 echo "$pasta_para_procurar: $linha" # bota um prefixo a cada linha
             done
         else
