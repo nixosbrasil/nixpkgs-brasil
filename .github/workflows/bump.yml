@@ -15,6 +15,11 @@ jobs:
         git config --global user.email bot@skynet.org
         git config --global user.name "Bot do repositório"
     - name: A parte que o Git cuida
-      run: git add -A && git commit -m "bump" && git push origin ${{ github.ref }}
+      run: |
+        if [ ! -z "$(git diff)" ]; then
+          git add -A && git commit -m "bump" && git push origin ${{ github.ref }}
+        else
+          echo "Nada a alterar"
+        fi
     - name: Ver que é só isso
       run: echo É só isso
