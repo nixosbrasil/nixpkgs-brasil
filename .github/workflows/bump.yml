@@ -1,6 +1,8 @@
 name: Atualização das versões dos pacotes do repositório
 on:
   workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *" # rodar todo dia as 3 da matina quando não tem ninguém nexendo (eu espero) (6-3 = 3 da manhã, hora é no fuso GMT)
 jobs:
   bump:
     name: Realizar o bump automático dos paranaue
