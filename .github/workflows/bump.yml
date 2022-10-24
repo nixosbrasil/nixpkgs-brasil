@@ -10,6 +10,10 @@ jobs:
       uses: actions/checkout@v1
     - name: Rodar o script de bump
       run: ./atualizar
+    - name: Quem sou eu?
+      run: |
+        git config --global user.email bot@skynet.org
+        git config --global user.name "Bot do repositório"
     - name: A parte que o Git cuida
       run: git add -A && git commit -m "bump" && git push origin ${{ github.ref }}
     - name: Ver que é só isso
