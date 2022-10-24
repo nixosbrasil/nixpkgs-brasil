@@ -1,0 +1,13 @@
+on:
+  workflow_dispatch:
+jobs:
+  bump:
+    name: Realizar o bump automático dos paranaue
+    runs-on: ubuntu-latest
+    steps:
+    - name: Puxar o código
+      uses: actions/checkout@v1
+    - name: Rodar o script de bump
+      run: ./atualizar
+    - name: Ver que é só isso
+      run: echo É só isso
