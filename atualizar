@@ -1,0 +1,37 @@
+#!/usr/bin/env sh
+
+set -eu
+
+AQUI=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+echo "Aqui: '$AQUI'"
+
+find "$AQUI" -type d | grep -v .git | while read diretorio; do
+    case "$diretorio" in
+        *\ * )
+            echo "erro: existem caminhos com espaço aqui. Ex: '$diretorio'"
+            exit 1
+        ;;
+    esac
+done
+
+if [ $# -eq 0 ]; then
+    find "$AQUI" -type f | grep -e '/atualizar.sh' | cut -c $((${#AQUI}+2))- | while read atualizador; do
+        dirname $atualizador
+    done
+else
+    while [ $# -gt 0 ]; do
+        echo $1; shift
+    done
+fi | while read pasta_para_procurar; do
+    export ALI="$AQUI/$pasta_para_procurar"
+    pushd "$ALI" > /dev/null
+        if [ -f "$ALI/atualizar.sh" ]; then
+            sh "$ALI/atualizar.sh" 2>&1 | while read linha; do
+                echo "$pasta_para_procurar: $linha" # bota um prefixo a cada linha
+            done
+        else
+            echo "'$ALI/atualizar.sh' não foi encontrado, pulando..."
+        fi
+    popd > /dev/null
+done
+
