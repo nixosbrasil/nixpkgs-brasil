@@ -1,3 +1,4 @@
+name: Atualização das versões dos pacotes do repositório
 on:
   workflow_dispatch:
 jobs:
@@ -9,5 +10,7 @@ jobs:
       uses: actions/checkout@v1
     - name: Rodar o script de bump
       run: ./atualizar
+    - name: A parte que o Git cuida
+      run: git add -A && git commit -m "bump" && git push origin ${{ github.ref }}
     - name: Ver que é só isso
       run: echo É só isso
