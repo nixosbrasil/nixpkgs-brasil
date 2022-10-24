@@ -2,7 +2,7 @@
 
 set -eu
 
-AQUI=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+export AQUI=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 echo "Aqui: '$AQUI'"
 
 find "$AQUI" -type d | grep -v .git | while read diretorio; do
