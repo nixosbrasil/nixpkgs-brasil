@@ -9,17 +9,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Puxar o código
-      uses: actions/checkout@v1
+      uses: actions/checkout@v3
+    - name: Checkout para a branch
+      run: |
+        # git pull origin ${GITHUB_REF##*/}
+        # git checkout ${GITHUB_REF##*/}
     - name: Rodar o script de bump
       run: ./atualizar
     - name: Quem sou eu?
       run: |
-        git config --global user.email bot@skynet.org
-        git config --global user.name "Bot do repositório"
+        git config user.name github-actions
+        git config user.email github-actions@github.com
     - name: A parte que o Git cuida
       run: |
         if [ ! -z "$(git diff)" ]; then
-          git add -A && git commit -m "bump" && git push origin ${{ github.ref }}
+          git add -A && git commit -m "bump" && git push
         else
           echo "Nada a alterar"
         fi
