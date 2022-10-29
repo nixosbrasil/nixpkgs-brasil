@@ -63,4 +63,4 @@ handle_extensao("tweak-new-twitter")
 handle_extensao("ublock-origin")
 
 with open(str(ESTADO_JSON), 'w') as f:
-    dump(DADOS, f)
+    dump(DADOS, f, indent=2)

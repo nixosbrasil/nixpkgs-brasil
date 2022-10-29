@@ -86,4 +86,4 @@ for arch in PROVEDORES.keys():
             DADOS[arch][variacao]['sha256'] = hash_arquivo
 
 with open(str(ESTADO_JSON), 'w') as f:
-    dump(DADOS, f)
+    dump(DADOS, f, indent=2)
