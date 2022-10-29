@@ -1,1 +1,83 @@
-{"sponsorblock": {"nome": "SponsorBlock - Skip Sponsorships on YouTube", "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.\n\nOther browsers: https://sponsor.ajay.app", "version": "5.1.2", "download_url": "https://addons.mozilla.org/firefox/downloads/file/4022527/sponsorblock-5.1.2.xpi", "download_hash": "sha256:6bd188bb8e97ab736a058bf1ef80e66d0fc225e1c1b3984b5244febac3e941e8", "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/", "name": "sponsorblock"}, "ublock-origin": {"nome": "uBlock Origin", "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.", "version": "1.44.4", "download_url": "https://addons.mozilla.org/firefox/downloads/file/4003969/ublock_origin-1.44.4.xpi", "download_hash": "sha256:0be550c9a27c040d04ad71954dd9e9a4967a27d48ffa2cdfe91171752e152685", "homepage": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/", "name": "ublock-origin"}, "bitwarden-password-manager": {"nome": "Bitwarden - Free Password Manager", "description": "A secure and free password manager for all of your devices.", "version": "2022.10.1", "download_url": "https://addons.mozilla.org/firefox/downloads/file/4018008/bitwarden_password_manager-2022.10.1.xpi", "download_hash": "sha256:453a932a48dda6722fa824f30414ffae3efc4797c6df9e76c6a07b2ff412bbe7", "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/", "name": "bitwarden-password-manager"}, "languagetool": {"nome": "Grammar and Spell Checker - LanguageTool", "description": "With this extension you can check text with the free style and grammar checker LanguageTool. It finds many errors that a simple spell checker cannot detect, like mixing up there/their, a/an, or repeating a word.", "version": "5.4.3", "download_url": "https://addons.mozilla.org/firefox/downloads/file/3985810/languagetool-5.4.3.xpi", "download_hash": "sha256:0a5fd00fd7a6fdd0e18479783596b553b18fc06507ff54ebba425d6d0f25f76e", "homepage": "https://addons.mozilla.org/en-US/firefox/addon/languagetool/", "name": "languagetool"}, "tampermonkey": {"nome": "Tampermonkey", "description": "Tampermonkey is the world's most popular userscript manager.", "version": "4.18.0", "download_url": "https://addons.mozilla.org/firefox/downloads/file/4009746/tampermonkey-4.18.0.xpi", "download_hash": "sha256:08b152619b4f715d217adcb77cbb1e8fcf4610e48622b80d1023bdf7c5a87848", "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/", "name": "tampermonkey"}, "tweak-new-twitter": {"nome": "Tweak New Twitter", "description": "Removes algorithmic content from Twitter, hides news &amp; trends, lets you control which shared tweets appear on your timeline, and adds other UI improvements", "version": "2.15.4", "download_url": "https://addons.mozilla.org/firefox/downloads/file/3994737/tweak_new_twitter-2.15.4.xpi", "download_hash": "sha256:8bc0f3893d99c141acc11c82910c30870994a31f9e9fab2278f346fe20323a98", "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/", "name": "tweak-new-twitter"}, "darkreader": {"nome": "Dark Reader", "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.", "version": "4.9.60", "download_url": "https://addons.mozilla.org/firefox/downloads/file/4021899/darkreader-4.9.60.xpi", "download_hash": "sha256:202eccf8088bd2842158f5fe4f4b751217a05b2f0ada02057c16314c174df01b", "homepage": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/", "name": "darkreader"}, "i-dont-care-about-cookies": {"nome": "I don't care about cookies", "description": "Get rid of cookie warnings from almost all websites!", "version": "3.4.4", "download_url": "https://addons.mozilla.org/firefox/downloads/file/4022610/i_dont_care_about_cookies-3.4.4.xpi", "download_hash": "sha256:faab96295f7df7d83a736ddf4c133571ffbad85b1bdbe92f05b54ef538444479", "homepage": "https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/", "name": "i-dont-care-about-cookies"}, "facebook-container": {"nome": "Facebook Container", "description": "Prevent Facebook from tracking you around the web. The Facebook Container extension for Firefox helps you take control and isolate your web activity from Facebook.", "version": "2.3.6", "download_url": "https://addons.mozilla.org/firefox/downloads/file/4015054/facebook_container-2.3.6.xpi", "download_hash": "sha256:ff9944fb0d6041127f85b19485198cb030e9afdf639ca99ffcfa2eba554d27ea", "homepage": "https://addons.mozilla.org/en-US/firefox/addon/facebook-container/", "name": "facebook-container"}}
+{
+  "sponsorblock": {
+    "nome": "SponsorBlock - Skip Sponsorships on YouTube",
+    "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.\n\nOther browsers: https://sponsor.ajay.app",
+    "version": "5.1.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4022527/sponsorblock-5.1.2.xpi",
+    "download_hash": "sha256:6bd188bb8e97ab736a058bf1ef80e66d0fc225e1c1b3984b5244febac3e941e8",
+    "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
+    "name": "sponsorblock"
+  },
+  "ublock-origin": {
+    "nome": "uBlock Origin",
+    "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
+    "version": "1.44.4",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4003969/ublock_origin-1.44.4.xpi",
+    "download_hash": "sha256:0be550c9a27c040d04ad71954dd9e9a4967a27d48ffa2cdfe91171752e152685",
+    "homepage": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
+    "name": "ublock-origin"
+  },
+  "bitwarden-password-manager": {
+    "nome": "Bitwarden - Free Password Manager",
+    "description": "A secure and free password manager for all of your devices.",
+    "version": "2022.10.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4018008/bitwarden_password_manager-2022.10.1.xpi",
+    "download_hash": "sha256:453a932a48dda6722fa824f30414ffae3efc4797c6df9e76c6a07b2ff412bbe7",
+    "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
+    "name": "bitwarden-password-manager"
+  },
+  "languagetool": {
+    "nome": "Grammar and Spell Checker - LanguageTool",
+    "description": "With this extension you can check text with the free style and grammar checker LanguageTool. It finds many errors that a simple spell checker cannot detect, like mixing up there/their, a/an, or repeating a word.",
+    "version": "5.4.3",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/3985810/languagetool-5.4.3.xpi",
+    "download_hash": "sha256:0a5fd00fd7a6fdd0e18479783596b553b18fc06507ff54ebba425d6d0f25f76e",
+    "homepage": "https://addons.mozilla.org/en-US/firefox/addon/languagetool/",
+    "name": "languagetool"
+  },
+  "tampermonkey": {
+    "nome": "Tampermonkey",
+    "description": "Tampermonkey is the world's most popular userscript manager.",
+    "version": "4.18.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4009746/tampermonkey-4.18.0.xpi",
+    "download_hash": "sha256:08b152619b4f715d217adcb77cbb1e8fcf4610e48622b80d1023bdf7c5a87848",
+    "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/",
+    "name": "tampermonkey"
+  },
+  "tweak-new-twitter": {
+    "nome": "Tweak New Twitter",
+    "description": "Removes algorithmic content from Twitter, hides news &amp; trends, lets you control which shared tweets appear on your timeline, and adds other UI improvements",
+    "version": "2.15.4",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/3994737/tweak_new_twitter-2.15.4.xpi",
+    "download_hash": "sha256:8bc0f3893d99c141acc11c82910c30870994a31f9e9fab2278f346fe20323a98",
+    "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/",
+    "name": "tweak-new-twitter"
+  },
+  "darkreader": {
+    "nome": "Dark Reader",
+    "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
+    "version": "4.9.60",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4021899/darkreader-4.9.60.xpi",
+    "download_hash": "sha256:202eccf8088bd2842158f5fe4f4b751217a05b2f0ada02057c16314c174df01b",
+    "homepage": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
+    "name": "darkreader"
+  },
+  "i-dont-care-about-cookies": {
+    "nome": "I don't care about cookies",
+    "description": "Get rid of cookie warnings from almost all websites!",
+    "version": "3.4.4",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4022610/i_dont_care_about_cookies-3.4.4.xpi",
+    "download_hash": "sha256:faab96295f7df7d83a736ddf4c133571ffbad85b1bdbe92f05b54ef538444479",
+    "homepage": "https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/",
+    "name": "i-dont-care-about-cookies"
+  },
+  "facebook-container": {
+    "nome": "Facebook Container",
+    "description": "Prevent Facebook from tracking you around the web. The Facebook Container extension for Firefox helps you take control and isolate your web activity from Facebook.",
+    "version": "2.3.6",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4015054/facebook_container-2.3.6.xpi",
+    "download_hash": "sha256:ff9944fb0d6041127f85b19485198cb030e9afdf639ca99ffcfa2eba554d27ea",
+    "homepage": "https://addons.mozilla.org/en-US/firefox/addon/facebook-container/",
+    "name": "facebook-container"
+  }
+}
