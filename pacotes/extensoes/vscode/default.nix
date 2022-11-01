@@ -1,22 +1,23 @@
 { lib, buildVscodeExtension, fetchurl }:
 let
   json = builtins.fromJSON (builtins.readFile ./dados.json);
-  buildExtension = { id, version ? null}: let
-    selectedVersion = if version != null
-      then version
-      else (builtins.head (builtins.sort (lib.versionAtLeast) (builtins.attrNames json.${id}.versions))) # pega ultima versão
+  buildExtension = ext: let
+    extArroba = builtins.split "@" ext;
+    name = builtins.head extArroba;
+    version = if (builtins.length extArroba) == 3
+      then (builtins.elemAt extArroba 2)
+      else (builtins.head (builtins.sort (lib.versionAtLeast) (builtins.attrNames json.${name}.versions))) # pega ultima versão
     ;
   in buildVscodeExtension {
-    vscodeExtUniqueId = id;
-    version = selectedVersion;
-    name = id;
+    vscodeExtUniqueId = name;
+    name = "${name}-${version}";
     src = fetchurl {
-      inherit (json.${id}.versions.${selectedVersion}) url sha256;
-      name = "${id}.zip";
+      inherit (json.${name}.versions.${version}) url sha256;
+      name = "${name}.zip";
     };
-    inherit (json.${id}) description;
+    inherit (json.${name}) description;
   };
-  extensoesUltimasVersoes = builtins.mapAttrs (k: _: buildExtension { id = k; }) json;
+  extensoesUltimasVersoes = builtins.mapAttrs (k: _: buildExtension k) json;
 in extensoesUltimasVersoes // {
   inherit buildExtension;
 }
