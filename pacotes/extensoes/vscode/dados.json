@@ -7,6 +7,18 @@
       "1.0.1": {
         "url": "https://bbenoist.gallery.vsassets.io/_apis/public/gallery/publisher/bbenoist/extension/Nix/1.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:ab0c6a386b9b9507953f6aab2c5f789dd5ff05ef6864e9fe64c0855f5cb2a07d"
+      },
+      "1.0.0": {
+        "url": "https://bbenoist.gallery.vsassets.io/_apis/public/gallery/publisher/bbenoist/extension/Nix/1.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:be57fbaeffafa3abf64e9b723961bd535cd061eb1a8ebaeb8b907dfe7fdf24a5"
+      },
+      "0.0.2": {
+        "url": "https://bbenoist.gallery.vsassets.io/_apis/public/gallery/publisher/bbenoist/extension/Nix/0.0.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:882abf8eaf000f68c83b81c11d1f685c6a4d320eb444207fa833cbbc6ab1ff88"
+      },
+      "0.0.1": {
+        "url": "https://bbenoist.gallery.vsassets.io/_apis/public/gallery/publisher/bbenoist/extension/Nix/0.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:d9c0fdb7d11c8b8439e6bfe4ba26fd46fb9c8823e7f97c010e3d62dd02a3e1c5"
       }
     }
   }
