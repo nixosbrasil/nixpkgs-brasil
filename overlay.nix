@@ -6,5 +6,9 @@ self: super:  {
 
   firefoxExtensions = super.callPackage ./pacotes/extensoes/firefox { };
 
+  vscodeExtensions = super.callPackage ./pacotes/extensoes/vscode {
+    inherit (super.vscode-utils) buildVscodeExtension;
+  };
+
   discord = super.callPackage ./pacotes/comunicacao/discord { };
 }
