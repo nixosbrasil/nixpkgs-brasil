@@ -21,5 +21,148 @@
         "sha256": "sha256:d9c0fdb7d11c8b8439e6bfe4ba26fd46fb9c8823e7f97c010e3d62dd02a3e1c5"
       }
     }
+  },
+  "ms-ceintl.vscode-language-pack-pt-br": {
+    "description": "Language pack extension for Portuguese (Brazil)",
+    "author": "ms-ceintl",
+    "extension": "vscode-language-pack-pt-br",
+    "versions": {
+      "1.73.10190935": {
+        "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.73.10190935/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:3435b668446834269e45d43a69b934588bb02aaf0c5cd220b01cd7d99363cdc8"
+      }
+    }
+  },
+  "arrterian.nix-env-selector": {
+    "description": "Allows switch environment for Visual Studio Code and extensions based on Nix config file.",
+    "author": "arrterian",
+    "extension": "nix-env-selector",
+    "versions": {
+      "1.0.9": {
+        "url": "https://arrterian.gallery.vsassets.io/_apis/public/gallery/publisher/arrterian/extension/nix-env-selector/1.0.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:4e4c6a599f17f8f0289f379743eb08f5623e5e5a941e597b63233b37db84ae4d"
+      }
+    }
+  },
+  "CoenraadS.bracket-pair-colorizer": {
+    "description": "A customizable extension for colorizing matching brackets",
+    "author": "CoenraadS",
+    "extension": "bracket-pair-colorizer",
+    "versions": {
+      "1.0.62": {
+        "url": "https://CoenraadS.gallery.vsassets.io/_apis/public/gallery/publisher/CoenraadS/extension/bracket-pair-colorizer/1.0.62/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:8b0a5323c25ce41912079f6e81f9cca1a22e12255fb95a1095a03ba9fe4c937d"
+      }
+    }
+  },
+  "donjayamanne.githistory": {
+    "description": "View git log, file history, compare branches or commits",
+    "author": "donjayamanne",
+    "extension": "githistory",
+    "versions": {
+      "0.6.19": {
+        "url": "https://donjayamanne.gallery.vsassets.io/_apis/public/gallery/publisher/donjayamanne/extension/githistory/0.6.19/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:63212be17448db3ce4cc35d7da84be8d59e6e5d820a19712e1573c98d4ae4297"
+      }
+    }
+  },
+  "file-icons.file-icons": {
+    "description": "File-specific icons in VSCode for improved visual grepping.",
+    "author": "file-icons",
+    "extension": "file-icons",
+    "versions": {
+      "1.0.29": {
+        "url": "https://file-icons.gallery.vsassets.io/_apis/public/gallery/publisher/file-icons/extension/file-icons/1.0.29/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:8649c424dd20c657f96eb08182c2f9730aff502d9b421514fa7a47e5932ba417"
+      }
+    }
+  },
+  "zhuangtongfa.Material-theme": {
+    "description": "Atom\u2018s iconic One Dark theme for Visual Studio Code",
+    "author": "zhuangtongfa",
+    "extension": "Material-theme",
+    "versions": {
+      "3.15.6": {
+        "url": "https://zhuangtongfa.gallery.vsassets.io/_apis/public/gallery/publisher/zhuangtongfa/extension/Material-theme/3.15.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:2d58a21c60c98ed430cf93ba659ac00298b6175ac8499bdc8200a5f18de7cd30"
+      }
+    }
+  },
+  "vscodevim.vim": {
+    "description": "Vim emulation for Visual Studio Code",
+    "author": "vscodevim",
+    "extension": "vim",
+    "versions": {
+      "1.24.2": {
+        "url": "https://vscodevim.gallery.vsassets.io/_apis/public/gallery/publisher/vscodevim/extension/vim/1.24.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:bcdcba128f5d1523e1f48e27bf71be4831a8d5a8c40f88885e85488e371741d6"
+      }
+    }
+  },
+  "esbenp.prettier-vscode": {
+    "description": "Code formatter using prettier",
+    "author": "esbenp",
+    "extension": "prettier-vscode",
+    "versions": {
+      "9.9.0": {
+        "url": "https://esbenp.gallery.vsassets.io/_apis/public/gallery/publisher/esbenp/extension/prettier-vscode/9.9.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:62becce07c9135cb017fc6209502efc998db94c86d92930ff9ff521fca146afd"
+      }
+    }
+  },
+  "ms-vscode-remote.remote-containers": {
+    "description": "Open any folder or repository inside a Docker container and take advantage of Visual Studio Code's full feature set.",
+    "author": "ms-vscode-remote",
+    "extension": "remote-containers",
+    "versions": {
+      "0.262.1": {
+        "url": "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-containers/0.262.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:5afd28c261e5c0af04c07ffccfa2f157070f47fa9de11603e66cb8b1f467757f"
+      }
+    }
+  },
+  "alexcvzz.vscode-sqlite": {
+    "description": "Explore and query SQLite databases.",
+    "author": "alexcvzz",
+    "extension": "vscode-sqlite",
+    "versions": {
+      "0.14.1": {
+        "url": "https://alexcvzz.gallery.vsassets.io/_apis/public/gallery/publisher/alexcvzz/extension/vscode-sqlite/0.14.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:8ce42446006453026ea43f9c468fca45a84546cf365f72b8f43c92c3a1a553c5"
+      }
+    }
+  },
+  "rust-lang.rust": {
+    "description": "Rust for Visual Studio Code (powered by Rust Language Server/Rust Analyzer). Provides lints, code completion and navigation, formatting and more.",
+    "author": "rust-lang",
+    "extension": "rust",
+    "versions": {
+      "0.7.8": {
+        "url": "https://rust-lang.gallery.vsassets.io/_apis/public/gallery/publisher/rust-lang/extension/rust/0.7.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:637dda81234c5666950907587799b3c2388ae494d94edcd39264864d0ad2360d"
+      }
+    }
+  },
+  "golang.go": {
+    "description": "Rich Go language support for Visual Studio Code",
+    "author": "golang",
+    "extension": "go",
+    "versions": {
+      "0.35.2": {
+        "url": "https://golang.gallery.vsassets.io/_apis/public/gallery/publisher/golang/extension/Go/0.35.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:6103ca07a76d2309a0870d559d8bbef64ad5202576826ed5ab5151abb9496eda"
+      }
+    }
+  },
+  "foam.foam-vscode": {
+    "description": "VS Code + Markdown + Wikilinks for your note taking and knowledge base",
+    "author": "foam",
+    "extension": "foam-vscode",
+    "versions": {
+      "0.20.2": {
+        "url": "https://foam.gallery.vsassets.io/_apis/public/gallery/publisher/foam/extension/foam-vscode/0.20.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:87f5b28462c5da8d0213909b01c8d501ed28a01b6d7d51a351140e3edf144ae0"
+      }
+    }
   }
 }
