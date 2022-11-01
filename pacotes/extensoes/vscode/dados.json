@@ -1,0 +1,13 @@
+{
+  "bbenoist.Nix": {
+    "description": "Nix language support for Visual Studio Code.",
+    "author": "bbenoist",
+    "extension": "Nix",
+    "versions": {
+      "1.0.1": {
+        "url": "https://bbenoist.gallery.vsassets.io/_apis/public/gallery/publisher/bbenoist/extension/Nix/1.0.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:ab0c6a386b9b9507953f6aab2c5f789dd5ff05ef6864e9fe64c0855f5cb2a07d"
+      }
+    }
+  }
+}
