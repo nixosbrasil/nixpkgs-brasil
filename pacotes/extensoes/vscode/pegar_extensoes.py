@@ -80,7 +80,7 @@ def requisitar_extensao_marketplace(autor: str, extensao: str):
         versions=list(map(lambda item: item['version'], metadado_extensao['versions']))
     )
 
-def handle_extensao(autor: str, extensao: str):
+def handle_extensao(autor: str, extensao: str, ultimo_apenas=True):
     try:
         chave = f"{autor}.{extensao}"
         print(f"Buscando dados da extensão '{chave}'")
@@ -92,6 +92,8 @@ def handle_extensao(autor: str, extensao: str):
                 extension=extensao,
                 versions=dict()
             )
+        if ultimo_apenas:
+            metadados['versions'] = [ metadados['versions'][0] ]
         for version in metadados['versions']:
             print(f"Buscando versão {version} da extensão '{chave}'")
             if DADOS[chave]['versions'].get(version) is None:
@@ -105,6 +107,19 @@ def handle_extensao(autor: str, extensao: str):
         traceback.print_exc()
 
 handle_extensao("bbenoist", "Nix")
+handle_extensao("ms-ceintl", "vscode-language-pack-pt-br")
+handle_extensao("arrterian", "nix-env-selector")
+handle_extensao("CoenraadS", "bracket-pair-colorizer")
+handle_extensao("donjayamanne", "githistory")
+handle_extensao("file-icons", "file-icons")
+handle_extensao("zhuangtongfa", "Material-theme")
+handle_extensao("vscodevim", "vim")
+handle_extensao("esbenp", "prettier-vscode")
+handle_extensao("ms-vscode-remote", "remote-containers")
+handle_extensao("alexcvzz", "vscode-sqlite")
+handle_extensao("rust-lang", "rust")
+handle_extensao("golang", "go")
+handle_extensao("foam", "foam-vscode")
 
 # coloque cada uma das extensões a serem buscadas aqui
 
