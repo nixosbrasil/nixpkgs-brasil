@@ -10,5 +10,7 @@ self: super:  {
     inherit (super.vscode-utils) buildVscodeExtension;
   };
 
+  telegram-desktop-bin = super.qt5.callPackage ./pacotes/comunicacao/telegram { };
+
   discord = super.callPackage ./pacotes/comunicacao/discord { };
 }
