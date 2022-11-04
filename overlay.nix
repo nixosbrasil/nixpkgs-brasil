@@ -1,4 +1,4 @@
-self: super:  {
+self: super:  rec {
 
   hexchat-themes = super.callPackage ./pacotes/diversos/hexchat-themes { };
 
@@ -10,7 +10,7 @@ self: super:  {
     inherit (super.vscode-utils) buildVscodeExtension;
   };
 
-  telegram-desktop-bin = super.callPackage ./pacotes/comunicacao/telegram { inherit (super) appimage-wrap; };
+  telegram-desktop-bin = super.callPackage ./pacotes/comunicacao/telegram { inherit appimage-wrap; };
 
   discord = super.callPackage ./pacotes/comunicacao/discord { };
 }

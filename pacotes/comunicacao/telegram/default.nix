@@ -9,7 +9,7 @@
 let
   data = builtins.fromJSON (builtins.readFile ./dados.json);
   
-in stdenvNoCC.mkDerivation rec {
+in stdenvNoCC.mkDerivation {
   pname = "telegram-desktop";
   inherit (data) version;
 
@@ -17,10 +17,7 @@ in stdenvNoCC.mkDerivation rec {
     inherit (data) sha256 url;
   };
 
-  buildInputs = [
-  ];
-
-  nativeBuildInputs = [ copyDesktopItems ];
+  nativeBuildInputs = [ copyDesktopItems appimage-wrap ];
 
   desktopItems = [
     (makeDesktopItem {
@@ -35,7 +32,12 @@ in stdenvNoCC.mkDerivation rec {
     mkdir -p $out/bin
     install ./Telegram $out/bin/.telegram-desktop
 
-    echo 'appimage-env @out/bin/.telegram-desktop "$@"' | sed "s;@out;$out;" > $out/bin/telegram-desktop
+    echo '@aenv/bin/appimage-env @out/bin/.telegram-desktop "$@"' > $out/bin/telegram-desktop
+
+    substituteInPlace $out/bin/telegram-desktop \
+      --replace @out $out \
+      --replace @aenv ${appimage-wrap}
+
     chmod +x $out/bin/telegram-desktop
 
   '';
