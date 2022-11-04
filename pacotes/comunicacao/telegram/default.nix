@@ -2,18 +2,13 @@
 , fetchurl
 , callPackage
 , stdenvNoCC
-, autoPatchelfHook
-, glib
-, xorg
-, fontconfig
-, alsaLib
-, libGL
-, gtk3
-, makeDesktopItem
+, appimage-wrap
 , copyDesktopItems
+, makeDesktopItem
 }:
 let
   data = builtins.fromJSON (builtins.readFile ./dados.json);
+  
 in stdenvNoCC.mkDerivation rec {
   pname = "telegram-desktop";
   inherit (data) version;
@@ -23,16 +18,9 @@ in stdenvNoCC.mkDerivation rec {
   };
 
   buildInputs = [
-    glib
-    fontconfig
-    alsaLib
-    xorg.libxcb
-    xorg.libX11
-    libGL
-    gtk3
   ];
 
-  nativeBuildInputs = [ autoPatchelfHook copyDesktopItems ];
+  nativeBuildInputs = [ copyDesktopItems ];
 
   desktopItems = [
     (makeDesktopItem {
@@ -45,7 +33,11 @@ in stdenvNoCC.mkDerivation rec {
 
   installPhase = ''
     mkdir -p $out/bin
-    install ./Telegram $out/bin/telegram-desktop
+    install ./Telegram $out/bin/.telegram-desktop
+
+    echo 'appimage-env @out/bin/.telegram-desktop "$@"' | sed "s;@out;$out;" > $out/bin/telegram-desktop
+    chmod +x $out/bin/telegram-desktop
+
   '';
 
   meta = with lib; {
