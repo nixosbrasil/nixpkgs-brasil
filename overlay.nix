@@ -20,5 +20,6 @@ self: super:  rec {
     _7zip = super.callPackage ./pacotes/wine/7zip { inherit mkWineApp; };
     taha-tora = super.callPackage ./pacotes/wine/taha-tora { inherit mkWineApp; };
     neander = super.callPackage ./pacotes/wine/neander { inherit mkWineApp; };
+    sosim = super.callPackage ./pacotes/wine/sosim { inherit mkWineApp; };
   };
 }
