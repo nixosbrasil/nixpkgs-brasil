@@ -11,9 +11,9 @@
       "sha256": "sha256:083e9d2e806796f869c0415f2c8f4eaa386f8993e3df1343c8f2bda81254a9c9"
     },
     "canary": {
-      "version": "0.0.142",
-      "url": "https://dl-canary.discordapp.net/apps/linux/0.0.142/discord-canary-0.0.142.tar.gz",
-      "sha256": "sha256:fc45890b7845201ab01daf73e2731647b0a9a1aa9863ea6fc3ed6f72ae05d0b5"
+      "version": "0.0.143",
+      "url": "https://dl-canary.discordapp.net/apps/linux/0.0.143/discord-canary-0.0.143.tar.gz",
+      "sha256": "sha256:2becb283d19302f8207e7e094024e6ab4d7ab4ccb2ceafa70fb68bdfe6d6165a"
     }
   },
   "x86_64-darwin": {
@@ -28,9 +28,9 @@
       "sha256": "sha256:72112abd0fe168762c3583447d6a49aa8a11be7adb345ff8142ca75921ba1d54"
     },
     "canary": {
-      "version": "0.0.288",
-      "url": "https://dl-canary.discordapp.net/apps/osx/0.0.288/DiscordCanary.dmg",
-      "sha256": "sha256:d39ca6fae605ba240963172ae7df977d9ce5faa388b2724b7cfb3b83b9ca8a08"
+      "version": "0.0.289",
+      "url": "https://dl-canary.discordapp.net/apps/osx/0.0.289/DiscordCanary.dmg",
+      "sha256": "sha256:3c9d77d5d8a4eaa1442c7bcd0afbd4a5064f32773bb2ff9fb2d25f80797bfe87"
     }
   },
   "aarch64-darwin": {
