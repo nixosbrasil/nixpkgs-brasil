@@ -13,6 +13,8 @@ in stdenvNoCC.mkDerivation {
   pname = "telegram-desktop";
   inherit (data) version;
 
+  dontStrip = true;
+
   src = fetchurl {
     inherit (data) sha256 url;
   };
