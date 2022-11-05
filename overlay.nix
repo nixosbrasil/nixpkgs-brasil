@@ -13,4 +13,9 @@ self: super:  rec {
   telegram-desktop-bin = super.callPackage ./pacotes/comunicacao/telegram { inherit appimage-wrap; };
 
   discord = super.callPackage ./pacotes/comunicacao/discord { };
+
+  wine-apps = rec {
+    mkWineApp = super.callPackage ./pacotes/wine/mkWineApp { };
+    hxd = super.callPackage ./pacotes/wine/hxd { inherit mkWineApp; };
+  };
 }
