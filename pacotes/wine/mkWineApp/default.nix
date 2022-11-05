@@ -1,6 +1,6 @@
 { stdenv
 , lib
-, wine
+, wineWowPackages
 , writeShellScript
 , winetricks
 , cabextract
@@ -10,10 +10,10 @@
 , default-prefix-dir ? "~/.nix-wine"
 }:
 let
-  _wine = wine;
+  _wine = wineWowPackages.full;
 in
 { wine ? _wine
-, wineArch ? "win32"
+, is32bits ? true
 , prefix-dir ? default-prefix-dir
 , pname ? "wine-launcher"
 , version ? null
@@ -28,7 +28,8 @@ let
   binPath = [ wine winetricks cabextract gnused fuse-overlayfs ] ++ extraPackages;
 in writeShellScript "wine-launcher" ''
 export PATH="$PATH:${lib.makeBinPath binPath}"
-export WINEARCH=${wineArch}
+
+export WINEARCH=${if is32bits then "win32" else "win64"}
 
 export PREFIX_ROOT=${prefix-dir}/${key}
 

@@ -17,5 +17,6 @@ self: super:  rec {
   wine-apps = rec {
     mkWineApp = super.callPackage ./pacotes/wine/mkWineApp { };
     hxd = super.callPackage ./pacotes/wine/hxd { inherit mkWineApp; };
+    _7zip = super.callPackage ./pacotes/wine/7zip { inherit mkWineApp; };
   };
 }
