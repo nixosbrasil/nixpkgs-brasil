@@ -29,7 +29,7 @@ let
 in writeShellScript "wine-launcher" ''
 export PATH="$PATH:${lib.makeBinPath binPath}"
 
-export WINEARCH=${if is32bits then "win32" else "win64"}
+${lib.optionalString is32bits "export WINEARCH=win32"}
 
 export PREFIX_ROOT=${prefix-dir}/${key}
 
