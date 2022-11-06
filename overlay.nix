@@ -16,6 +16,8 @@ self: super:  rec {
 
   argouml = super.callPackage ./pacotes/utilitarios/uml/argouml { };
 
+  digital-simulator = super.callPackage ./pacotes/utilitarios/digital-simulator { };
+
   xplico = super.callPackage ./pacotes/forense/xplico { };
 
   wine-apps = rec {
