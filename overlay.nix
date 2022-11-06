@@ -21,5 +21,6 @@ self: super:  rec {
     taha-tora = super.callPackage ./pacotes/wine/taha-tora { inherit mkWineApp; };
     neander = super.callPackage ./pacotes/wine/neander { inherit mkWineApp; };
     sosim = super.callPackage ./pacotes/wine/sosim { inherit mkWineApp; };
+    dev-cpp = super.callPackage ./pacotes/wine/dev-cpp { inherit mkWineApp; };
   };
 }
