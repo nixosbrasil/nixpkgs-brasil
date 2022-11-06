@@ -16,6 +16,8 @@ self: super:  rec {
 
   argouml = super.callPackage ./pacotes/utilitarios/uml/argouml { };
 
+  xplico = super.callPackage ./pacotes/forense/xplico { };
+
   wine-apps = rec {
     mkWineApp = super.callPackage ./pacotes/wine/mkWineApp { };
     hxd = super.callPackage ./pacotes/wine/hxd { inherit mkWineApp; };
