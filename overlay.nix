@@ -14,6 +14,8 @@ self: super:  rec {
 
   discord = super.callPackage ./pacotes/comunicacao/discord { };
 
+  argouml = super.callPackage ./pacotes/utilitarios/uml/argouml { };
+
   wine-apps = rec {
     mkWineApp = super.callPackage ./pacotes/wine/mkWineApp { };
     hxd = super.callPackage ./pacotes/wine/hxd { inherit mkWineApp; };
