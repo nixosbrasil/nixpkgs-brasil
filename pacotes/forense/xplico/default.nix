@@ -17,18 +17,19 @@
 , libmysqlclient
 }:
 let
-  version = "1.2.2";
+  # version = "1.2.2";
 in stdenv.mkDerivation {
   pname = "xplico";
-  inherit version;
+  # inherit version;
+  version = "unstable-28-08-2020";
 
   enableParallelBuilding = true;
 
   src = fetchFromGitHub {
     owner = "xplico";
     repo = "xplico";
-    rev = "v.${version}";
-    sha256 = "sha256-ggY0THiTRTaNjlRlKPqUdu85wT4NTHfJwxd3eX45N9A";
+    rev = "155e9d0c36bac0f7aeb137dc6c5afc09fbba4578";
+    sha256 = "sha256-Qd5/EN4sctHsYEfBuKCYbpHr775vs/UTeufVBi2a6A8";
   };
 
   patchPhase = ''
