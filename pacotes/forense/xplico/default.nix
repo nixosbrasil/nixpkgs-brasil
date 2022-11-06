@@ -1,6 +1,7 @@
 { stdenv
 , lib
 , fetchFromGitHub
+, fetchurl
 , makeWrapper
 , copyDesktopItems
 , makeDesktopItem
@@ -15,15 +16,14 @@
 , libpqxx
 , postgresql
 , libmysqlclient
+, python3
+, json_c
 }:
-let
-  # version = "1.2.2";
-in stdenv.mkDerivation {
+stdenv.mkDerivation {
   pname = "xplico";
-  # inherit version;
   version = "unstable-28-08-2020";
 
-  enableParallelBuilding = true;
+  # enableParallelBuilding = true;
 
   src = fetchFromGitHub {
     owner = "xplico";
@@ -39,6 +39,16 @@ in stdenv.mkDerivation {
       substituteInPlace "$file" \
         --replace "<libndpi/" "<" \
         --replace "ndpi_init_detection_module()" "ndpi_init_detection_module(ndpi_no_prefs)"
+    done
+
+    find -type f | grep -e '\.sh$' | while read file; do
+      substituteInPlace "$file" \
+        --replace "/bin/bash" "$(which bash)"
+    done
+
+    find -type f | while read file; do
+      substituteInPlace "$file" \
+        --replace "/opt/xplico" "$out/opt/xplico" || true # se der pau pq é binário só segue o baile
     done
 
     runHook postPatch
@@ -67,24 +77,23 @@ in stdenv.mkDerivation {
         sha256 = "sha256-Ad9ywYek8AsYAQE9KVN6h55qYIaqaCfXCALgCvZLUHY";
       };
     }))
-    # (runCommand "gambiarra-ndpi" {} ''
-    #   mkdir -p $out/include
-    #   ln -s ${ndpi}/include/ndpi $out/include/libndpi
-    # '')
+    json_c.dev
+    (runCommand "json_c_private" {} ''
+      mkdir -p $out/include/json-c
+      ln -s ${fetchurl {
+        url = "https://raw.githubusercontent.com/json-c/json-c/master/json_object_private.h";
+        sha256 = "12sajd1pqijdnxxjnmlvlqvc3fr25g7vyqn0grsi9y6x6x644ksr";
+      }} $out/include/json-c/json_object_private.h
+    '')
   ];
-
-  # NIX_CFLAGS_COMPILE = [ "-I${ndpi}/include" ];
 
   buildInputs = [
+    python3
   ];
 
-  # installPhase = ''
-  #   runHook preInstall
-
-  #   mkdir -p $out/bin
-
-  #   runHook postInstall
-  # '';
+  postInstall = ''
+    ln -s $out/opt/xplico/bin $out/bin
+  '';
 
   desktopItems = [
     # (makeDesktopItem {
