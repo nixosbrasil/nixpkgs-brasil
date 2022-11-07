@@ -30,10 +30,12 @@ in stdenvNoCC.mkDerivation {
   ];
 
   installPhase = ''
+    runHook preInstall
+
     mkdir -p $out/bin $out/opt/Telegram
     install ./Telegram $out/opt/Telegram
 
-    echo 'env; @aenv/bin/appimage-env @out/opt/Telegram/Telegram "$@"' > $out/bin/telegram-desktop
+    echo '@aenv/bin/appimage-env @out/opt/Telegram/Telegram "$@"' > $out/bin/telegram-desktop
 
     substituteInPlace $out/bin/telegram-desktop \
       --replace @out $out \
@@ -41,6 +43,7 @@ in stdenvNoCC.mkDerivation {
 
     chmod +x $out/bin/telegram-desktop
 
+    runHook postInstall
   '';
 
   meta = with lib; {
