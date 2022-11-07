@@ -11,6 +11,9 @@
 , gnused
 , gnugrep
 , gawk
+, gsettings-desktop-schemas
+, gtk3
+, writeShellScript
 , ... }:
 let
   fhs = buildFHSUserEnv {
@@ -118,6 +121,8 @@ let
       mesa
       libxkbcommon
 
+      shared-mime-info
+
       flac
       freeglut
       libjpeg
@@ -164,7 +169,8 @@ let
       ln -sf  $out/lib64 $out/usr/lib64/x86_64-linux-gnu
     '';
 
-    runScript = ''
+    runScript = writeShellScript "fhs-run" ''
+    export XDG_DATA_DIRS=${gsettings-desktop-schemas}/share/gsettings-schemas/${gsettings-desktop-schemas.name}:${gtk3}/share/gsettings-schemas/${gtk3.name}:$XDG_DATA_DIRS
 
     PATH=$(echo "$PATH" | sed 's;/run/wrappers/bin:;;g')
 

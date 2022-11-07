@@ -8,7 +8,6 @@
 }:
 let
   data = builtins.fromJSON (builtins.readFile ./dados.json);
-  
 in stdenvNoCC.mkDerivation {
   pname = "telegram-desktop";
   inherit (data) version;
@@ -31,10 +30,10 @@ in stdenvNoCC.mkDerivation {
   ];
 
   installPhase = ''
-    mkdir -p $out/bin
-    install ./Telegram $out/bin/.telegram-desktop
+    mkdir -p $out/bin $out/opt/Telegram
+    install ./Telegram $out/opt/Telegram
 
-    echo '@aenv/bin/appimage-env @out/bin/.telegram-desktop "$@"' > $out/bin/telegram-desktop
+    echo 'env; @aenv/bin/appimage-env @out/opt/Telegram/Telegram "$@"' > $out/bin/telegram-desktop
 
     substituteInPlace $out/bin/telegram-desktop \
       --replace @out $out \
