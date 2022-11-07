@@ -20,6 +20,8 @@ self: super:  rec {
 
   xplico = super.callPackage ./pacotes/forense/xplico { };
 
+  dff = super.python3Packages.callPackage ./pacotes/forense/dff { };
+
   wine-apps = rec {
     mkWineApp = super.callPackage ./pacotes/wine/mkWineApp { };
     hxd = super.callPackage ./pacotes/wine/hxd { inherit mkWineApp; };
