@@ -19,6 +19,8 @@
 , swig
 , icu58
 , qt48Full
+# empacotado aqui
+, libvshadow
 }:
 
 let
@@ -90,6 +92,7 @@ let
     buildInputs = [
       icu
       qt48Full
+      # libvshadow
     ];
   };
 in lib.warn "o dff não está buildando ainda - Work In Progress" dff

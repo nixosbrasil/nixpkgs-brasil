@@ -1,0 +1,40 @@
+diff --git a/Makefile.am b/Makefile.am
+index 0b23bd8..0fb46fa 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -3,7 +3,6 @@ ACLOCAL_AMFLAGS = -I m4
+ SUBDIRS = \
+ 	include \
+ 	common \
+-	libcerror \
+ 	libfguid \
+ 	po \
+ 	manuals \
+@@ -53,7 +52,6 @@ lib: library
+ 
+ library:
+ 	(cd $(srcdir)/common && $(MAKE) $(AM_MAKEFLAGS))
+-	(cd $(srcdir)/libcerror && $(MAKE) $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/libfguid && $(MAKE) $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/po && $(MAKE) $(AM_MAKEFLAGS))
+ 
+@@ -70,7 +68,6 @@ distclean: clean
+ 	done && test -z "$$fail"
+ 
+ splint:
+-	(cd $(srcdir)/libcerror && $(MAKE) splint $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/libfguid && $(MAKE) splint $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/po && $(MAKE) splint $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/tests && $(MAKE) splint $(AM_MAKEFLAGS))
+diff --git a/configure.ac b/configure.ac
+index fe50fc3..d87b7bd 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -91,7 +91,6 @@ dnl Generate Makefiles
+ AC_CONFIG_FILES([Makefile])
+ AC_CONFIG_FILES([include/Makefile])
+ AC_CONFIG_FILES([common/Makefile])
+-AC_CONFIG_FILES([libcerror/Makefile])
+ AC_CONFIG_FILES([libfguid/Makefile])
+ AC_CONFIG_FILES([po/Makefile.in])
+ AC_CONFIG_FILES([po/Makevars])

@@ -20,8 +20,6 @@ self: super:  rec {
 
   xplico = super.callPackage ./pacotes/forense/xplico { };
 
-  dff = super.python3Packages.callPackage ./pacotes/forense/dff { };
-
   wine-apps = rec {
     mkWineApp = super.callPackage ./pacotes/wine/mkWineApp { };
     hxd = super.callPackage ./pacotes/wine/hxd { inherit mkWineApp; };
@@ -30,5 +28,13 @@ self: super:  rec {
     neander = super.callPackage ./pacotes/wine/neander { inherit mkWineApp; };
     sosim = super.callPackage ./pacotes/wine/sosim { inherit mkWineApp; };
     dev-cpp = super.callPackage ./pacotes/wine/dev-cpp { inherit mkWineApp; };
+  };
+
+  wip = {
+    dff = super.python3Packages.callPackage ./pacotes/wip/forense/dff { inherit (super) libvshadow; };
+
+    libvshadow = super.python3Packages.callPackage ./pacotes/wip/forense/dff/libvshadow.nix { };
+
+    autopsy = super.callPackage ./pacotes/wip/forense/autopsy/default.nix.old { };
   };
 }

@@ -1,0 +1,58 @@
+diff --git a/Makefile.am b/Makefile.am
+index 4287b6e..94eaf45 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -3,12 +3,7 @@ ACLOCAL_AMFLAGS = -I m4
+ SUBDIRS = \
+ 	include \
+ 	common \
+-	libcerror \
+ 	libuna \
+-	libcdatetime \
+-	libclocale \
+-	libcnotify \
+-	libcfile \
+ 	unatools \
+ 	po \
+ 	documents \
+@@ -60,7 +55,6 @@ lib: library
+ 
+ library:
+ 	cd $(srcdir)/common && $(MAKE) $(AM_MAKEFLAGS)
+-	cd $(srcdir)/libcerror && $(MAKE) $(AM_MAKEFLAGS)
+ 	cd $(srcdir)/libuna && $(MAKE) $(AM_MAKEFLAGS)
+ 	cd $(srcdir)/po && $(MAKE) $(AM_MAKEFLAGS)
+ 
+@@ -77,13 +71,9 @@ distclean: clean
+ 	done && test -z "$$fail"
+ 
+ splint:
+-	(cd $(srcdir)/libcerror && $(MAKE) splint $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/libuna && $(MAKE) splint $(AM_MAKEFLAGS))
+-	(cd $(srcdir)/libcdatetime && $(MAKE) splint $(AM_MAKEFLAGS))
+-	(cd $(srcdir)/libclocale && $(MAKE) splint $(AM_MAKEFLAGS))
+-	(cd $(srcdir)/libcnotify && $(MAKE) splint $(AM_MAKEFLAGS))
+-	(cd $(srcdir)/libcfile && $(MAKE) splint $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/unatools && $(MAKE) splint $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/po && $(MAKE) splint $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/tests && $(MAKE) splint $(AM_MAKEFLAGS))
+ 
++# (cd $(srcdir)/libcfile && $(MAKE) splint $(AM_MAKEFLAGS))
+diff --git a/configure.ac b/configure.ac
+index 0f74749..403d3b9 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -118,12 +118,8 @@ dnl Generate Makefiles
+ AC_CONFIG_FILES([Makefile])
+ AC_CONFIG_FILES([include/Makefile])
+ AC_CONFIG_FILES([common/Makefile])
+-AC_CONFIG_FILES([libcerror/Makefile])
+ AC_CONFIG_FILES([libuna/Makefile])
+-AC_CONFIG_FILES([libcdatetime/Makefile])
+-AC_CONFIG_FILES([libclocale/Makefile])
+-AC_CONFIG_FILES([libcnotify/Makefile])
+-AC_CONFIG_FILES([libcfile/Makefile])
++# AC_CONFIG_FILES([libcfile/Makefile])
+ AC_CONFIG_FILES([unatools/Makefile])
+ AC_CONFIG_FILES([po/Makefile.in])
+ AC_CONFIG_FILES([po/Makevars])

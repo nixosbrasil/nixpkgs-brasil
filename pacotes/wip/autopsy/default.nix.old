@@ -1,0 +1,56 @@
+{ stdenv
+, lib
+, sleuthkit
+, fetchurl
+, unzip
+, jdk11
+, makeWrapper
+, testdisk
+, imagemagick
+, libewf
+, autoPatchelfHook
+, openjfx11
+}: 
+let
+  java = jdk11;
+  version = "4.19.3";
+  customSleuthkit = sleuthkit.override { openjdk = java; };
+  customOpenJfx = openjfx11.override { openjdk11-bootstrap = java; };
+in stdenv.mkDerivation {
+  pname = "autopsy";
+  inherit version;
+
+  src = fetchurl {
+    url = "https://github.com/sleuthkit/autopsy/releases/download/autopsy-4.19.2/autopsy-4.19.2.zip";
+    sha256 = "sha256-scp3DfR/CVEidv7hbBhGRM3Zolke39tiKjF3iW8pmJM=";
+  };
+
+  dontStrip = true;
+  propagatedBuildInputs = [ customSleuthkit ];
+  nativeBuildInputs = [ unzip makeWrapper autoPatchelfHook ];
+
+  buildInputs = [ customSleuthkit libewf customOpenJfx ];
+
+  installPhase = ''
+    runHook preInstall
+
+    mkdir -p $out/opt $out/bin
+    cp -r . $out/opt/Autopsy
+    # find $out/opt/Autopsy -type f | grep -e '\.exe' | while read file; do
+    #   rm -v $file
+    # done
+    # find $out/opt/Autopsy -type f | grep -e '\.dll' | while read file; do
+    #   rm -v $file
+    # done
+    chmod +x $out/opt/Autopsy/bin/autopsy
+    makeWrapper $out/opt/Autopsy/bin/autopsy $out/bin/autopsy \
+      --set jdkhome ${java.home} \
+      --prefix PATH : ${lib.makeBinPath [ customSleuthkit testdisk imagemagick java ]} \
+      --prefix PATH : ${lib.makeLibraryPath [ customSleuthkit ]} \
+
+    cp ${customSleuthkit}/share/java/*.jar $out/opt/Autopsy/autopsy/modules/ext/
+    ln -s ${sleuthkit}/lib/* $out/opt/Autopsy/autopsy/modules/lib/amd64
+
+    runHook postInstall
+  '';
+}

@@ -1,0 +1,34 @@
+diff --git a/Makefile.am b/Makefile.am
+index 98bfb3e..62e39a6 100644
+--- a/Makefile.am
++++ b/Makefile.am
+@@ -3,9 +3,6 @@ ACLOCAL_AMFLAGS = -I m4
+ SUBDIRS = \
+ 	include \
+ 	common \
+-	libcerror \
+-	libclocale \
+-	libcnotify \
+ 	libuna \
+ 	libcfile \
+ 	po \
+@@ -56,9 +53,6 @@ lib: library
+ 
+ library:
+ 	cd $(srcdir)/common && $(MAKE) $(AM_MAKEFLAGS)
+-	cd $(srcdir)/libcerror && $(MAKE) $(AM_MAKEFLAGS)
+-	cd $(srcdir)/libclocale && $(MAKE) $(AM_MAKEFLAGS)
+-	cd $(srcdir)/libcnotify && $(MAKE) $(AM_MAKEFLAGS)
+ 	cd $(srcdir)/libuna && $(MAKE) $(AM_MAKEFLAGS)
+ 	cd $(srcdir)/libcfile && $(MAKE) $(AM_MAKEFLAGS)
+ 	cd $(srcdir)/po && $(MAKE) $(AM_MAKEFLAGS)
+@@ -76,9 +70,6 @@ distclean: clean
+ 	done && test -z "$$fail"
+ 
+ splint:
+-	(cd $(srcdir)/libcerror && $(MAKE) splint $(AM_MAKEFLAGS))
+-	(cd $(srcdir)/libclocale && $(MAKE) splint $(AM_MAKEFLAGS))
+-	(cd $(srcdir)/libcnotify && $(MAKE) splint $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/libuna && $(MAKE) splint $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/libcfile && $(MAKE) splint $(AM_MAKEFLAGS))
+ 	(cd $(srcdir)/po && $(MAKE) splint $(AM_MAKEFLAGS))
