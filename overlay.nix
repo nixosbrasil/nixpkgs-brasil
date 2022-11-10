@@ -1,4 +1,8 @@
 self: super:  rec {
+  nixos-modules = {
+    dotd = import nixos/dotd;
+    hip-enable = import nixos/hip-enable;
+  };
 
   hexchat-themes = super.callPackage ./pacotes/diversos/hexchat-themes { };
 
