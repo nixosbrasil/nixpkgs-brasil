@@ -15,6 +15,7 @@ self: super:  rec {
   discord = super.callPackage ./pacotes/comunicacao/discord { };
 
   argouml = super.callPackage ./pacotes/utilitarios/uml/argouml { };
+  jxproject = super.callPackage ./pacotes/utilitarios/jxproject { };
 
   digital-simulator = super.callPackage ./pacotes/utilitarios/digital-simulator { };
 
