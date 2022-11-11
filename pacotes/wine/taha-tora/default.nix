@@ -24,7 +24,7 @@ let
       winetricks vb6run comdlg32.ocx msflxgrd
     '';
     appRun = ''
-      wine explorer /desktop=abalaba,1024x768 c:\\tora\\tora.exe "$@"
+      wine explorer /desktop=abalaba,800x600 c:\\tora\\tora.exe "$@"
     '';
   };
 in stdenvNoCC.mkDerivation {

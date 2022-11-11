@@ -22,7 +22,7 @@ let
       chmod 777 -R $WINEPREFIX/drive_c/neander
     '';
     appRun = ''
-      wine explorer /desktop=abalaba,1024x768 c:\\neander\\WNeander.exe "$@"
+      wine c:\\neander\\WNeander.exe "$@"
 
     '';
   };

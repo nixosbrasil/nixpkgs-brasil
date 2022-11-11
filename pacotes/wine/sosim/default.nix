@@ -23,7 +23,7 @@ let
       chmod 777 -R $WINEPREFIX/drive_c/sosim
     '';
     appRun = ''
-      wine explorer /desktop=abalaba,1024x768 c:\\sosim\\sosim.exe "$@"
+      wine c:\\sosim\\sosim.exe "$@"
 
     '';
   };
