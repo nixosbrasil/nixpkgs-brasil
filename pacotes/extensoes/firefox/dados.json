@@ -38,18 +38,18 @@
   "tampermonkey": {
     "nome": "Tampermonkey",
     "description": "Tampermonkey is the world's most popular userscript manager.",
-    "version": "4.18.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4009746/tampermonkey-4.18.0.xpi",
-    "download_hash": "sha256:08b152619b4f715d217adcb77cbb1e8fcf4610e48622b80d1023bdf7c5a87848",
+    "version": "4.18.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4030629/tampermonkey-4.18.1.xpi",
+    "download_hash": "sha256:edb43812730e5b8d866589de7ab8d80e7932cab49a2fa10d2bc2b8be374ebcde",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/",
     "name": "tampermonkey"
   },
   "tweak-new-twitter": {
     "nome": "Tweak New Twitter",
     "description": "Removes algorithmic content from Twitter, hides news &amp; trends, lets you control which shared tweets appear on your timeline, and adds other UI improvements",
-    "version": "2.15.6",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4028059/tweak_new_twitter-2.15.6.xpi",
-    "download_hash": "sha256:0e663c49ebd7539425f15eea26d203ab7b8d2d5024e2626da0799029e39c8897",
+    "version": "2.16.3",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4030443/tweak_new_twitter-2.16.3.xpi",
+    "download_hash": "sha256:a70bbed5ccc7695bdc3d9b67dcadd7e37aee874c1e5bcda2fbdb0c5123c4ed35",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/",
     "name": "tweak-new-twitter"
   },

@@ -164,6 +164,10 @@
       "0.7.8": {
         "url": "https://rust-lang.gallery.vsassets.io/_apis/public/gallery/publisher/rust-lang/extension/rust/0.7.8/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:637dda81234c5666950907587799b3c2388ae494d94edcd39264864d0ad2360d"
+      },
+      "0.7.9": {
+        "url": "https://rust-lang.gallery.vsassets.io/_apis/public/gallery/publisher/rust-lang/extension/rust/0.7.9/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:dae57eb3fff87c012e89b3478d2268a78a5d7fd2a90c7b0808335699d8c9552b"
       }
     }
   },
