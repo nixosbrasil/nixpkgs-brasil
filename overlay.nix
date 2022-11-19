@@ -18,6 +18,8 @@ self: super:  rec {
 
   discord = super.callPackage ./pacotes/comunicacao/discord { };
 
+  bun = super.python3Packages.callPackage ./pacotes/utilitarios/bun { };
+
   argouml = super.callPackage ./pacotes/utilitarios/uml/argouml { };
   jxproject = super.callPackage ./pacotes/utilitarios/jxproject { };
 
