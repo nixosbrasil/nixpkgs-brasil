@@ -29,9 +29,9 @@
   "languagetool": {
     "nome": "Grammar and Spell Checker - LanguageTool",
     "description": "With this extension you can check text with the free style and grammar checker LanguageTool. It finds many errors that a simple spell checker cannot detect, like mixing up there/their, a/an, or repeating a word.",
-    "version": "5.8.10",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4026397/languagetool-5.8.10.xpi",
-    "download_hash": "sha256:dce3f0e68543e64a97f669f154e9b9a4459228d8aa255c7cc2187f6c4bab7a61",
+    "version": "6.0.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4034972/languagetool-6.0.1.xpi",
+    "download_hash": "sha256:a72439258d7e937625b762ab4e35e27d80bddbb1bf9c57947e65ec94d8587e79",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/languagetool/",
     "name": "languagetool"
   },
@@ -47,9 +47,9 @@
   "tweak-new-twitter": {
     "nome": "Tweak New Twitter",
     "description": "Removes algorithmic content from Twitter, hides news &amp; trends, lets you control which shared tweets appear on your timeline, and adds other UI improvements",
-    "version": "2.18.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4032925/tweak_new_twitter-2.18.1.xpi",
-    "download_hash": "sha256:63561595b04b8c163d9c7daf0a063cbebfbf1d6390f5a1922a57fbfe364fb13a",
+    "version": "2.18.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4034531/tweak_new_twitter-2.18.2.xpi",
+    "download_hash": "sha256:5f2db381bbfcc4fd12cecfac3fe0526a1025059a5028c3fd2d2099bd092b7215",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/",
     "name": "tweak-new-twitter"
   },
