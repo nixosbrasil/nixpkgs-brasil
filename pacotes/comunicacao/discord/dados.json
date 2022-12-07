@@ -6,9 +6,9 @@
       "sha256": "sha256:283294b2c3d1aecfc3d74b391a1276de172d6ad426caa776ef14bd9d4ee235a3"
     },
     "ptb": {
-      "version": "0.0.35",
-      "url": "https://dl-ptb.discordapp.net/apps/linux/0.0.35/discord-ptb-0.0.35.tar.gz",
-      "sha256": "sha256:6e7a79c1f711db5b3b2cc3f11608f91b752cc4f5a5163e2de826dea2c8ae7c76"
+      "version": "0.0.36",
+      "url": "https://dl-ptb.discordapp.net/apps/linux/0.0.36/discord-ptb-0.0.36.tar.gz",
+      "sha256": "sha256:8fa4695d8d88c423a9ad283bba0812d4cf5cb8e3e8d3bcca755dc9c6c1890c08"
     },
     "canary": {
       "version": "0.0.144",
@@ -23,9 +23,9 @@
       "sha256": "sha256:bb79e18cb79d0f558dc25ad31fcad2d953bcc2d69b45a8c206398f2d7b8e8413"
     },
     "ptb": {
-      "version": "0.0.66",
-      "url": "https://dl-ptb.discordapp.net/apps/osx/0.0.66/DiscordPTB.dmg",
-      "sha256": "sha256:b7dec86ecd59998cb4555fb82bac65e4fa29195a678cbbc0ca54d590089764db"
+      "version": "0.0.67",
+      "url": "https://dl-ptb.discordapp.net/apps/osx/0.0.67/DiscordPTB.dmg",
+      "sha256": "sha256:f0aa3e5fac7e24a5bb9793ba6384323011a92548d6df282b715e7e31bf93d663"
     },
     "canary": {
       "version": "0.0.290",
@@ -35,9 +35,9 @@
   },
   "aarch64-darwin": {
     "ptb": {
-      "version": "0.0.66",
-      "url": "https://dl-ptb.discordapp.net/apps/osx/0.0.66/DiscordPTB.dmg",
-      "sha256": "sha256:b7dec86ecd59998cb4555fb82bac65e4fa29195a678cbbc0ca54d590089764db"
+      "version": "0.0.67",
+      "url": "https://dl-ptb.discordapp.net/apps/osx/0.0.67/DiscordPTB.dmg",
+      "sha256": "sha256:f0aa3e5fac7e24a5bb9793ba6384323011a92548d6df282b715e7e31bf93d663"
     }
   }
 }
