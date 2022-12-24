@@ -25,8 +25,6 @@ let
     '';
     appRun = ''
       wine64 c:\\7zip\\7zFM.exe "$@"
-      cd $WINEPREFIX
-      bash
     '';
   };
 in stdenvNoCC.mkDerivation {
@@ -46,8 +44,11 @@ in stdenvNoCC.mkDerivation {
       name = "7zip";
       desktopName = "7-Zip";
       exec = "7zip";
-      icon = "application-x-executable";
-      genericName = "Editor de arquivos binários";
+      icon = fetchurl {
+        url = "https://www.7-zip.org/7ziplogo.png";
+        sha256 = "1nkas4wy40ffsmcji1a3gq8a61d72zp4w65jjpmqjj9wyh0j5b7q";
+      };
+      genericName = "Compactador de arquivos";
       categories = [ "Utility" ];
     })
   ];
