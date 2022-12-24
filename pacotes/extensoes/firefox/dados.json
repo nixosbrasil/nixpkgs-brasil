@@ -11,9 +11,9 @@
   "ublock-origin": {
     "nome": "uBlock Origin",
     "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
-    "version": "1.45.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4028976/ublock_origin-1.45.2.xpi",
-    "download_hash": "sha256:fb173895c76c3b05f132caf87a716c75e3db21be861ead1b14ba6abc7e715e8b",
+    "version": "1.46.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4047353/ublock_origin-1.46.0.xpi",
+    "download_hash": "sha256:6bf8af5266353fab5eabdc7476de026e01edfb7901b0430c5e539f6791f1edc8",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
     "name": "ublock-origin"
   },
