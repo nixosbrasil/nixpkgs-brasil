@@ -1,0 +1,19 @@
+diff --git a/src/tls/cockpit-certificate-helper.in b/src/tls/cockpit-certificate-helper.in
+index 5e3b00a7d..d13ef39e1 100644
+--- a/src/tls/cockpit-certificate-helper.in
++++ b/src/tls/cockpit-certificate-helper.in
+@@ -3,11 +3,13 @@
+ set -eu
+ 
+ # prefix= is set because the default @sysconfdir@ contains "${prefix}"
+-prefix="@prefix@"
++prefix=""
+ COCKPIT_CONFIG="@sysconfdir@/cockpit"
+ COCKPIT_WS_CERTS_D="${COCKPIT_CONFIG}/ws-certs.d"
+ COCKPIT_RUNTIME_DIR="/run/cockpit"
+ 
++mkdir -p "$COCKPIT_WS_CERTS_D"
++
+ install_cert() {
+     local destination="${COCKPIT_WS_CERTS_D}/$1"
+     mv -Z "$1" "${destination}"
