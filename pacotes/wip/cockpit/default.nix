@@ -25,6 +25,9 @@
 , nodejs
 , ripgrep
 , makeWrapper
+, coreutils
+, gnused
+, openssl
 }:
 stdenv.mkDerivation rec {
   pname = "cockpit";
@@ -95,6 +98,12 @@ stdenv.mkDerivation rec {
     patchShebangs $out/libexec/cockpit-client
     patchShebangs $out/libexec/cockpit-desktop
     patchShebangs $out/share/cockpit/motd/update-motd
+    sed -i 's;\(prefix="\).*";\1";' $out/libexec/cockpit-certificate-helper
+    wrapProgram $out/libexec/cockpit-certificate-helper \
+      --prefix PATH : ${lib.makeBinPath [ coreutils openssl ]}
+
+    wrapProgram $out/share/cockpit/motd/update-motd \
+      --prefix PATH : ${lib.makeBinPath [ gnused ]}
   '';
   checkPhase = ''
     make pytest
