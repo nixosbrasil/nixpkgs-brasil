@@ -69,9 +69,6 @@ stdenv.mkDerivation rec {
   patches = [
     ./nerf-node-modules.patch
   ];
-  makeFlags = [
-    "AM_DEFAULT_VERBOSITY=1"
-  ];
   configureFlags = [
     "--enable-prefix-only=yes"
     "--disable-pcp" # TODO: figure out how to package its dependency
