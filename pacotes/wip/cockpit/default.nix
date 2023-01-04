@@ -105,8 +105,9 @@ stdenv.mkDerivation rec {
     patchShebangs $out/libexec/cockpit-desktop
     patchShebangs $out/share/cockpit/motd/update-motd
     wrapProgram $out/libexec/cockpit-certificate-helper \
-      --prefix PATH : ${lib.makeBinPath [ coreutils openssl ]} \
-      --run 'chdir $(mktemp -d)'
+      --prefix PATH : ${lib.makeBinPath [ coreutils ]} \
+      --run 'cd $(mktemp -d)' \
+      --prefix PATH : ${lib.makeBinPath [ coreutils openssl ]}
 
     wrapProgram $out/share/cockpit/motd/update-motd \
       --prefix PATH : ${lib.makeBinPath [ gnused ]}
