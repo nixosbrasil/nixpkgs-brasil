@@ -41,13 +41,18 @@ stdenv.mkDerivation rec {
     fetchSubmodules = true;
     deepClone = true;
   };
+  enableParallelBuilding = true;
   # format = "pyproject";
   nativeBuildInputs = [
+    autoreconfHook
+    makeWrapper
+    # python3Packages.pipBuildHook
+
     pkg-config
     glib.dev
     pam.out
-    python3Packages.setuptools
-    autoreconfHook
+    # python3Packages.setuptools
+    python3Packages.python
     libxcrypt
     libxslt.bin
     xmlto
@@ -58,7 +63,6 @@ stdenv.mkDerivation rec {
     ripgrep
     docbook_xsl
     docbook_xml_dtd_43
-    makeWrapper
   ];
   buildInputs = [
     glib
@@ -94,7 +98,7 @@ stdenv.mkDerivation rec {
   fixupPhase = ''
     wrapProgram $out/bin/cockpit-bridge \
       --suffix LD_LIBRARY_PATH : /run/current-system/sw/lib \
-      --suffix PYTHONPATH : $PYTHONPATH
+      --suffix PYTHONPATH : $out/lib/python3
 
     patchShebangs $out/libexec/cockpit-certificate-helper
     patchShebangs $out/libexec/cockpit-client
@@ -105,6 +109,8 @@ stdenv.mkDerivation rec {
 
     wrapProgram $out/share/cockpit/motd/update-motd \
       --prefix PATH : ${lib.makeBinPath [ gnused ]}
+    install -D -d src/systemd_ctypes $out/lib/python3
+    install -D -d src/cockpit $out/lib/python3
   '';
   checkPhase = ''
     make pytest
