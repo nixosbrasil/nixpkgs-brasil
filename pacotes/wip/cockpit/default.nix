@@ -100,7 +100,8 @@ stdenv.mkDerivation rec {
     patchShebangs $out/share/cockpit/motd/update-motd
     sed -i 's;\(prefix="\).*";\1";' $out/libexec/cockpit-certificate-helper
     wrapProgram $out/libexec/cockpit-certificate-helper \
-      --prefix PATH : ${lib.makeBinPath [ coreutils openssl ]}
+      --prefix PATH : ${lib.makeBinPath [ coreutils openssl ]} \
+      --run 'mkdir -p /etc/cockpit/ws-certs.d'
 
     wrapProgram $out/share/cockpit/motd/update-motd \
       --prefix PATH : ${lib.makeBinPath [ gnused ]}
