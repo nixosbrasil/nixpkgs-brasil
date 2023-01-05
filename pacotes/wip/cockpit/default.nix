@@ -98,6 +98,9 @@ stdenv.mkDerivation rec {
     cp node_modules/.package-lock.json package-lock.json
     substituteInPlace src/systemd_ctypes/libsystemd.py \
       --replace libsystemd.so.0 ${systemd}/lib/libsystemd.so.0
+    substituteAllInPlace pkg/**/*.js pkg/**/*.jsx \
+      --replace 'cockpit.spawn["/bin/' 'cockpit.spawn["' \
+      --replace 'cockpit.spawn["/usr/bin/' 'cockpit.spawn["'
   '';
   generateVersionFile = ''
     echo "m4_define(VERSION_NUMBER, [${version}])" > version.m4
@@ -121,6 +124,8 @@ stdenv.mkDerivation rec {
       --prefix PATH : ${lib.makeBinPath [ gnused ]}
     substituteInPlace $out/libexec/cockpit-desktop \
       --replace ' /bin/bash' ' ${bash}/bin/bash'
+
+    sed -i "s;\/usr;$out;" $out/share/polkit-1/actions/org.cockpit-project.cockpit-bridge.policy
 
   '';
 
