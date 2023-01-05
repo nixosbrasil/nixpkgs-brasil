@@ -28,6 +28,7 @@
 , coreutils
 , gnused
 , openssl
+, systemd
 }:
 stdenv.mkDerivation rec {
   pname = "cockpit";
@@ -51,7 +52,7 @@ stdenv.mkDerivation rec {
     pkg-config
     glib.dev
     pam.out
-    # python3Packages.setuptools
+    python3Packages.setuptools
     python3Packages.python
     libxcrypt
     libxslt.bin
@@ -81,6 +82,7 @@ stdenv.mkDerivation rec {
   configureFlags = [
     "--enable-prefix-only=yes"
     "--disable-pcp" # TODO: figure out how to package its dependency
+    "--with-default-session-path=/run/current-system/sw/bin"
   ];
   patchCodeImpurities = ''
     patchShebangs tools/escape-to-c
@@ -88,8 +90,13 @@ stdenv.mkDerivation rec {
     patchShebangs tools/node-modules
     patchShebangs tools/termschutz
     patchShebangs tools/webpack-make
+    patchShebangs test/common/tap-cdp
+    patchShebangs test/common/pixel-tests
+    patchShebangs test/common/run-tests
     export HOME=$(mktemp -d)
     cp node_modules/.package-lock.json package-lock.json
+    substituteInPlace src/systemd_ctypes/libsystemd.py \
+      --replace libsystemd.so.0 ${systemd}/lib/libsystemd.so.0
   '';
   generateVersionFile = ''
     echo "m4_define(VERSION_NUMBER, [${version}])" > version.m4
@@ -114,7 +121,11 @@ stdenv.mkDerivation rec {
     install -D -d src/systemd_ctypes $out/lib/python3
     install -D -d src/cockpit $out/lib/python3
   '';
+
+  doCheck = true;
+  checkInputs = [ python3Packages.pytest ];
   checkPhase = ''
     make pytest
+    cat config.h
   '';
 }
