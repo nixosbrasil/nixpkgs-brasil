@@ -3,6 +3,7 @@
 , fetchzip
 , fetchurl
 , fetchFromGitHub
+, bash
 , pkg-config
 , glib
 , udev
@@ -103,14 +104,14 @@ stdenv.mkDerivation rec {
   '';
   preConfigurePhases = [ "patchCodeImpurities" "generateVersionFile" ];
   fixupPhase = ''
+    patchShebangs $out/libexec/cockpit-certificate-helper
+    patchShebangs $out/share/cockpit/motd/update-motd
+    PATH=${python3Packages.python.withPackages (p: with p;[ pygobject3 ])}/bin patchShebangs $out/libexec/cockpit-client
+    patchShebangs $out/libexec/cockpit-desktop
+
     wrapProgram $out/bin/cockpit-bridge \
       --suffix LD_LIBRARY_PATH : /run/current-system/sw/lib \
-      --suffix PYTHONPATH : $out/lib/python3
 
-    patchShebangs $out/libexec/cockpit-certificate-helper
-    patchShebangs $out/libexec/cockpit-client
-    patchShebangs $out/libexec/cockpit-desktop
-    patchShebangs $out/share/cockpit/motd/update-motd
     wrapProgram $out/libexec/cockpit-certificate-helper \
       --prefix PATH : ${lib.makeBinPath [ coreutils ]} \
       --run 'cd $(mktemp -d)' \
@@ -118,8 +119,9 @@ stdenv.mkDerivation rec {
 
     wrapProgram $out/share/cockpit/motd/update-motd \
       --prefix PATH : ${lib.makeBinPath [ gnused ]}
-    install -D -d src/systemd_ctypes $out/lib/python3
-    install -D -d src/cockpit $out/lib/python3
+    substituteInPlace $out/libexec/cockpit-desktop \
+      --replace ' /bin/bash' ' ${bash}/bin/bash'
+
   '';
 
   doCheck = true;
