@@ -83,7 +83,7 @@ stdenv.mkDerivation rec {
   configureFlags = [
     "--enable-prefix-only=yes"
     "--disable-pcp" # TODO: figure out how to package its dependency
-    "--with-default-session-path=/run/current-system/sw/bin"
+    "--with-default-session-path=/run/wrappers/bin:/run/current-system/sw/bin"
   ];
   patchCodeImpurities = ''
     patchShebangs tools/escape-to-c
