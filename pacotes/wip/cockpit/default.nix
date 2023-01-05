@@ -4,6 +4,7 @@
 , fetchurl
 , fetchFromGitHub
 , bash
+, findutils
 , pkg-config
 , glib
 , udev
@@ -51,6 +52,7 @@ stdenv.mkDerivation rec {
     # python3Packages.pipBuildHook
 
     pkg-config
+    findutils
     glib.dev
     pam.out
     python3Packages.setuptools
@@ -98,9 +100,11 @@ stdenv.mkDerivation rec {
     cp node_modules/.package-lock.json package-lock.json
     substituteInPlace src/systemd_ctypes/libsystemd.py \
       --replace libsystemd.so.0 ${systemd}/lib/libsystemd.so.0
-    substituteAllInPlace pkg/**/*.js pkg/**/*.jsx \
-      --replace 'cockpit.spawn["/bin/' 'cockpit.spawn["' \
-      --replace 'cockpit.spawn["/usr/bin/' 'cockpit.spawn["'
+    substituteInPlace pkg/**/*.js pkg/**/*.jsx \
+      --replace '"/usr/bin/' '"' \
+      --replace '"/bin/' '"'
+
+    cat pkg/users/local.js
   '';
   generateVersionFile = ''
     echo "m4_define(VERSION_NUMBER, [${version}])" > version.m4
