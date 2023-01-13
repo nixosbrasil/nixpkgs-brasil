@@ -1,9 +1,9 @@
 {
   "x86_64-linux": {
     "stable": {
-      "version": "0.0.22",
-      "url": "https://dl.discordapp.net/apps/linux/0.0.22/discord-0.0.22.tar.gz",
-      "sha256": "sha256:175c73771e049ba45e7fb1d37bd107ef0871e3d8857340c5a5a40a745aaeaba7"
+      "version": "0.0.23",
+      "url": "https://dl.discordapp.net/apps/linux/0.0.23/discord-0.0.23.tar.gz",
+      "sha256": "sha256:288c005901f2bf5a1148021e1d22fd297419d43c70b0f989820ab72aa79faa44"
     },
     "ptb": {
       "version": "0.0.38",
@@ -18,9 +18,9 @@
   },
   "x86_64-darwin": {
     "stable": {
-      "version": "0.0.270",
-      "url": "https://dl.discordapp.net/apps/osx/0.0.270/Discord.dmg",
-      "sha256": "sha256:1dbf06660b06dd6088713527caa60af347b95a5218ffb2c2b6c1baf514af521b"
+      "version": "0.0.271",
+      "url": "https://dl.discordapp.net/apps/osx/0.0.271/Discord.dmg",
+      "sha256": "sha256:a694b84a0d3c7ac6ca08fd4900f309f16c068bb3834289eee04188321a3e3c80"
     },
     "ptb": {
       "version": "0.0.69",
