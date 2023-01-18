@@ -47,9 +47,9 @@
   "tweak-new-twitter": {
     "nome": "Tweak New Twitter",
     "description": "Removes algorithmic content from Twitter, hides news &amp; trends, lets you control which shared tweets appear on your timeline, and adds other UI improvements",
-    "version": "2.20.3",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4055319/tweak_new_twitter-2.20.3.xpi",
-    "download_hash": "sha256:51ac9f795e33353b61fe604914a2db70d122dd3e2295a835cb1f860139a3d946",
+    "version": "2.21.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4057573/tweak_new_twitter-2.21.2.xpi",
+    "download_hash": "sha256:247087a31bd30a7ecdb3695ef7b00fc1aa1592b3487f33771f2a5caacdc4cc2b",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/",
     "name": "tweak-new-twitter"
   },
