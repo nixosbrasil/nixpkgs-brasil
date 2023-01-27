@@ -24,6 +24,8 @@ self: super:  rec {
 
   bun = super.python3Packages.callPackage ./pacotes/utilitarios/bun { };
 
+  cut2col = super.callPackage ./pacotes/utilitarios/cut2col { };
+
   digital-simulator = super.callPackage ./pacotes/utilitarios/digital-simulator { };
 
   discord = super.callPackage ./pacotes/comunicacao/discord { };
