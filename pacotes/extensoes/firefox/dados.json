@@ -2,9 +2,9 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.\n\nOther browsers: https://sponsor.ajay.app",
-    "version": "5.1.12",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4059768/sponsorblock-5.1.12.xpi",
-    "download_hash": "sha256:815b581cf99adcb42d67ac0ffa498d19e6de47a233289acc9a593bedde88b27b",
+    "version": "5.1.13",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4064410/sponsorblock-5.1.13.xpi",
+    "download_hash": "sha256:851b2f2da02c566ddd00bb13ac9a874cd81114041c53b5d268686be46ebe985b",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
@@ -47,9 +47,9 @@
   "tweak-new-twitter": {
     "nome": "Tweak New Twitter",
     "description": "Removes algorithmic content from Twitter, hides news &amp; trends, lets you control which shared tweets appear on your timeline, and adds other UI improvements",
-    "version": "2.25.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4062377/tweak_new_twitter-2.25.1.xpi",
-    "download_hash": "sha256:94c3089b80b5faf991a5bf9364682eda9df825e250ee5cea12fb44cd3adc27da",
+    "version": "2.99.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4065209/tweak_new_twitter-2.99.0.xpi",
+    "download_hash": "sha256:4eea1fb60cb3867960cecbad6b11dc3838fd9b60f0732e9227cf57969b8fa62c",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tweak-new-twitter/",
     "name": "tweak-new-twitter"
   },
