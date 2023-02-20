@@ -61,6 +61,7 @@ handle_extensao("sponsorblock")
 handle_extensao("tampermonkey")
 handle_extensao("tweak-new-twitter")
 handle_extensao("ublock-origin")
+handle_extensao("floccus")
 
 with open(str(ESTADO_JSON), 'w') as f:
     dump(DADOS, f, indent=2)
