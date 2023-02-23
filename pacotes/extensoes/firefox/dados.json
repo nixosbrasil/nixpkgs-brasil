@@ -65,9 +65,9 @@
   "i-dont-care-about-cookies": {
     "nome": "I don't care about cookies",
     "description": "Get rid of cookie warnings from almost all websites!",
-    "version": "3.4.5",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4043507/i_dont_care_about_cookies-3.4.5.xpi",
-    "download_hash": "sha256:f4f20728ecabe79a5631593206d4602ab50026b1b260a78e0dff857ba58008ae",
+    "version": "3.4.6",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4071150/i_dont_care_about_cookies-3.4.6.xpi",
+    "download_hash": "sha256:17a9c529762978e28f7f68140359f9ccba2d5e811878ea2963908f0c2294fe05",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/",
     "name": "i-dont-care-about-cookies"
   },
