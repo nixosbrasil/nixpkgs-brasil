@@ -164,6 +164,10 @@
       "1.24.3": {
         "url": "https://vscodevim.gallery.vsassets.io/_apis/public/gallery/publisher/vscodevim/extension/vim/1.24.3/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:e1f3e8441b6d59513c6777b83ba62b91fd3888ebbd125b294053f9ec738f5409"
+      },
+      "1.25.1": {
+        "url": "https://vscodevim.gallery.vsassets.io/_apis/public/gallery/publisher/vscodevim/extension/vim/1.25.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:852ca61dd7be7ee79fda66fde7ccea1cf3c2024c8ffc295762fa26c7ab299b77"
       }
     }
   },
@@ -319,6 +323,10 @@
       "0.37.1": {
         "url": "https://golang.gallery.vsassets.io/_apis/public/gallery/publisher/golang/extension/Go/0.37.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:c4e88c55491c83090c8d87cdcc50774217e0dba8dfe67b2c6937f0d14fac017d"
+      },
+      "0.38.0": {
+        "url": "https://golang.gallery.vsassets.io/_apis/public/gallery/publisher/golang/extension/Go/0.38.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:c0e5a8b95cf8984e01ce681038b432556b0c69d32a7949055879ebbb14ad5344"
       }
     }
   },
