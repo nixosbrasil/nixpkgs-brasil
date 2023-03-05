@@ -22,6 +22,8 @@ self: super:  rec {
 
   argouml = super.callPackage ./pacotes/utilitarios/uml/argouml { };
 
+  bigbashview = super.python3Packages.callPackage ./pacotes/utilitarios/bigbashview { };
+
   bun = super.python3Packages.callPackage ./pacotes/utilitarios/bun { };
 
   cut2col = super.callPackage ./pacotes/utilitarios/cut2col { };
