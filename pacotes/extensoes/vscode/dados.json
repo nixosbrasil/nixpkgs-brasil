@@ -131,6 +131,10 @@
       "0.6.19": {
         "url": "https://donjayamanne.gallery.vsassets.io/_apis/public/gallery/publisher/donjayamanne/extension/githistory/0.6.19/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:63212be17448db3ce4cc35d7da84be8d59e6e5d820a19712e1573c98d4ae4297"
+      },
+      "0.6.20": {
+        "url": "https://donjayamanne.gallery.vsassets.io/_apis/public/gallery/publisher/donjayamanne/extension/githistory/0.6.20/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:9c47584bdfdc312e1d71b1637b6ddae3b40166bf5e0cadddbed9055aa03e3875"
       }
     }
   },
