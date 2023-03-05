@@ -12,7 +12,7 @@ print("Pasta onde estão os dados: ", ESTA_PASTA)
 ESTADO_JSON = ESTA_PASTA / "dados.json"
 
 # se o arquivo não existe, criar um dicionário vazio
-if not ESTADO_JSON.exists(): 
+if not ESTADO_JSON.exists():
     with open(str(ESTADO_JSON), "w") as f:
         dump(dict(), f)
 
