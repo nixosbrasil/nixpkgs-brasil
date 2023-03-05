@@ -7,15 +7,18 @@
 , makeDesktopItem
 }:
 let
-  data = builtins.fromJSON (builtins.readFile ./dados.json);
+  data = builtins.fromJSON (builtins.readFile ./bumpkin.json.lock);
+  url = data.final_url;
 in stdenvNoCC.mkDerivation {
   pname = "telegram-desktop";
-  inherit (data) version;
+
+  version = builtins.replaceStrings ["tsetup." ".tar.xz"] ["" ""] (builtins.elemAt ((lib.lists.reverseList (builtins.split "/" url))) 0);
 
   dontStrip = true;
 
   src = fetchurl {
-    inherit (data) sha256 url;
+    inherit (data) sha256;
+    inherit url;
   };
 
   nativeBuildInputs = [ copyDesktopItems appimage-wrap ];
