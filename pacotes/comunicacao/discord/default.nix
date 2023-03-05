@@ -1,8 +1,14 @@
 { branch ? "stable", pkgs, lib, stdenv, fetchurl }:
 let
   inherit (pkgs) callPackage fetchurl;
-  srcs = builtins.fromJSON (builtins.readFile ./dados.json);
-  src = srcs.${stdenv.hostPlatform.system}.${branch};
+  srcs = builtins.fromJSON (builtins.readFile ./bumpkin.json.lock);
+  originalSrc = srcs.${stdenv.hostPlatform.system}.${branch};
+  extractVersion = url: (builtins.elemAt (lib.lists.reverseList (builtins.split "/" url))) 2;
+  src = {
+    url = originalSrc.final_url;
+    version = extractVersion originalSrc.final_url;
+    inherit (originalSrc) sha256;
+  };
 
   meta = with lib; {
     description = "All-in-one cross-platform voice and text chat for gamers";

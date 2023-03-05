@@ -1,2 +1,4 @@
 #!/usr/bin/env bash
-python3 ./pegar_versoes.py
+
+cd "$(dirname -- "$0")"
+bumpkin eval -v -i ./bumpkin.json -o ./bumpkin.json.lock
