@@ -12,7 +12,7 @@
 , libsoup_3
 , qt5
 , enableGtk ? true
-, enableQt ? false
+, enableQt ? true
 }:
 let
 
