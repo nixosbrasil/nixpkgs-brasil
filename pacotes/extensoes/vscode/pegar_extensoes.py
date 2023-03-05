@@ -106,20 +106,12 @@ def handle_extensao(autor: str, extensao: str, ultimo_apenas=True):
         print(e)
         traceback.print_exc()
 
-handle_extensao("bbenoist", "Nix")
-handle_extensao("ms-ceintl", "vscode-language-pack-pt-br")
-handle_extensao("arrterian", "nix-env-selector")
-handle_extensao("CoenraadS", "bracket-pair-colorizer")
-handle_extensao("donjayamanne", "githistory")
-handle_extensao("file-icons", "file-icons")
-handle_extensao("zhuangtongfa", "Material-theme")
-handle_extensao("vscodevim", "vim")
-handle_extensao("esbenp", "prettier-vscode")
-handle_extensao("ms-vscode-remote", "remote-containers")
-handle_extensao("alexcvzz", "vscode-sqlite")
-handle_extensao("rust-lang", "rust")
-handle_extensao("golang", "go")
-handle_extensao("foam", "foam-vscode")
+with (ESTA_PASTA / "extensoes_para_buscar.txt").open('r') as f:
+    for ext in f:
+        splitted = ext.strip().split(".")
+        assert len(splitted) == 2, f"A extensão {ext} está no formato errado, deve estar no formato autor.nome"
+        owner, name = splitted
+        handle_extensao(owner, name)
 
 # coloque cada uma das extensões a serem buscadas aqui
 

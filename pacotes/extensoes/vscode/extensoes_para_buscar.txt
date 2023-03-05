@@ -1,0 +1,14 @@
+CoenraadS.bracket-pair-colorizer
+alexcvzz.vscode-sqlite
+arrterian.nix-env-selector
+bbenoist.Nix
+donjayamanne.githistory
+esbenp.prettier-vscode
+file-icons.file-icons
+foam.foam-vscode
+golang.go
+ms-ceintl.vscode-language-pack-pt-br
+ms-vscode-remote.remote-containers
+rust-lang.rust
+vscodevim.vim
+zhuangtongfa.Material-theme
