@@ -83,9 +83,9 @@
   "floccus": {
     "nome": "floccus",
     "description": "Sync your bookmarks across browsers via Nextcloud, WebDAV or Google Drive",
-    "version": "4.19.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4088521/floccus-4.19.0.xpi",
-    "download_hash": "sha256:c052418147c6ca88100bdce37f5101dff4706fb1f3b3ec23ec60451d8a55e65b",
+    "version": "4.19.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4090997/floccus-4.19.1.xpi",
+    "download_hash": "sha256:a806d218c2e8eb11d115f3cd85d877ee8b0ec4f043a3c3edf1e41f78738ca314",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
   }
