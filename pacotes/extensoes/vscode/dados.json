@@ -231,6 +231,10 @@
       "9.10.4": {
         "url": "https://esbenp.gallery.vsassets.io/_apis/public/gallery/publisher/esbenp/extension/prettier-vscode/9.10.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:921b7207441b9be8ae3351ac01a177d9846fd55053232edd69e08a760c02202f"
+      },
+      "9.12.0": {
+        "url": "https://esbenp.gallery.vsassets.io/_apis/public/gallery/publisher/esbenp/extension/prettier-vscode/9.12.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:6fb11a61824d65006a872289d38b72b660fd0c345cbc0ebc1d3a392474ebf45a"
       }
     }
   },
@@ -346,6 +350,10 @@
       "0.290.0": {
         "url": "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-containers/0.290.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:270384411de36501ebcdab9d6f615c03c6acd3851c450ef03fadc099b08bd396"
+      },
+      "0.291.0": {
+        "url": "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-containers/0.291.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:cabda0c4af2a58defa12c868b82be60109a82ed04efdca23d0829747d5fa0411"
       }
     }
   },
