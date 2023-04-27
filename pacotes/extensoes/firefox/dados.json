@@ -2,18 +2,18 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.\n\nOther browsers: https://sponsor.ajay.app",
-    "version": "5.3.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4085308/sponsorblock-5.3.1.xpi",
-    "download_hash": "sha256:02385a0765aa88fbff553953a202fcca31012b1fb0ed9b82320c0572929a3849",
+    "version": "5.4.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4098861/sponsorblock-5.4.1.xpi",
+    "download_hash": "sha256:a7ceb7b83271f62d8619bc46e797592dc662b133cbff29e928a77c9fff9219f3",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
   "ublock-origin": {
     "nome": "uBlock Origin",
     "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
-    "version": "1.48.4",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4092158/ublock_origin-1.48.4.xpi",
-    "download_hash": "sha256:d7666b963c2969b0014937aae55472eea5098ff21ed3bea8a2e1f595f62856c1",
+    "version": "1.49.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4099143/ublock_origin-1.49.0.xpi",
+    "download_hash": "sha256:7c32a32fc6ad2ee76d6c097a7562799b3765c8200ca27f77436f9771d3fd6c64",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
     "name": "ublock-origin"
   },
