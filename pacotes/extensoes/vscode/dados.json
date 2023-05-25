@@ -259,6 +259,10 @@
       "9.12.0": {
         "url": "https://esbenp.gallery.vsassets.io/_apis/public/gallery/publisher/esbenp/extension/prettier-vscode/9.12.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:6fb11a61824d65006a872289d38b72b660fd0c345cbc0ebc1d3a392474ebf45a"
+      },
+      "9.13.0": {
+        "url": "https://esbenp.gallery.vsassets.io/_apis/public/gallery/publisher/esbenp/extension/prettier-vscode/9.13.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:22acf53baa1d4b301fa230a0183c0303562d9d6539122eefc7d42ddb9ff548bc"
       }
     }
   },
