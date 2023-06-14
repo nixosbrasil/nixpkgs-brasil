@@ -463,6 +463,10 @@
       "0.38.0": {
         "url": "https://golang.gallery.vsassets.io/_apis/public/gallery/publisher/golang/extension/Go/0.38.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:c0e5a8b95cf8984e01ce681038b432556b0c69d32a7949055879ebbb14ad5344"
+      },
+      "0.39.0": {
+        "url": "https://golang.gallery.vsassets.io/_apis/public/gallery/publisher/golang/extension/Go/0.39.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:256141a39c76a0deaa5d6e3a4dfb8bef3d39748ae806346935a846fa750136e5"
       }
     }
   },
