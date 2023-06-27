@@ -2,9 +2,9 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.\n\nOther browsers: https://sponsor.ajay.app",
-    "version": "5.4.8",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4117298/sponsorblock-5.4.8.xpi",
-    "download_hash": "sha256:7ec9815177ea05688c3cad85806e6b945786be622a5f438c33e94a8720de043c",
+    "version": "5.4.10",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4128665/sponsorblock-5.4.10.xpi",
+    "download_hash": "sha256:6ff39316685211467f098ad8084e2b1d5310998f98efc93c8d218ca11f2fb190",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
@@ -56,9 +56,9 @@
   "darkreader": {
     "nome": "Dark Reader",
     "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
-    "version": "4.9.63",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4095037/darkreader-4.9.63.xpi",
-    "download_hash": "sha256:16ba6337fcff7ad85e08ad51b384ba26ff751b2b2ded12309f75e8337ace925a",
+    "version": "4.9.64",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4128489/darkreader-4.9.64.xpi",
+    "download_hash": "sha256:c09ed43a96dccab1de3445aac263de0569e3333da330d645094e3f938f13b30e",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
     "name": "darkreader"
   },
