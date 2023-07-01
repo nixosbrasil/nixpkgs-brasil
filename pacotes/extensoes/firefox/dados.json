@@ -38,9 +38,9 @@
   "tampermonkey": {
     "nome": "Tampermonkey",
     "description": "Tampermonkey is the world's most popular userscript manager.",
-    "version": "4.18.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4030629/tampermonkey-4.18.1.xpi",
-    "download_hash": "sha256:edb43812730e5b8d866589de7ab8d80e7932cab49a2fa10d2bc2b8be374ebcde",
+    "version": "4.19.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4115771/tampermonkey-4.19.0.xpi",
+    "download_hash": "sha256:226a1f6b3c9a43d83ee601ca7a9a72feccb75fc8e90d2febcc4232564741db38",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/",
     "name": "tampermonkey"
   },
