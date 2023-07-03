@@ -18,6 +18,8 @@ jobs:
       run: pip install bumpkin
     - name: Rodar o script de bump
       run: ./atualizar
+    - name: Bumpar o flake
+      run: nix flake update
     - name: Quem sou eu?
       run: |
         git config user.name github-actions
