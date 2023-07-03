@@ -15,6 +15,6 @@
         hip-enable = ./nixos/hip-enable;
       };
 
-      packages = nixpkgs.legacyPackages.${system}.callPackage ./packages.nix { };
+      packages = nixpkgs.legacyPackages.${system}.callPackage ./pacotes { };
     });
 }

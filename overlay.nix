@@ -1,1 +1,1 @@
-self: super:  super.callPackage ./packages.nix {}
+self: super:  super.callPackage ./pacotes {}
