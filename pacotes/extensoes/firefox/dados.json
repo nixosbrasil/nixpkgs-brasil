@@ -97,5 +97,14 @@
     "download_hash": "sha256:460b64348a6616c87bdead85f6226a6f22decfc5b33458d9577777b762438c8a",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
     "name": "video-downloadhelper"
+  },
+  "control-panel-for-twitter": {
+    "nome": "Control Panel for Twitter",
+    "description": "Gives you more control over Twitter and adds missing features and UI improvements",
+    "version": "3.9.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4129350/control_panel_for_twitter-3.9.0.xpi",
+    "download_hash": "sha256:0a0e7e3a5d92d657052fed1a73c9979b708f766ecc0518bb54c14f95926104ed",
+    "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
+    "name": "control-panel-for-twitter"
   }
 }
