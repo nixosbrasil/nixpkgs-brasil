@@ -14,16 +14,22 @@ jobs:
       run: |
         # git pull origin ${GITHUB_REF##*/}
         # git checkout ${GITHUB_REF##*/}
+    - uses: cachix/install-nix-action@v22
+      with:
+        nix_path: nixpkgs=channel:nixos-unstable
     - name: Instalar bumpkin
       run: pip install bumpkin
+
     - name: Rodar o script de bump
       run: ./atualizar
     - name: Bumpar o flake
       run: nix flake update
+
     - name: Quem sou eu?
       run: |
         git config user.name github-actions
         git config user.email github-actions@github.com
+
     - name: A parte que o Git cuida
       run: |
         if [ ! -z "$(git diff)" ]; then
