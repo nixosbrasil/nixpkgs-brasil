@@ -24,7 +24,7 @@ let
       gtk3
       bashInteractive
       gnome.zenity
-      python2
+      python3
       xorg.xrandr
       which
       perl
