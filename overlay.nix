@@ -45,8 +45,6 @@ self: super:  rec {
   wip = {
     autopsy = super.callPackage ./pacotes/wip/forense/autopsy/default.nix.old { };
 
-    cockpit = super.callPackage ./pacotes/wip/cockpit { };
-
     dff = super.python3Packages.callPackage ./pacotes/wip/forense/dff { inherit (super) libvshadow; };
 
     libvshadow = super.python3Packages.callPackage ./pacotes/wip/forense/dff/libvshadow.nix { };
