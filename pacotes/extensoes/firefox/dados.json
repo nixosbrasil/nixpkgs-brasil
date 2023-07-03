@@ -88,5 +88,14 @@
     "download_hash": "sha256:a806d218c2e8eb11d115f3cd85d877ee8b0ec4f043a3c3edf1e41f78738ca314",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
+  },
+  "video-downloadhelper": {
+    "nome": "Video DownloadHelper",
+    "description": "The easy way to download and convert Web videos from hundreds of YouTube-like sites.",
+    "version": "7.6.6",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4040817/video_downloadhelper-7.6.6.xpi",
+    "download_hash": "sha256:460b64348a6616c87bdead85f6226a6f22decfc5b33458d9577777b762438c8a",
+    "homepage": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
+    "name": "video-downloadhelper"
   }
 }
