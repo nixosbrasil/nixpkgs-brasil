@@ -215,4 +215,6 @@ in buildPythonPackage rec {
     inherit pname version;
     sha256 = "sha256-ycjG4VHHT2eLopRcOI/T+glfuKXnOhNq6z+X6KhpaO4=";
   };
+
+  meta.mainProgram = "orange-canvas";
 }
