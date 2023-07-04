@@ -6,6 +6,7 @@
 , fetchFromGitHub
 , fetchurl
 , cython
+, chardet
 , openpyxl
 , qtconsole
 , bottleneck
@@ -15,6 +16,7 @@
 , keyring
 , scikit-learn
 , pandas
+, pbr
 , pyqtwebengine
 , fetchPypi
 , dictdiffer
@@ -27,8 +29,10 @@
 , pyqtgraph
 , typing-extensions
 , pythonRelaxDepsHook
+, sphinx
 , keyrings-alt
 , pyyaml
+, lockfile
 , qt5
 , makeWrapper
 , makeDesktopItem
@@ -79,7 +83,6 @@ let
     };
   };
 
-
   orange-canvas-core = buildPythonPackage rec {
     pname = "orange-canvas-core";
     version = "0.1.28";
@@ -91,6 +94,7 @@ let
       cachecontrol
       docutils
       anyqt
+      lockfile
     ];
     src = fetchPypi {
       inherit pname version;
@@ -153,6 +157,7 @@ in buildPythonPackage rec {
   propagatedBuildInputs = [
     numpy
     scipy
+    chardet
     openpyxl
     qtconsole
     bottleneck
