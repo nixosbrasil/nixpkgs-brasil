@@ -210,6 +210,10 @@
       "1.0.29": {
         "url": "https://file-icons.gallery.vsassets.io/_apis/public/gallery/publisher/file-icons/extension/file-icons/1.0.29/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:8649c424dd20c657f96eb08182c2f9730aff502d9b421514fa7a47e5932ba417"
+      },
+      "1.1.0": {
+        "url": "https://file-icons.gallery.vsassets.io/_apis/public/gallery/publisher/file-icons/extension/file-icons/1.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:bed6044703af5aa2743627de4814e7fa3cf02530e630f4721db3eae88d655b4c"
       }
     }
   },
