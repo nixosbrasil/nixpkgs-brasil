@@ -92,9 +92,9 @@
   "video-downloadhelper": {
     "nome": "Video DownloadHelper",
     "description": "The easy way to download and convert Web videos from hundreds of YouTube-like sites.",
-    "version": "7.6.6",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4040817/video_downloadhelper-7.6.6.xpi",
-    "download_hash": "sha256:460b64348a6616c87bdead85f6226a6f22decfc5b33458d9577777b762438c8a",
+    "version": "8.0.0.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4135495/video_downloadhelper-8.0.0.0.xpi",
+    "download_hash": "sha256:33b1a059d197e74944006e3a5b4ec838fa2f3e0b817913016e1535258d5dfa29",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
     "name": "video-downloadhelper"
   },
