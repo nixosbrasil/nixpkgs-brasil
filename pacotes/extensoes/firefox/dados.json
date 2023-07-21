@@ -74,9 +74,9 @@
   "facebook-container": {
     "nome": "Facebook Container",
     "description": "Prevent Facebook from tracking you around the web. The Facebook Container extension for Firefox helps you take control and isolate your web activity from Facebook.",
-    "version": "2.3.10",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4134385/facebook_container-2.3.10.xpi",
-    "download_hash": "sha256:a06499857c39be72dad1e18089b55b9404a361f2d047b9961a8e478b099628a9",
+    "version": "2.3.11",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4141092/facebook_container-2.3.11.xpi",
+    "download_hash": "sha256:90dd562ffe0e6637791456558eabe083b0253e2b8a5df28f0ed0fdf1b7b175d0",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/facebook-container/",
     "name": "facebook-container"
   },
