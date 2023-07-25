@@ -20,9 +20,9 @@
   "bitwarden-password-manager": {
     "nome": "Bitwarden - Free Password Manager",
     "description": "A secure and free password manager for all of your devices.",
-    "version": "2023.5.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4128403/bitwarden_password_manager-2023.5.1.xpi",
-    "download_hash": "sha256:92f491cf260e4018192e94e866e5b2c5cd00102873d032331e28fe6ae308c010",
+    "version": "2023.7.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4140393/bitwarden_password_manager-2023.7.1.xpi",
+    "download_hash": "sha256:a33971d80f552279f96579786938ae8e88c4b95c29f8339c42f5de47f15200ad",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
