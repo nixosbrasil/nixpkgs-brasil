@@ -166,6 +166,7 @@ let
     ];
 
     extraBuildCommands = ''
+      chmod +w $out -R
       ln -sf  $out/lib64 $out/usr/lib64/x86_64-linux-gnu
     '';
 
