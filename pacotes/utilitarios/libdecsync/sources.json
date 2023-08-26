@@ -1,0 +1,35 @@
+{
+  "decsync_x64.dll": {
+    "hash": "sha256:fa217b3a45be4498d5aa66d95b112fd59bf458a73e1cda4cd3b6e3f6f70996a8",
+    "url": "https://github.com/39aldo39/libdecsync/releases/download/v2.2.1/decsync_x64.dll"
+  },
+  "decsync_x86.dll": {
+    "hash": "sha256:1a78b3ad839583766902896e9450cbeb3fecd193dae2737fb234218a233e4dcc",
+    "url": "https://github.com/39aldo39/libdecsync/releases/download/v2.2.1/decsync_x86.dll"
+  },
+  "libdecsync_amd64.dylib": {
+    "hash": "sha256:de58f392309868c0b421cecef6ff05a71f2c2cee856d47f319681cd0bb0f41e5",
+    "url": "https://github.com/39aldo39/libdecsync/releases/download/v2.2.1/libdecsync_amd64.dylib"
+  },
+  "libdecsync_amd64.so": {
+    "hash": "sha256:14ccf7505ecf0161740fc0a6df8a08300c745d95ffee070564b96dfec10bbb3e",
+    "url": "https://github.com/39aldo39/libdecsync/releases/download/v2.2.1/libdecsync_amd64.so"
+  },
+  "libdecsync_arm32.so": {
+    "hash": "sha256:dd38de69752357a95bf20de94d2e6bbfdb19c30fba98a27bd05128b9f6493c8c",
+    "url": "https://github.com/39aldo39/libdecsync/releases/download/v2.2.1/libdecsync_arm32.so"
+  },
+  "libdecsync_arm64.dylib": {
+    "hash": "sha256:8d21e581449b67466e1b923fa9fb7145c89fb0557665038e7ce31f579ba1bd44",
+    "url": "https://github.com/39aldo39/libdecsync/releases/download/v2.2.1/libdecsync_arm64.dylib"
+  },
+  "libdecsync_arm64.so": {
+    "hash": "sha256:e8bb54ca7086d3d1d79b9987b904b34a6f4db3c9353b066f102f90cfffd5ab9b",
+    "url": "https://github.com/39aldo39/libdecsync/releases/download/v2.2.1/libdecsync_arm64.so"
+  },
+  "source.tar.gz": {
+    "hash": "sha256:7c5e658168dd65590c54c15096e09ea91079672089b982eb3b4c24e65cbae494",
+    "url": "https://api.github.com/repos/39aldo39/libdecsync/tarball/v2.2.1"
+  },
+  "version": "2.2.1"
+}

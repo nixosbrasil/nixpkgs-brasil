@@ -41,6 +41,9 @@ rec {
 
   xplico = callPackage ./forense/xplico { };
 
+  # libdecsync
+  libdecsync = callPackage ./utilitarios/libdecsync { };
+
 
   # pacotes ainda não funcionais que podem ser consertados posteriormente
   wip = rec {
