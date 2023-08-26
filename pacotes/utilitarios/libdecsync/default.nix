@@ -111,9 +111,11 @@ let
 
     postPatch = "rm Makefile";
 
+    libFilename = "lib/${name}.${extension}";
+
     installPhase = ''
       mkdir -p $out/lib
-      cp $binaryLib $out/lib/${name}.${extension}
+      cp $binaryLib $out/$libFilename
 
       mkdir -p $out/lib/pkgconfig
       cp src/linuxMain/decsync.pc.in $out/lib/pkgconfig/decsync.pc

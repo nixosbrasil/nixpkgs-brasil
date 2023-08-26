@@ -43,6 +43,7 @@ rec {
 
   # libdecsync
   libdecsync = callPackage ./utilitarios/libdecsync { };
+  libdecsync-python = python3Packages.callPackage ./utilitarios/libdecsync-python { inherit libdecsync; };
 
 
   # pacotes ainda não funcionais que podem ser consertados posteriormente
