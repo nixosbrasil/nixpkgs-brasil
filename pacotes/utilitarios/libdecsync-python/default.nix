@@ -23,6 +23,9 @@ buildPythonPackage rec {
   postPatch = ''
     rm libdecsync/libs -rf
     substituteInPlace libdecsync/__init__.py \
-      --replace 'CDLL(libpath)' 'CDLL("${libdecsync}/${libdecsync.libFilename}")'
+      --replace 'CDLL(libpath)' 'CDLL("${libdecsync}/${libdecsync.libFilename}")' \
+      --replace 'from pkg_resources import resource_filename' 'resource_filename = lambda *_args: None'
   '';
+
+  pythonImportsCheck = [ "libdecsync" ];
 }
