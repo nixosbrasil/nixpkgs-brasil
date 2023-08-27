@@ -25,6 +25,7 @@ buildPythonPackage rec {
     substituteInPlace libdecsync/__init__.py \
       --replace 'CDLL(libpath)' 'CDLL("${libdecsync}/${libdecsync.libFilename}")' \
       --replace 'from pkg_resources import resource_filename' 'resource_filename = lambda *_args: None'
+    echo '__all__ = ["DecsyncException", "Decsync"]' >> libdecsync/__init__.py
   '';
 
   pythonImportsCheck = [ "libdecsync" ];
