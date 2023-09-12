@@ -2,9 +2,9 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.\n\nOther browsers: https://sponsor.ajay.app",
-    "version": "5.4.17",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4158655/sponsorblock-5.4.17.xpi",
-    "download_hash": "sha256:ac0fc3b4f15b8e8ae7807d92d3eccbee13f2845f7d03db92b1a1bb56c1b280c5",
+    "version": "5.4.19",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4163966/sponsorblock-5.4.19.xpi",
+    "download_hash": "sha256:95a3f6ad7513a1e2b51af313ece4a5e2dd685d8a61e379291c46e839ee059f70",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
@@ -101,9 +101,9 @@
   "control-panel-for-twitter": {
     "nome": "Control Panel for Twitter",
     "description": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "version": "3.15.4",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4160813/control_panel_for_twitter-3.15.4.xpi",
-    "download_hash": "sha256:7fb32b9fd320c3dc56a01b594b73be1f465864d02ca33cee058ec897b942ec4a",
+    "version": "3.15.5",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4163852/control_panel_for_twitter-3.15.5.xpi",
+    "download_hash": "sha256:98cbc0ab420cd75e4dc4f843a47f7000fd4a18b9fa9ba2bdcbc48eb9b805719c",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
     "name": "control-panel-for-twitter"
   }
