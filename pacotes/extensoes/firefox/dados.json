@@ -11,18 +11,18 @@
   "ublock-origin": {
     "nome": "uBlock Origin",
     "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
-    "version": "1.51.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4141256/ublock_origin-1.51.0.xpi",
-    "download_hash": "sha256:8b73468bc233a11dd2895219466381783d19123857dd0b6fd16a01820fca4834",
+    "version": "1.52.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4164949/ublock_origin-1.52.0.xpi",
+    "download_hash": "sha256:3932506ce4df306e4da7527d93d60fe0421cf15045c2f4ea73589d9a0902266b",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
     "name": "ublock-origin"
   },
   "bitwarden-password-manager": {
     "nome": "Bitwarden - Free Password Manager",
     "description": "A secure and free password manager for all of your devices.",
-    "version": "2023.7.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4140393/bitwarden_password_manager-2023.7.1.xpi",
-    "download_hash": "sha256:a33971d80f552279f96579786938ae8e88c4b95c29f8339c42f5de47f15200ad",
+    "version": "2023.8.3",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4164440/bitwarden_password_manager-2023.8.3.xpi",
+    "download_hash": "sha256:d43d7603ed04a24cd37b209a22d58b940cd71503d654d6305d6c37317fd5889c",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
