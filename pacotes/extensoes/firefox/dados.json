@@ -2,9 +2,9 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.\n\nOther browsers: https://sponsor.ajay.app",
-    "version": "5.4.19",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4163966/sponsorblock-5.4.19.xpi",
-    "download_hash": "sha256:95a3f6ad7513a1e2b51af313ece4a5e2dd685d8a61e379291c46e839ee059f70",
+    "version": "5.4.20",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4169272/sponsorblock-5.4.20.xpi",
+    "download_hash": "sha256:007c3fbd5007e41c24e2c999be714e6d8c8efc3455965d6ccd500aed8849d9fb",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
