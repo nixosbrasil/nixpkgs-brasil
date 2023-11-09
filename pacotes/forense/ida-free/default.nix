@@ -75,4 +75,5 @@ in stdenv.mkDerivation {
 
     runHook postInstall
   '';
+  meta.mainProgram = "ida64";
 }
