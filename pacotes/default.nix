@@ -41,6 +41,8 @@ rec {
 
   xplico = callPackage ./forense/xplico { };
 
+  ida-free = callPackage ./forense/ida-free { };
+
   # libdecsync
   libdecsync = callPackage ./utilitarios/libdecsync { };
   libdecsync-python = python3Packages.callPackage ./utilitarios/libdecsync-python { inherit libdecsync; };
