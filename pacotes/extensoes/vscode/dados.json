@@ -238,6 +238,10 @@
       "1.84.2023111509": {
         "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.84.2023111509/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:927e8218e7a9e3b49c8f2ddce78f4aea205b602254476a06b5f89c0f1faeb75e"
+      },
+      "1.85.2023112209": {
+        "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.85.2023112209/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:f970c797d430d8ccaf306615a97f658c133419f52bebba84b841c2746cd134ea"
       }
     }
   },
@@ -376,6 +380,10 @@
       "1.27.0": {
         "url": "https://vscodevim.gallery.vsassets.io/_apis/public/gallery/publisher/vscodevim/extension/vim/1.27.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:5dffec17686b99151649f0ecf90b5e13589fb3d134b2bd4fed9749db3dbfcd13"
+      },
+      "1.27.1": {
+        "url": "https://vscodevim.gallery.vsassets.io/_apis/public/gallery/publisher/vscodevim/extension/vim/1.27.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:b5f43afab3e37e531de0f679d245e8df7e888b0c99c5dbf1ec41d63048ca8752"
       }
     }
   },
