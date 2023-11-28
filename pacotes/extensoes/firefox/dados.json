@@ -11,9 +11,9 @@
   "ublock-origin": {
     "nome": "uBlock Origin",
     "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
-    "version": "1.53.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4188488/ublock_origin-1.53.0.xpi",
-    "download_hash": "sha256:5403474101f753b5d38c09135e40d82a115afcd01310d78133a4af363462194b",
+    "version": "1.54.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4198829/ublock_origin-1.54.0.xpi",
+    "download_hash": "sha256:9797160908191710ff0858536ba6dc29ecad9923c30b2ad6d3e5e371d759e44d",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
     "name": "ublock-origin"
   },
@@ -56,9 +56,9 @@
   "darkreader": {
     "nome": "Dark Reader",
     "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
-    "version": "4.9.68",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4194520/darkreader-4.9.68.xpi",
-    "download_hash": "sha256:009b35e2b5e3ad787cc5f5cd75cf995119baaddfd45a00bd045c2098a99cff85",
+    "version": "4.9.70",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4198549/darkreader-4.9.70.xpi",
+    "download_hash": "sha256:3ccbe247031dd4fcc3d9bd840872ed38e9843729709f92803c234041070588a7",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
     "name": "darkreader"
   },
