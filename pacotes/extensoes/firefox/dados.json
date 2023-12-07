@@ -2,9 +2,9 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos.\n\nOther browsers: https://sponsor.ajay.app",
-    "version": "5.4.28",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4200697/sponsorblock-5.4.28.xpi",
-    "download_hash": "sha256:4ca8f62d8b80cb16cd2822d373c52f7f9fa7ee76ce19aec9ba33997f0bc98c2b",
+    "version": "5.4.29",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4202411/sponsorblock-5.4.29.xpi",
+    "download_hash": "sha256:ed7a9cf1cc9037294c7b9fdd8033b1d5fd900d59b3dc9b210e54ee7aee807128",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
@@ -65,9 +65,9 @@
   "i-dont-care-about-cookies": {
     "nome": "I don't care about cookies",
     "description": "Get rid of cookie warnings from almost all websites!",
-    "version": "3.4.9",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4172206/i_dont_care_about_cookies-3.4.9.xpi",
-    "download_hash": "sha256:f88b659b2ffb27816d29330fb0f14ebad222a56a8f8c02db450cbaa4bc9af1c3",
+    "version": "3.5.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4202634/i_dont_care_about_cookies-3.5.0.xpi",
+    "download_hash": "sha256:4de284454217fc4bee0744fb0aad8e0e10fa540dc03251013afc3ee4c20e49b0",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/i-dont-care-about-cookies/",
     "name": "i-dont-care-about-cookies"
   },
