@@ -20,9 +20,9 @@
   "bitwarden-password-manager": {
     "nome": "Bitwarden - Free Password Manager",
     "description": "A secure and free password manager for all of your devices.",
-    "version": "2023.10.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4191732/bitwarden_password_manager-2023.10.2.xpi",
-    "download_hash": "sha256:3eac55c07a2802a6192e2788da86578d45158fca21ccdeb521e5281137ecc24a",
+    "version": "2023.12.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4205620/bitwarden_password_manager-2023.12.0.xpi",
+    "download_hash": "sha256:f3e508d10c7bbd03890235354355c4bc526db24ebe241ce16630f272614258f4",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
@@ -83,9 +83,9 @@
   "floccus": {
     "nome": "floccus",
     "description": "Sync your bookmarks across browsers via Nextcloud, WebDAV or Google Drive",
-    "version": "5.0.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4207046/floccus-5.0.2.xpi",
-    "download_hash": "sha256:c80fd45de1309c101f1c27c0ff41c5f74e32409300d6e5a1622e44b8596cf515",
+    "version": "5.0.3",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4208447/floccus-5.0.3.xpi",
+    "download_hash": "sha256:a7fc568a4c32529b79ce266db092ec8db87848f78a405c3bd2c50bca4730f63a",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
   },
