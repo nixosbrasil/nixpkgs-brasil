@@ -11,9 +11,9 @@
   "ublock-origin": {
     "nome": "uBlock Origin",
     "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
-    "version": "1.54.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4198829/ublock_origin-1.54.0.xpi",
-    "download_hash": "sha256:9797160908191710ff0858536ba6dc29ecad9923c30b2ad6d3e5e371d759e44d",
+    "version": "1.55.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4216633/ublock_origin-1.55.0.xpi",
+    "download_hash": "sha256:a02ca1d32737c3437f97553e5caaead6479a66ac1f8ff3b84a06cfa6bb0c7647",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
     "name": "ublock-origin"
   },
@@ -38,9 +38,9 @@
   "tampermonkey": {
     "nome": "Tampermonkey",
     "description": "Tampermonkey is the world's most popular userscript manager.",
-    "version": "5.0.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4202809/tampermonkey-5.0.0.xpi",
-    "download_hash": "sha256:b7c12080d3d2327487c787c2bae60e45f75464f481485fb3ce059ccf98b4b4d8",
+    "version": "5.0.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4216231/tampermonkey-5.0.1.xpi",
+    "download_hash": "sha256:a10592bf9c3db57ca94c9b8ad7ff4b58d31d2b26a50e748de05da9f87e8252fe",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/",
     "name": "tampermonkey"
   },
@@ -56,9 +56,9 @@
   "darkreader": {
     "nome": "Dark Reader",
     "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
-    "version": "4.9.73",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4205543/darkreader-4.9.73.xpi",
-    "download_hash": "sha256:7c399ff32561886bb80dad0cafaf8f629792b0b71ff1efcf12667e05a2b38f1a",
+    "version": "4.9.74",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4216652/darkreader-4.9.74.xpi",
+    "download_hash": "sha256:140a72b36750ba68a9da30d0f0df3ff192f58160b711b86c3d4f674e5be2bb2c",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
     "name": "darkreader"
   },
