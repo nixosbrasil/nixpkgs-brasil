@@ -92,18 +92,18 @@
   "video-downloadhelper": {
     "nome": "Video DownloadHelper",
     "description": "The easy way to download and convert Web videos from hundreds of YouTube-like sites.",
-    "version": "8.0.0.6",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4157053/video_downloadhelper-8.0.0.6.xpi",
-    "download_hash": "sha256:e7536528339175af3765c9bc875ea317f02666057a9ea0cabc508d7b44d95626",
+    "version": "8.1.4.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4216787/video_downloadhelper-8.1.4.0.xpi",
+    "download_hash": "sha256:7efb7c6c8e6007228c020af1e9d78a348d68194bce3fe960e27c5fadf904232f",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
     "name": "video-downloadhelper"
   },
   "control-panel-for-twitter": {
     "nome": "Control Panel for Twitter",
     "description": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "version": "3.22.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4212689/control_panel_for_twitter-3.22.1.xpi",
-    "download_hash": "sha256:f41a86ac525b6eaa8d01b32bdcde597de3366d1735ff978a495586425d088e26",
+    "version": "3.22.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4217803/control_panel_for_twitter-3.22.2.xpi",
+    "download_hash": "sha256:db76e8f04596c1323d352052d91c594e8772f30a7bc5a25fb21d03102608ad41",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
     "name": "control-panel-for-twitter"
   }
