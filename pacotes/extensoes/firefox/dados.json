@@ -18,8 +18,8 @@
     "name": "ublock-origin"
   },
   "bitwarden-password-manager": {
-    "nome": "Bitwarden - Free Password Manager",
-    "description": "A secure and free password manager for all of your devices.",
+    "nome": "Bitwarden Password Manager",
+    "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.",
     "version": "2024.2.0",
     "download_url": "https://addons.mozilla.org/firefox/downloads/file/4233394/bitwarden_password_manager-2024.2.0.xpi",
     "download_hash": "sha256:2c59e7040749dee010b34fb2a9c24b28ada71ad7fa5a23264ff70e63f8f686d1",
