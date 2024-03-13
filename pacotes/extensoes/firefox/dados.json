@@ -2,9 +2,9 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app",
-    "version": "5.5.6",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4241055/sponsorblock-5.5.6.xpi",
-    "download_hash": "sha256:bde2199d2fd00281cd990a824f51e2c9c4bacc62e095f2192c5b101a148d1845",
+    "version": "5.5.8",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4246981/sponsorblock-5.5.8.xpi",
+    "download_hash": "sha256:c20dc2f508fcc7ee4939b2e30d151db5273047a639a8a5412cc742bcdf893556",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
@@ -20,9 +20,9 @@
   "bitwarden-password-manager": {
     "nome": "Bitwarden Password Manager",
     "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.",
-    "version": "2024.2.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4233394/bitwarden_password_manager-2024.2.0.xpi",
-    "download_hash": "sha256:2c59e7040749dee010b34fb2a9c24b28ada71ad7fa5a23264ff70e63f8f686d1",
+    "version": "2024.2.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4246600/bitwarden_password_manager-2024.2.1.xpi",
+    "download_hash": "sha256:f2db399e5a0915e4fd7e4906c32c72eac4a2b7bb4b4acacd892fff18e73085d4",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
