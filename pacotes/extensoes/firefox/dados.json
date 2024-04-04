@@ -11,9 +11,9 @@
   "ublock-origin": {
     "nome": "uBlock Origin",
     "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
-    "version": "1.56.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4237670/ublock_origin-1.56.0.xpi",
-    "download_hash": "sha256:f5fbeeac511ca4e10a74723413727fda8e6f9236c726d16eb54ade1fbe7be5be",
+    "version": "1.57.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4257361/ublock_origin-1.57.0.xpi",
+    "download_hash": "sha256:393736f7350b3ef4a849e4e31b63ed6e9ec33f6e7a4c662595c543a01b10447e",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
     "name": "ublock-origin"
   },
@@ -101,9 +101,9 @@
   "control-panel-for-twitter": {
     "nome": "Control Panel for Twitter",
     "description": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "version": "3.23.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4227066/control_panel_for_twitter-3.23.1.xpi",
-    "download_hash": "sha256:524e6ec32ba21845b69ffae30b761f20094deac05d759d9dbfc9ba6adbf3de1c",
+    "version": "3.23.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4258775/control_panel_for_twitter-3.23.2.xpi",
+    "download_hash": "sha256:bc16a55260b9a972e189794bac87ffa6ba4007f0745e0017b4042871969eca58",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
     "name": "control-panel-for-twitter"
   }
