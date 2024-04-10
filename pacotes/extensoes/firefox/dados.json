@@ -56,9 +56,9 @@
   "darkreader": {
     "nome": "Dark Reader",
     "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
-    "version": "4.9.81",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4257392/darkreader-4.9.81.xpi",
-    "download_hash": "sha256:71413cde04cca328b64fbad24e63c716759d1154fa7e016a728366230e0e0122",
+    "version": "4.9.82",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4260787/darkreader-4.9.82.xpi",
+    "download_hash": "sha256:df2e0c5498c08caa8452cd21f627d6dce0b2251047602ab2417c2e1dd7350697",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
     "name": "darkreader"
   },
@@ -101,9 +101,9 @@
   "control-panel-for-twitter": {
     "nome": "Control Panel for Twitter",
     "description": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "version": "3.23.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4258775/control_panel_for_twitter-3.23.2.xpi",
-    "download_hash": "sha256:bc16a55260b9a972e189794bac87ffa6ba4007f0745e0017b4042871969eca58",
+    "version": "3.24.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4261485/control_panel_for_twitter-3.24.0.xpi",
+    "download_hash": "sha256:d4595f71e21f3911a0babcfa287be084dac0e6ea742991b05b3c318669b68368",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
     "name": "control-panel-for-twitter"
   }
