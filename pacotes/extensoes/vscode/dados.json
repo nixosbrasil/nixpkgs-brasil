@@ -310,6 +310,10 @@
       "1.88.2024041009": {
         "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.88.2024041009/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:c7a69e0665b0267cf1bd3d217f918d5c5a7cd9e7238e8086bc6a3b0e063e68b3"
+      },
+      "1.89.2024041709": {
+        "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.89.2024041709/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:5916eb6d678b27d3d3cef6189c97fb9af91bb05610c82692d8ee1db4c1d6fb2e"
       }
     }
   },
@@ -858,6 +862,10 @@
       "0.358.0": {
         "url": "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-containers/0.358.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:9b04322ea95e828adf8f02b91c48cd781d5cd85612344687c9bc3cf56644e385"
+      },
+      "0.359.0": {
+        "url": "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-containers/0.359.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:befe79240e083ea945958193a547b7bd75d783d705ecf80dc1b2423aee721013"
       }
     }
   },
