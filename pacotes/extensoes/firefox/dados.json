@@ -91,7 +91,7 @@
   },
   "video-downloadhelper": {
     "nome": "Video DownloadHelper",
-    "description": "The easy way to download and convert Web videos from hundreds of YouTube-like sites.",
+    "description": "Download videos from the web. Easy, smart, no tracking.",
     "version": "8.2.2.8",
     "download_url": "https://addons.mozilla.org/firefox/downloads/file/4251369/video_downloadhelper-8.2.2.8.xpi",
     "download_hash": "sha256:975f9f66f76b4f8055316419c64950a532aa5cb4018ffbb926cf293ed5f300dd",
