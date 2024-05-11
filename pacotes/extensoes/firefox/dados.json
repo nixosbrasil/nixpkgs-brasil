@@ -38,9 +38,9 @@
   "tampermonkey": {
     "nome": "Tampermonkey",
     "description": "Tampermonkey is the world's most popular userscript manager.",
-    "version": "5.1.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4250678/tampermonkey-5.1.0.xpi",
-    "download_hash": "sha256:939a7b0573cc795eae2dea017b187ddb135d1778bf26f1c513215674512a040b",
+    "version": "5.1.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4282688/tampermonkey-5.1.1.xpi",
+    "download_hash": "sha256:31e05e99fdd3f196bb5e529173f94b0a7b5a18727818a8d2a10ea375df8550ed",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/",
     "name": "tampermonkey"
   },
@@ -83,9 +83,9 @@
   "floccus": {
     "nome": "floccus",
     "description": "Sync your bookmarks and tabs across browsers via Nextcloud, any WebDAV service, any Git service, via a local file, via Google Drive.",
-    "version": "5.1.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4282487/floccus-5.1.0.xpi",
-    "download_hash": "sha256:21ed631b1597f05087b13bb171ccd38091171fdc9e5fc9ed16d4d37f700f03b5",
+    "version": "5.1.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4285060/floccus-5.1.1.xpi",
+    "download_hash": "sha256:b32e76d33dd03454134e95495754158cf22974c674315dc2462024f97c27b850",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
   },
