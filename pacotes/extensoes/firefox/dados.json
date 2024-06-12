@@ -2,9 +2,9 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app",
-    "version": "5.6",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4292214/sponsorblock-5.6.xpi",
-    "download_hash": "sha256:ec2343ee8db27666177e0b59510ddcd8b0f1072c88b5df05ba789d72a3af32e6",
+    "version": "5.6.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4299073/sponsorblock-5.6.1.xpi",
+    "download_hash": "sha256:4ccae0ebc1aa26d61c446956da425bf16daffd5704ea216735e0a57e482fe9ba",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
@@ -29,9 +29,9 @@
   "languagetool": {
     "nome": "Grammar and Spell Checker - LanguageTool",
     "description": "With this extension you can check text with the free style and grammar checker LanguageTool. It finds many errors that a simple spell checker cannot detect, like mixing up there/their, a/an, or repeating a word.",
-    "version": "8.6.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4249956/languagetool-8.6.0.xpi",
-    "download_hash": "sha256:d9db9aac9fdd53eb39179c153161762cd9e9eb1f6d7da8e8b8a32238b4847094",
+    "version": "8.9.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4298468/languagetool-8.9.1.xpi",
+    "download_hash": "sha256:0747fcd4d7066ac746d140b93870a37eb5cf3241c3a5759128c54bf12b14feea",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/languagetool/",
     "name": "languagetool"
   },
@@ -83,9 +83,9 @@
   "floccus": {
     "nome": "floccus",
     "description": "Sync your bookmarks and tabs across browsers via Nextcloud, any WebDAV service, any Git service, via a local file, via Google Drive.",
-    "version": "5.1.4.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4290382/floccus-5.1.4.2.xpi",
-    "download_hash": "sha256:bc71a182e6a62b0b9ee596fa92eafb09bf1d0a7d0d1b6f5b8d4bbad3abbb949c",
+    "version": "5.2.0.3",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4301694/floccus-5.2.0.3.xpi",
+    "download_hash": "sha256:5332ac257a2fc3e1c73c59c1f37ae67d3950650b76a08290e8d008eb5d68bd3f",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
   },
