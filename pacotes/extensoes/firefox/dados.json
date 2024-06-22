@@ -83,18 +83,18 @@
   "floccus": {
     "nome": "floccus",
     "description": "Sync your bookmarks and tabs across browsers via Nextcloud, any WebDAV service, any Git service, via a local file, via Google Drive.",
-    "version": "5.2.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4303773/floccus-5.2.1.xpi",
-    "download_hash": "sha256:5ed96e9b34076d6735f88730cb5c6454b811bff9edc1f6e43874fb9d0606ffc6",
+    "version": "5.2.3",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4307321/floccus-5.2.3.xpi",
+    "download_hash": "sha256:87fddf96f0aa0b77f0e00630e661ff40cfd487414a1f7bd8b0b864e67388d700",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
   },
   "video-downloadhelper": {
     "nome": "Video DownloadHelper",
     "description": "Download videos from the web. Easy, smart, no tracking.",
-    "version": "9.0.2.3",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4294325/video_downloadhelper-9.0.2.3.xpi",
-    "download_hash": "sha256:972fc83bba868a19f551234a61bccf8534dc7b8a9fb9b0a04f5b4253ff06628f",
+    "version": "9.0.2.12",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4305354/video_downloadhelper-9.0.2.12.xpi",
+    "download_hash": "sha256:eafc7833a069b9570f05eb93a256cea6e008c9637df17f38c8154c791dde8669",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
     "name": "video-downloadhelper"
   },
