@@ -1154,6 +1154,10 @@
       "0.25.11": {
         "url": "https://foam.gallery.vsassets.io/_apis/public/gallery/publisher/foam/extension/foam-vscode/0.25.11/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:ba9a7186ba79846331a0482807160ac2c3a15a4a3fafeb7c6b229c464649213c"
+      },
+      "0.25.12": {
+        "url": "https://foam.gallery.vsassets.io/_apis/public/gallery/publisher/foam/extension/foam-vscode/0.25.12/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:ebcbd98e677082852771269e2cc6e10c70f0688ee0baad8c0d9ddd0398221881"
       }
     }
   }
