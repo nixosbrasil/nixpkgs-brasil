@@ -11,9 +11,9 @@
   "ublock-origin": {
     "nome": "uBlock Origin",
     "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
-    "version": "1.58.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4290466/ublock_origin-1.58.0.xpi",
-    "download_hash": "sha256:470c56994a7174db21578adce598b158a5dc0970c87c5cfe889ac632bd3085ea",
+    "version": "1.59.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4328681/ublock_origin-1.59.0.xpi",
+    "download_hash": "sha256:1db9c676a07d141f8d36dbbc24f9e3d64a6cc2340dbfc6c848bc4395f96cfb14",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
     "name": "ublock-origin"
   },
@@ -29,9 +29,9 @@
   "languagetool": {
     "nome": "Grammar and Spell Checker - LanguageTool",
     "description": "With this extension you can check text with the free style and grammar checker LanguageTool. It finds many errors that a simple spell checker cannot detect, like mixing up there/their, a/an, or repeating a word.",
-    "version": "8.9.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4298468/languagetool-8.9.1.xpi",
-    "download_hash": "sha256:0747fcd4d7066ac746d140b93870a37eb5cf3241c3a5759128c54bf12b14feea",
+    "version": "8.10.4",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4317259/languagetool-8.10.4_kLk3srz.xpi",
+    "download_hash": "sha256:6a8d859e8b1ebc6641f642e284d723cc07e5ae196c67dbb232d8d33ff96dce7c",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/languagetool/",
     "name": "languagetool"
   },
