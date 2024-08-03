@@ -29,9 +29,9 @@
   "languagetool": {
     "nome": "Grammar and Spell Checker - LanguageTool",
     "description": "With this extension you can check text with the free style and grammar checker LanguageTool. It finds many errors that a simple spell checker cannot detect, like mixing up there/their, a/an, or repeating a word.",
-    "version": "8.10.4",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4317259/languagetool-8.10.4_kLk3srz.xpi",
-    "download_hash": "sha256:6a8d859e8b1ebc6641f642e284d723cc07e5ae196c67dbb232d8d33ff96dce7c",
+    "version": "8.11.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4329853/languagetool-8.11.2.xpi",
+    "download_hash": "sha256:bfac73229d0973370d163cd607ed36ada0aff46d597afee2c334cc58ec431210",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/languagetool/",
     "name": "languagetool"
   },
@@ -101,9 +101,9 @@
   "control-panel-for-twitter": {
     "nome": "Control Panel for Twitter",
     "description": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "version": "4.1.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4304438/control_panel_for_twitter-4.1.2.xpi",
-    "download_hash": "sha256:e3d3941c6c2ed4ba1f3d2fe127430016bbdeaae8d9ba1e6ced5b4e0fda8cb082",
+    "version": "4.1.3",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4330286/control_panel_for_twitter-4.1.3.xpi",
+    "download_hash": "sha256:88403ea1538bf6790f9fdc55c4b7488d6699f56f07b216e0b70c2b88378207f1",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
     "name": "control-panel-for-twitter"
   }
