@@ -29,9 +29,9 @@
   "languagetool": {
     "nome": "Grammar and Spell Checker - LanguageTool",
     "description": "With this extension you can check text with the free style and grammar checker LanguageTool. It finds many errors that a simple spell checker cannot detect, like mixing up there/their, a/an, or repeating a word.",
-    "version": "8.11.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4329853/languagetool-8.11.2.xpi",
-    "download_hash": "sha256:bfac73229d0973370d163cd607ed36ada0aff46d597afee2c334cc58ec431210",
+    "version": "8.11.6",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4332776/languagetool-8.11.6.xpi",
+    "download_hash": "sha256:dc14ac983d3fb5f91ea3930451529e1cb8919f79e375cdae293e6b49c6c419a4",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/languagetool/",
     "name": "languagetool"
   },
