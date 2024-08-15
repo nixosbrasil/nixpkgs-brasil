@@ -358,6 +358,10 @@
       "1.92.2024080709": {
         "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.92.2024080709/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:a4c360ce3324ead75183899ae7be6e7808776d29b80f9a7f549e33c06842eb44"
+      },
+      "1.92.2024081409": {
+        "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.92.2024081409/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:1ed0e145b1dcb97a486d6bdb5e8af4302e921df6963e6a2da7b3317c0e526f1a"
       }
     }
   },
@@ -579,6 +583,10 @@
       "10.4.0": {
         "url": "https://esbenp.gallery.vsassets.io/_apis/public/gallery/publisher/esbenp/extension/prettier-vscode/10.4.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:f3ef74719a6ac87fb00603c5697e46694e84d36c81594a01f93f42db3d88c7c7"
+      },
+      "11.0.0": {
+        "url": "https://esbenp.gallery.vsassets.io/_apis/public/gallery/publisher/esbenp/extension/prettier-vscode/11.0.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:a4d8e4261a1fd7d72e2b43ec5c9fd0fd96f61fb7a82247d724c2d92789439fb9"
       }
     }
   },
