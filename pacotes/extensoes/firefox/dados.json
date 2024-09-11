@@ -20,9 +20,9 @@
   "bitwarden-password-manager": {
     "nome": "Bitwarden Password Manager",
     "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.",
-    "version": "2024.8.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4343724/bitwarden_password_manager-2024.8.1.xpi",
-    "download_hash": "sha256:52b19c69997bc392ebea26e12f1420b2bf42850df2a28dcd64b303396009554d",
+    "version": "2024.8.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4348137/bitwarden_password_manager-2024.8.2.xpi",
+    "download_hash": "sha256:46908d7ffafc276b7f0425341849d439ee8c0f75d755f6eee79f83a097ea8e7b",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
@@ -92,9 +92,9 @@
   "video-downloadhelper": {
     "nome": "Video DownloadHelper",
     "description": "Download videos from the web. Easy, smart, no tracking.",
-    "version": "9.1.0.42",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4330505/video_downloadhelper-9.1.0.42.xpi",
-    "download_hash": "sha256:700a2f04464be078733f28fd26b1fc7c1e2e21fb1606745a28ac9b471db1d570",
+    "version": "9.1.0.44",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4347883/video_downloadhelper-9.1.0.44.xpi",
+    "download_hash": "sha256:32270afc9eb92548f5d5c9a75f4a7d5c69c421cbcc993ae6c82da17bf314bfa4",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
     "name": "video-downloadhelper"
   },
