@@ -20,9 +20,9 @@
   "bitwarden-password-manager": {
     "nome": "Bitwarden Password Manager",
     "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.",
-    "version": "2024.9.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4355865/bitwarden_password_manager-2024.9.1.xpi",
-    "download_hash": "sha256:f484fbcd1e45e4a68f2eec8fb8c22fed5a77f1a00b515f38c167e36b4d6118bf",
+    "version": "2024.10.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4363548/bitwarden_password_manager-2024.10.0.xpi",
+    "download_hash": "sha256:9ea9428444870a74ae1999d77eb12d97a45275c85e83d6afdcbc4597fa3eccfb",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
@@ -38,9 +38,9 @@
   "tampermonkey": {
     "nome": "Tampermonkey",
     "description": "Tampermonkey is the world's most popular userscript manager.",
-    "version": "5.1.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4282688/tampermonkey-5.1.1.xpi",
-    "download_hash": "sha256:31e05e99fdd3f196bb5e529173f94b0a7b5a18727818a8d2a10ea375df8550ed",
+    "version": "5.3.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4367975/tampermonkey-5.3.1.xpi",
+    "download_hash": "sha256:f7ef17e2badb899897a561b11bb7c38691af21dc8bf7491f6d61baab64fc93e1",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/",
     "name": "tampermonkey"
   },
