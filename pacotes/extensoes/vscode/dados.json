@@ -406,6 +406,10 @@
       "1.95.2024103009": {
         "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.95.2024103009/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:df77de4953d107f4972450a9100a660929db34af6b8ee09d6f703ce3aae7e0e9"
+      },
+      "1.95.2024110721": {
+        "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.95.2024110721/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:621134f3053f1d6116485464ecd8d8760b842094dea243975f27884eb24911fc"
       }
     }
   },
@@ -533,6 +537,10 @@
       "3.17.5": {
         "url": "https://zhuangtongfa.gallery.vsassets.io/_apis/public/gallery/publisher/zhuangtongfa/extension/Material-theme/3.17.5/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:e6ba4b4c6e4c5af39fda5fca300fbf699809c68053cc1887198e2aec0735c618"
+      },
+      "3.17.6": {
+        "url": "https://zhuangtongfa.gallery.vsassets.io/_apis/public/gallery/publisher/zhuangtongfa/extension/Material-theme/3.17.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:e48552e845b8ba8069d0b29785d22e0b25bac54679010cb2be5065e6429a642f"
       }
     }
   },
