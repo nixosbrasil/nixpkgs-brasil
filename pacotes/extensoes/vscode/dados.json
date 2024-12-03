@@ -549,6 +549,10 @@
       "3.17.6": {
         "url": "https://zhuangtongfa.gallery.vsassets.io/_apis/public/gallery/publisher/zhuangtongfa/extension/Material-theme/3.17.6/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:e48552e845b8ba8069d0b29785d22e0b25bac54679010cb2be5065e6429a642f"
+      },
+      "3.17.7": {
+        "url": "https://zhuangtongfa.gallery.vsassets.io/_apis/public/gallery/publisher/zhuangtongfa/extension/Material-theme/3.17.7/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:b6e3e00931a494577f2793c29924130987f49e4e27247057c5552d0dfe3966ef"
       }
     }
   },
