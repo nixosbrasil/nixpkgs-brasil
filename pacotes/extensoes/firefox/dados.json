@@ -2,9 +2,9 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app",
-    "version": "5.10.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4395988/sponsorblock-5.10.1.xpi",
-    "download_hash": "sha256:68532967a5a510193ddbcf3397e4182388a129cc54a07aade0e9e6762c58f516",
+    "version": "5.10.3",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4404647/sponsorblock-5.10.3.xpi",
+    "download_hash": "sha256:8d670559ae17adc808ed061188822e5112728ba70eda0a3133dcc4abc3857bdc",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
@@ -56,9 +56,9 @@
   "darkreader": {
     "nome": "Dark Reader",
     "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
-    "version": "4.9.96",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4378073/darkreader-4.9.96.xpi",
-    "download_hash": "sha256:6e2f1a36d2398195b0cd7ee0fcb198ea4db6a57a1b3bf7b2cf5f17a8768f477e",
+    "version": "4.9.97",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4403051/darkreader-4.9.97.xpi",
+    "download_hash": "sha256:32ba95331d99f07db48bd2dfd9c715010ec450b84494dec07e2954cdcf7fa447",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
     "name": "darkreader"
   },
@@ -101,9 +101,9 @@
   "control-panel-for-twitter": {
     "nome": "Control Panel for Twitter",
     "description": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "version": "4.4.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4398156/control_panel_for_twitter-4.4.0.xpi",
-    "download_hash": "sha256:f732671753905f9b9ff9f15545e9ec511d3da8ffe49d6740e0f7bf1ccbecf153",
+    "version": "4.4.3",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4402464/control_panel_for_twitter-4.4.3.xpi",
+    "download_hash": "sha256:56e0b4494ce102d3b267ee1260c5b3965aa230086f9972c066e46503c183d969",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
     "name": "control-panel-for-twitter"
   }
