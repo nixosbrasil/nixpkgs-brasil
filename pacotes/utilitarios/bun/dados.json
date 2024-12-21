@@ -1,93 +1,93 @@
 {
-  "version": "1.1.40",
+  "version": "1.1.42",
   "variacoes": {
     "bun-darwin-aarch64-profile": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-darwin-aarch64-profile.zip",
-      "sha256": "sha256:3d21748dddc315ecb7ccde9b97ab8d157752e61f3209a68a5d2c2ae156116611"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-darwin-aarch64-profile.zip",
+      "sha256": "sha256:ca2385bb86bf45eeae2375d1589a31d0756d0fc18f4b6ad166c4d27dd979b6f4"
     },
     "bun-darwin-aarch64": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-darwin-aarch64.zip",
-      "sha256": "sha256:8b59f2f08da45f851fcd8901e0e87628cf00f1aa65fb2ce1ed88a455c0895f03"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-darwin-aarch64.zip",
+      "sha256": "sha256:64a70fe290bd6391a09d555d4e4e1a8df56543e526bb1381ab344a385348572c"
     },
     "bun-darwin-x64-baseline-profile": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-darwin-x64-baseline-profile.zip",
-      "sha256": "sha256:5f359331bcb03964747a5aa92dc4ee05d578e06afcf00e12b6dd5e638354e509"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-darwin-x64-baseline-profile.zip",
+      "sha256": "sha256:05b062fbf2f77bb41c648e82c0b64f6ee7e2883c3c4ee7bbe2b3edd284127c3c"
     },
     "bun-darwin-x64-baseline": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-darwin-x64-baseline.zip",
-      "sha256": "sha256:9d11f47c0ae5c4ac92a3a9b396125089d502a282a7b9685e30449cbf23b6ca41"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-darwin-x64-baseline.zip",
+      "sha256": "sha256:48b495afc854c635d9baaa9c1bd9e5addba549af7face9cd7df3fbf3538fe42c"
     },
     "bun-darwin-x64-profile": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-darwin-x64-profile.zip",
-      "sha256": "sha256:8a65e20c82d537a89717174d5835063e89a30b4e4bf8f850a76692fc985f6853"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-darwin-x64-profile.zip",
+      "sha256": "sha256:f9ec809bde6ac3dcdc20e9067baaf69d08e39eb69a7d3acba26ea7f9f128c6b5"
     },
     "bun-darwin-x64": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-darwin-x64.zip",
-      "sha256": "sha256:8688dc0e2d779de64b727544ca42a3dbb251cc97b6b319cd9219a8107768f92b"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-darwin-x64.zip",
+      "sha256": "sha256:3f5630e0641d0824eb334cfe89d17cf69b1b6019b68d118afba7b62045794f58"
     },
     "bun-linux-aarch64-musl-profile": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-aarch64-musl-profile.zip",
-      "sha256": "sha256:8a050c1db3f773dea39d266441f02d50cc2ede747f9efec9311fb5dbef66366f"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-aarch64-musl-profile.zip",
+      "sha256": "sha256:d2b045b3a79f0280231010fc0700aaad8d2e934c1915fae1bb5b6cde1417d77c"
     },
     "bun-linux-aarch64-musl": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-aarch64-musl.zip",
-      "sha256": "sha256:f15a7796007d463ec7c29a58278690d4d38d350aaa1fd550e33aef52d6673b24"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-aarch64-musl.zip",
+      "sha256": "sha256:998bb9f97e016f630edc3421b7937371c30214888880ec775f9e52bcad155236"
     },
     "bun-linux-aarch64-profile": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-aarch64-profile.zip",
-      "sha256": "sha256:66ffbc01df3ed55a553dbeff3d89ffa53ada06d6bbd8149276798000be4ac9e0"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-aarch64-profile.zip",
+      "sha256": "sha256:450fb8f971e7f26dcd66fd4781b281d9a537b81faf5a8426c36a4fd25af5666f"
     },
     "bun-linux-aarch64": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-aarch64.zip",
-      "sha256": "sha256:b039c943a7a9fc6ada59dbea14a9d51c7419d0dfdbd7b312d7fa51d017ac55c4"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-aarch64.zip",
+      "sha256": "sha256:006648456d2a8d50aa6213d9af65a25042ce01f84060396e5eaa3c98f784dd17"
     },
     "bun-linux-x64-baseline-profile": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-x64-baseline-profile.zip",
-      "sha256": "sha256:0a8f76368574b0554f162fc6bb6660033835271d3cb5b3e2dcc5b4fdc9409ba7"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-x64-baseline-profile.zip",
+      "sha256": "sha256:b2b999c76fa97336fc9488bc1a009da2efb4bd10f1c26110f324bbea9a554277"
     },
     "bun-linux-x64-baseline": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-x64-baseline.zip",
-      "sha256": "sha256:c6be2321e8028c6376098fa29baad1cd454f4f33827ff426fdd5ce79695f6d27"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-x64-baseline.zip",
+      "sha256": "sha256:19584af4189e6434124a556e830427f0f44b7ebed8530eacf4fe369bd14b93d6"
     },
     "bun-linux-x64-musl-baseline-profile": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-x64-musl-baseline-profile.zip",
-      "sha256": "sha256:2abda35d4413db70ed2fd271a23db4df4fa7477c738625988638b02e413d0e0e"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-x64-musl-baseline-profile.zip",
+      "sha256": "sha256:aaf0137c198bb366615994a8516183c1ca9ebfb3e64bd4ff779e134278389d0f"
     },
     "bun-linux-x64-musl-baseline": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-x64-musl-baseline.zip",
-      "sha256": "sha256:801d941b8136029f8c6f08fc55eef7ee99342c3b8d21f3133991e0b6124d6880"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-x64-musl-baseline.zip",
+      "sha256": "sha256:b6bbad558b10ac33c4f6b6aaf4e40be6529fc763058f2648a31b126ed718f599"
     },
     "bun-linux-x64-musl-profile": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-x64-musl-profile.zip",
-      "sha256": "sha256:df05e431fbca68d2df7d3a665d1d6a3fd958aabeb18d4a4873c210be597a9686"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-x64-musl-profile.zip",
+      "sha256": "sha256:bc7b913b6d72036e825a43abfd8557951b661de48cf8ca8d89628d9545492ca9"
     },
     "bun-linux-x64-musl": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-x64-musl.zip",
-      "sha256": "sha256:707b112ecbca7aa5c72f91c8ccb2d4d1f44c799c57dd2c643b87735476ef54fa"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-x64-musl.zip",
+      "sha256": "sha256:7933ec06f3e4187cb62055350ee153d68ac91ccba2679df6ac19adc6cd7284fb"
     },
     "bun-linux-x64-profile": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-x64-profile.zip",
-      "sha256": "sha256:56dcf156ae46a467531ed789f7786e2a7f28d7b8bd224f5f49eecb029e69cb54"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-x64-profile.zip",
+      "sha256": "sha256:b22a95a1871cc05f53bf25f5eb4a484658441c6817c4806372b467e1abfad674"
     },
     "bun-linux-x64": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-linux-x64.zip",
-      "sha256": "sha256:9f9045365e21c6465689667c18b169519c50621dbe55b0908e2745c80aa13102"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-linux-x64.zip",
+      "sha256": "sha256:368206c3038d8faabc63e3059eeea64c2af9c50ed0dfbfb86f64984ba69db1af"
     },
     "bun-windows-x64-baseline-profile": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-windows-x64-baseline-profile.zip",
-      "sha256": "sha256:051bc8b32b2c6d10b152a7d5ea2de0a974d9466edfeea1b099404bb3118ffad6"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-windows-x64-baseline-profile.zip",
+      "sha256": "sha256:9984271a402c8f2b40e29e59107f1fc42c88f79bfc2b7ecb85d58f39b733f33e"
     },
     "bun-windows-x64-baseline": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-windows-x64-baseline.zip",
-      "sha256": "sha256:d44b5fc025d3dcd477af70a8257cac06dad9b9a80619a228c87b9ffa8a7c4ab8"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-windows-x64-baseline.zip",
+      "sha256": "sha256:a0b2725cf5cc416d01a520bf2ee4021405ce2de2fe08b957991c91dc9ba044a6"
     },
     "bun-windows-x64-profile": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-windows-x64-profile.zip",
-      "sha256": "sha256:01413c6b4600dfe8a17e23f08dd8601e53aabd9315f212864d896d7230183d87"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-windows-x64-profile.zip",
+      "sha256": "sha256:9ee71aed56ff9b9b0df94ba83c1413d683096caf4e31a429c8d15cf6b952405f"
     },
     "bun-windows-x64": {
-      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.40/bun-windows-x64.zip",
-      "sha256": "sha256:408da17b3ba0aad1a7147453e877f755415d5254419297be65b83bac3349c61a"
+      "url": "https://github.com/Jarred-Sumner/bun-releases-for-updater/releases/download/bun-v1.1.42/bun-windows-x64.zip",
+      "sha256": "sha256:a375a8e1d2bbb2b2d7b3e2ea75c600b424f06f67d58a00d99d6b4cf0c34aa4b8"
     }
   }
 }

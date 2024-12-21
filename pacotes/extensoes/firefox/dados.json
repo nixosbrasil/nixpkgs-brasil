@@ -38,9 +38,9 @@
   "tampermonkey": {
     "nome": "Tampermonkey",
     "description": "Tampermonkey is the world's most popular userscript manager.",
-    "version": "5.3.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4379021/tampermonkey-5.3.2.xpi",
-    "download_hash": "sha256:503a233543cf76dff81c7a18b73340f2256987feaef512deb7e0eb68a206b4b3",
+    "version": "5.3.3",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4405733/tampermonkey-5.3.3.xpi",
+    "download_hash": "sha256:1eb5ddffb3b93c0258ef0458658436563772d21bf5dffa334bb8a49cca8f0fff",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/",
     "name": "tampermonkey"
   },
@@ -101,9 +101,9 @@
   "control-panel-for-twitter": {
     "nome": "Control Panel for Twitter",
     "description": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "version": "4.4.3",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4402464/control_panel_for_twitter-4.4.3.xpi",
-    "download_hash": "sha256:56e0b4494ce102d3b267ee1260c5b3965aa230086f9972c066e46503c183d969",
+    "version": "4.4.5",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4405585/control_panel_for_twitter-4.4.5.xpi",
+    "download_hash": "sha256:c9f92d41d8d87d749309f972ea5b5f3104c64a4195571dc33ba36b56d48ced98",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
     "name": "control-panel-for-twitter"
   }
