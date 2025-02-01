@@ -2,9 +2,9 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app",
-    "version": "5.11.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4422523/sponsorblock-5.11.2.xpi",
-    "download_hash": "sha256:64a9a105f56b694842d1400fd35301dbdcde13c4fa3ae9a9332f90db0e470d14",
+    "version": "5.11.5",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4424639/sponsorblock-5.11.5.xpi",
+    "download_hash": "sha256:4cb3a7061dbeb9869477fb2f991d39ccaf650941f83abe1e0c65511e971cb555",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
@@ -92,9 +92,9 @@
   "video-downloadhelper": {
     "nome": "Video DownloadHelper",
     "description": "Download videos from the web. Easy, smart, no tracking.",
-    "version": "9.1.2.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4414706/video_downloadhelper-9.1.2.0.xpi",
-    "download_hash": "sha256:a39978e3fc25fc97fd8c10e90a6d6660af4dd9ca30ec145f9959c188e602b7a2",
+    "version": "9.3.0.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4423892/video_downloadhelper-9.3.0.1.xpi",
+    "download_hash": "sha256:148e3ce0088ade2e9f28224ce33dbe70c645510cc83d0b8e039034db09d9e41a",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
     "name": "video-downloadhelper"
   },
