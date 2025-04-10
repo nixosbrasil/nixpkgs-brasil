@@ -20,9 +20,9 @@
   "bitwarden-password-manager": {
     "nome": "Bitwarden Password Manager",
     "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.",
-    "version": "2025.2.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4440363/bitwarden_password_manager-2025.2.0.xpi",
-    "download_hash": "sha256:c4d7f355a2269620482f50edac7fce3c19f515190f24cdf80edc865f71d3a374",
+    "version": "2025.3.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4467426/bitwarden_password_manager-2025.3.2.xpi",
+    "download_hash": "sha256:30f9384a46f6ef2ba6c9d273fc7c77a9afeef120dc4b3cbc5c28f171f4e8aeab",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
@@ -83,9 +83,9 @@
   "floccus": {
     "nome": "floccus",
     "description": "Sync your bookmarks and tabs across browsers via Nextcloud, any WebDAV service, any Git service, via a local file, via Google Drive.",
-    "version": "5.4.5",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4458625/floccus-5.4.5.xpi",
-    "download_hash": "sha256:2bdd6cca9e2e50dc70a39393f95f595d76c8ee53b7952c09ae6389e0c010134f",
+    "version": "5.5.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4470978/floccus-5.5.1.xpi",
+    "download_hash": "sha256:990a44ef126d888a8f00e5e8c4a5ff0b8cf979d2749d84dcba872c0ed20b94ed",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
   },
