@@ -83,9 +83,9 @@
   "floccus": {
     "nome": "floccus",
     "description": "Sync your bookmarks and tabs across browsers via Nextcloud, any WebDAV service, any Git service, via a local file, via Google Drive.",
-    "version": "5.5.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4470978/floccus-5.5.1.xpi",
-    "download_hash": "sha256:990a44ef126d888a8f00e5e8c4a5ff0b8cf979d2749d84dcba872c0ed20b94ed",
+    "version": "5.5.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4475378/floccus-5.5.2.xpi",
+    "download_hash": "sha256:204300ace8d68440cb6c3eee85f0f200a3964624deb2e16f3cc880cca1b510da",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
   },
