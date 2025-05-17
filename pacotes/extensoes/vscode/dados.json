@@ -736,6 +736,10 @@
       "1.29.1": {
         "url": "https://vscodevim.gallery.vsassets.io/_apis/public/gallery/publisher/vscodevim/extension/vim/1.29.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:287fcd102100937bbe2e3528bf5489c763bd73ee7ae8005a75cd92d0a63dfc8d"
+      },
+      "1.29.2": {
+        "url": "https://vscodevim.gallery.vsassets.io/_apis/public/gallery/publisher/vscodevim/extension/vim/1.29.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:441878c90c4ea14a7034a79d16311ebba84ed2d53d0003e50ebb762e18194f9d"
       }
     }
   },
