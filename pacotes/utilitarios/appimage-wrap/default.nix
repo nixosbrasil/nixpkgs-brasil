@@ -23,7 +23,7 @@ let
     targetPkgs = pkgs: with pkgs; [
       gtk3
       bashInteractive
-      gnome.zenity
+      zenity
       python3
       xorg.xrandr
       which
