@@ -1354,6 +1354,10 @@
       "0.418.0": {
         "url": "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-containers/0.418.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:d2d12a3d386bff134f956279e3a46784a94201201faae1598a80b3ada90d81be"
+      },
+      "0.419.0": {
+        "url": "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-containers/0.419.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:7f16bc90e4cacde75a7a224f7f2f415a8475cc82d53da45e030dd29c4d74c592"
       }
     }
   },
@@ -1511,6 +1515,10 @@
       "0.47.4": {
         "url": "https://golang.gallery.vsassets.io/_apis/public/gallery/publisher/golang/extension/Go/0.47.4/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:d538a2f7ee908d67c5d664465e808cb43fbb821ba6877c0cb0c3e2b629fb7eb1"
+      },
+      "0.48.0": {
+        "url": "https://golang.gallery.vsassets.io/_apis/public/gallery/publisher/golang/extension/Go/0.48.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:5be1ac89e18e9fd521381e3dbff36ab070a83a6e1535a668b62a4837613837d9"
       }
     }
   },
