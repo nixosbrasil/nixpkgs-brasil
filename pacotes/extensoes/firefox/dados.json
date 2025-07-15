@@ -11,9 +11,9 @@
   "ublock-origin": {
     "nome": "uBlock Origin",
     "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
-    "version": "1.64.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4492375/ublock_origin-1.64.0.xpi",
-    "download_hash": "sha256:b9e1c868bd1ac1defcabf2e01776d1a90effba34b07fe6a21350d45f022e0e9f",
+    "version": "1.65.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4531307/ublock_origin-1.65.0.xpi",
+    "download_hash": "sha256:3e73c96a29a933866065f0756fe032984bf5b254af8dd1afd7a7f7e0668a33cf",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
     "name": "ublock-origin"
   },
@@ -83,9 +83,9 @@
   "floccus": {
     "nome": "floccus",
     "description": "Sync your bookmarks and tabs across browsers via Nextcloud, any WebDAV service, any Git service, via a local file, via Google Drive.",
-    "version": "5.5.3.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4492899/floccus-5.5.3.1.xpi",
-    "download_hash": "sha256:7147732fd0e63f611d7cbf967649d757a7bbf10d0d2dfac6d78bae4db8405996",
+    "version": "5.5.6",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4533634/floccus-5.5.6.xpi",
+    "download_hash": "sha256:548d029328246cd30a462de28a95df56fd1c8c60287ac39b8cd6b7cb3a18614d",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
   },
