@@ -1402,6 +1402,10 @@
       "0.424.0": {
         "url": "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-containers/0.424.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:048ef365549e6dab6c945524ca7af7798de946281b0c1729346d4900e046ac11"
+      },
+      "0.425.0": {
+        "url": "https://ms-vscode-remote.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode-remote/extension/remote-containers/0.425.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:dc49cebcc64a1bb5a0850bc401b6dd7eeae78aad81cf862cc0900a5df3532fca"
       }
     }
   },
