@@ -20,15 +20,15 @@
   "bitwarden-password-manager": {
     "nome": "Bitwarden Password Manager",
     "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.",
-    "version": "2025.10.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4599707/bitwarden_password_manager-2025.10.0.xpi",
-    "download_hash": "sha256:31b88743f36032fa3cfb78e0582fb732ef00a3c5915182ba37fd08b04aac1d3b",
+    "version": "2025.11.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4619294/bitwarden_password_manager-2025.11.0.xpi",
+    "download_hash": "sha256:6be183d581fb81aa19e9fe658aa533aeea91185b54917700952ea3a576cacfc6",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
   "languagetool": {
     "nome": "Grammar and Spell Checker - LanguageTool",
-    "description": "With this extension you can check text with the free style and grammar checker LanguageTool. It finds many errors that a simple spell checker cannot detect, like mixing up there/their, a/an, or repeating a word.",
+    "description": "With this extension you can check text with the style and grammar checker LanguageTool. It finds many errors that a simple spell checker cannot detect, like mixing up there/their, a/an, or repeating a word.",
     "version": "9.0.1",
     "download_url": "https://addons.mozilla.org/firefox/downloads/file/4538560/languagetool-9.0.1.xpi",
     "download_hash": "sha256:c3dffe8754fe377a641fd54ed5858246efc0358212356a20b1dcfca14530fa95",
@@ -56,9 +56,9 @@
   "darkreader": {
     "nome": "Dark Reader",
     "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
-    "version": "4.9.113",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4612789/darkreader-4.9.113.xpi",
-    "download_hash": "sha256:e7e9dbbb9136364d5174b310e0377edc5bd010a33f2d1f1e90269b56442303c6",
+    "version": "4.9.115",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4619318/darkreader-4.9.115.xpi",
+    "download_hash": "sha256:d3f800fc8c50d24578c25dad35a8e2e528f7a43eb45ee355ceb346d4fb7cc48f",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
     "name": "darkreader"
   },
@@ -101,9 +101,9 @@
   "control-panel-for-twitter": {
     "nome": "Control Panel for Twitter",
     "description": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "version": "4.14.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4582072/control_panel_for_twitter-4.14.1.xpi",
-    "download_hash": "sha256:dd6b3ca65003e1ed778e1094e33e41963dc1e088e0918693501d5328c6c18ff6",
+    "version": "4.15.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4621303/control_panel_for_twitter-4.15.2.xpi",
+    "download_hash": "sha256:8e1891d1ad4a4a623772da8274e5d4ae964e3af51a14152338ffdc5c1e6ac852",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
     "name": "control-panel-for-twitter"
   }
