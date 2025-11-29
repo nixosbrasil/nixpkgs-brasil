@@ -56,9 +56,9 @@
   "darkreader": {
     "nome": "Dark Reader",
     "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
-    "version": "4.9.115",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4619318/darkreader-4.9.115.xpi",
-    "download_hash": "sha256:d3f800fc8c50d24578c25dad35a8e2e528f7a43eb45ee355ceb346d4fb7cc48f",
+    "version": "4.9.116",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4625542/darkreader-4.9.116.xpi",
+    "download_hash": "sha256:5a6fff6cd9b27c2243d4e76a666a8f6f8b01b930757e67cbe3c911e3cb563838",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
     "name": "darkreader"
   },
