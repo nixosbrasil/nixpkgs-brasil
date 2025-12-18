@@ -2,9 +2,9 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app",
-    "version": "6.1.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4608179/sponsorblock-6.1.0.xpi",
-    "download_hash": "sha256:48f412540ad0217c52caece0eb84186041b28241b24457aaa8c256565f050844",
+    "version": "6.1.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4644570/sponsorblock-6.1.2.xpi",
+    "download_hash": "sha256:598f66c9eb6bbab2bd5f87376b632a5860f442d3694e233610f5b37f8b6e3f10",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
@@ -20,9 +20,9 @@
   "bitwarden-password-manager": {
     "nome": "Bitwarden Password Manager",
     "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.",
-    "version": "2025.11.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4633659/bitwarden_password_manager-2025.11.2.xpi",
-    "download_hash": "sha256:0fcda36efb4c8b54913d4536e43b07f6c1ea4daaa8969ff45bac77509af5f861",
+    "version": "2025.12.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4640726/bitwarden_password_manager-2025.12.0.xpi",
+    "download_hash": "sha256:0256a61e84e23903fd379f5971150a8b23a53a126da62d276d57e514408839cd",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
@@ -101,9 +101,9 @@
   "control-panel-for-twitter": {
     "nome": "Control Panel for Twitter",
     "description": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "version": "4.16.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4632060/control_panel_for_twitter-4.16.0.xpi",
-    "download_hash": "sha256:c31bedb5f07c9d1791f36b0203925ae9d15230a3928c7b6f6031e50203f9dc0b",
+    "version": "4.18.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4645411/control_panel_for_twitter-4.18.0.xpi",
+    "download_hash": "sha256:25e0d812013c68e7b0bf6304f00d0e93f13d7b143a8d73e017c197659f7e707a",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
     "name": "control-panel-for-twitter"
   }
