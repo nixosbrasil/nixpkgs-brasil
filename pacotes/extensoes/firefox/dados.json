@@ -92,9 +92,9 @@
   "video-downloadhelper": {
     "nome": "Video DownloadHelper",
     "description": "Download videos from the web. Easy, smart, no tracking.",
-    "version": "10.1.6.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4649244/video_downloadhelper-10.1.6.2.xpi",
-    "download_hash": "sha256:bacdeb94698cc47c48592433f4e063c1f041bbc75ef862bfc05c3e20d4692246",
+    "version": "10.1.36.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4666817/video_downloadhelper-10.1.36.2.xpi",
+    "download_hash": "sha256:1ee7234e01de0411a9155f531f177b6ae4359708af52378b9c56d0227468a9c8",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
     "name": "video-downloadhelper"
   },
