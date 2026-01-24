@@ -29,9 +29,9 @@
   "languagetool": {
     "nome": "Grammar and Spell Checker - LanguageTool",
     "description": "With this extension you can check text with the style and grammar checker LanguageTool. It finds many errors that a simple spell checker cannot detect, like mixing up there/their, a/an, or repeating a word.",
-    "version": "9.0.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4538560/languagetool-9.0.1.xpi",
-    "download_hash": "sha256:c3dffe8754fe377a641fd54ed5858246efc0358212356a20b1dcfca14530fa95",
+    "version": "10.0.9",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4661374/languagetool-10.0.9.xpi",
+    "download_hash": "sha256:9924c58c90b4d89e40609f31557be81398ac39a25803c7223236e30350044cea",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/languagetool/",
     "name": "languagetool"
   },
@@ -83,9 +83,9 @@
   "floccus": {
     "nome": "floccus",
     "description": "Securely synchronize bookmarks across Chrome, Firefox, Edge, and more using your own cloud storage.",
-    "version": "5.8.4",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4669994/floccus-5.8.4.xpi",
-    "download_hash": "sha256:92ceae42b58f51dcd9b30f4553270ca2310753a7cc82aa69f1b9811dc772d87a",
+    "version": "5.8.6",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4673195/floccus-5.8.6.xpi",
+    "download_hash": "sha256:52a7333b9a4984df65d0ad4b0c4d26c832fff4925b3c428a994f6b17bea03cf3",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
   },
