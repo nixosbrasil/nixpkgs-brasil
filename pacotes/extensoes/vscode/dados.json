@@ -706,6 +706,10 @@
       "1.110.2026032501": {
         "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.110.2026032501/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:1e9bd8dd10136221443766178c86c4524effec36b627174e5775ccedcdb95c2a"
+      },
+      "1.110.2026032522": {
+        "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.110.2026032522/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:f3cb7f96026ce68ee02d8155536326c6183ad55af2c11ee6b090ce97b118ed0b"
       }
     }
   },
@@ -733,6 +737,10 @@
       "1.1.0": {
         "url": "https://arrterian.gallery.vsassets.io/_apis/public/gallery/publisher/arrterian/extension/nix-env-selector/1.1.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:739597e4bd61b9f2b0057eb852268b58e41a6536266bee806cea612cf110f42f"
+      },
+      "1.2.0": {
+        "url": "https://arrterian.gallery.vsassets.io/_apis/public/gallery/publisher/arrterian/extension/nix-env-selector/1.2.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:76f26606896330d4bb23b7350e2708596d2de0642f04517d8c0cf6676bf8957c"
       }
     }
   },
