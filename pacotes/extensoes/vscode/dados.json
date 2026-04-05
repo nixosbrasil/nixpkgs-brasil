@@ -742,6 +742,10 @@
       "1.110.2026040311": {
         "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.110.2026040311/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:d703db507b84adde31aa9f2fe4eaff084b27859bbe7465c0c98fc18951c49202"
+      },
+      "1.110.2026040411": {
+        "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.110.2026040411/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:87b97ab0ab00f61a84627789970adba2adaa2f9c039598ef53abdae67df78f0f"
       }
     }
   },
