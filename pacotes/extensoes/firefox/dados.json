@@ -83,18 +83,18 @@
   "floccus": {
     "nome": "floccus",
     "description": "Securely synchronize bookmarks across Chrome, Firefox, Edge, and more using your own cloud storage.",
-    "version": "5.9.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4752643/floccus-5.9.0.xpi",
-    "download_hash": "sha256:48172cf1718709602b528977af9bdbba545e5fa2b539e4d52f23d72091418747",
+    "version": "5.9.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4759586/floccus-5.9.1.xpi",
+    "download_hash": "sha256:fd10810c818a6168a1c5bb67d95af33a29ed21d5c4978bfa79fd5bb342376263",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
   },
   "video-downloadhelper": {
     "nome": "Video DownloadHelper",
     "description": "Download videos from the web. Easy, smart, no tracking.",
-    "version": "10.2.5.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4714322/video_downloadhelper-10.2.5.2.xpi",
-    "download_hash": "sha256:9653585ea05aefd24ccb933a8778bb9cb8a014f4ee2f73cfb3e08738b1acf5b6",
+    "version": "10.2.26.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4729133/video_downloadhelper-10.2.26.2.xpi",
+    "download_hash": "sha256:23f0d69c29cbb22f6c4b17defe87a2aa22502a4abb57314c3768f71f652cdfe0",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
     "name": "video-downloadhelper"
   },
