@@ -20,9 +20,9 @@
   "bitwarden-password-manager": {
     "nome": "Bitwarden Password Manager",
     "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.",
-    "version": "2026.3.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4749958/bitwarden_password_manager-2026.3.0.xpi",
-    "download_hash": "sha256:2dc6d074d4dc0abd2a8966f5065a55e7252bbf5e54b23c31dbedabfac0d4dbc4",
+    "version": "2026.4.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4796063/bitwarden_password_manager-2026.4.0.xpi",
+    "download_hash": "sha256:ccbdf6c3a11c8655d4fe9bdfcf5f16c4c9ff2d8732fadbb85396a2123274ae10",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
@@ -101,9 +101,9 @@
   "control-panel-for-twitter": {
     "nome": "Control Panel for Twitter",
     "description": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "version": "4.22.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4700540/control_panel_for_twitter-4.22.2.xpi",
-    "download_hash": "sha256:789c74b0ed5366c59392ffccedbe5f1e811a3e522f8482b029c6baf8b50103bb",
+    "version": "4.22.5",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4797665/control_panel_for_twitter-4.22.5.xpi",
+    "download_hash": "sha256:2a138ecf9379de6a56e9f3c8b4ae25f640fca71e1bc3272f1066d635bfa003d2",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
     "name": "control-panel-for-twitter"
   }
