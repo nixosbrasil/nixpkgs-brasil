@@ -826,6 +826,10 @@
       "1.124.2026060901": {
         "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.124.2026060901/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:2fb55c65a2862e5672fe7045e87a9f1abaa7bec114aa55256dbb3b4b507d3fc6"
+      },
+      "1.124.2026061001": {
+        "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.124.2026061001/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:306e3e5190def96d36adf41f32351a17f0692e37dda35674096ff469aa90603a"
       }
     }
   },
@@ -2270,6 +2274,10 @@
       "0.42.0": {
         "url": "https://foam.gallery.vsassets.io/_apis/public/gallery/publisher/foam/extension/foam-vscode/0.42.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:9a4e1981a0712c53efae6dc453e85d89da2b85d5a9ec419f44fd1efe40117750"
+      },
+      "0.43.0": {
+        "url": "https://foam.gallery.vsassets.io/_apis/public/gallery/publisher/foam/extension/foam-vscode/0.43.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:88037cf2a0cf39247b8be18dbcbcd3d4f8bc206f4d5f1e477c9950b35bee5e15"
       }
     }
   }
