@@ -56,9 +56,9 @@
   "darkreader": {
     "nome": "Dark Reader",
     "description": "Dark mode for every website. Take care of your eyes, use dark theme for night and daily browsing.",
-    "version": "4.9.126",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4834907/darkreader-4.9.126.xpi",
-    "download_hash": "sha256:b0bd9127a60a5af8db6fa23de81f304a4ec5d7d3cd7e6e301e3eaa42339528a7",
+    "version": "4.9.127",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4837294/darkreader-4.9.127.xpi",
+    "download_hash": "sha256:25f06b10b43270266af63c8d25e01ecf5e497bd2d5411243ee6d19b3869296ad",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/darkreader/",
     "name": "darkreader"
   },
@@ -92,9 +92,9 @@
   "video-downloadhelper": {
     "nome": "Video DownloadHelper",
     "description": "Download videos from the web. Easy, smart, no tracking.",
-    "version": "10.2.40.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4762685/video_downloadhelper-10.2.40.2.xpi",
-    "download_hash": "sha256:e6e84291e46b1e6ae63606dc1f1548d5eab50913abf7358ffa17abe4321d070e",
+    "version": "10.2.71.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4835863/video_downloadhelper-10.2.71.2.xpi",
+    "download_hash": "sha256:fc9c82c9e861b557faa3d54b43e6ed7936bafb2704894083e4b75b2a6d53c7f4",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
     "name": "video-downloadhelper"
   },

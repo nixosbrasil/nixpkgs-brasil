@@ -830,6 +830,10 @@
       "1.124.2026061001": {
         "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.124.2026061001/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:306e3e5190def96d36adf41f32351a17f0692e37dda35674096ff469aa90603a"
+      },
+      "1.124.2026061016": {
+        "url": "https://MS-CEINTL.gallery.vsassets.io/_apis/public/gallery/publisher/MS-CEINTL/extension/vscode-language-pack-pt-BR/1.124.2026061016/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:82dece7ff1d2eeb17d4c54491430b5484f0d61286272922b1e0779b7664019aa"
       }
     }
   },
@@ -2015,6 +2019,10 @@
       "0.53.1": {
         "url": "https://golang.gallery.vsassets.io/_apis/public/gallery/publisher/golang/extension/Go/0.53.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:b206452378968a879cbe1d396d3bd3fe0254d3311fefd3f5c6ceafcc69014d65"
+      },
+      "0.55.0": {
+        "url": "https://golang.gallery.vsassets.io/_apis/public/gallery/publisher/golang/extension/Go/0.55.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:a4577bfcf4d5422a3f2fb11e4f119dc6765d81616520cdbbc976745f859f14d7"
       }
     }
   },
@@ -2278,6 +2286,10 @@
       "0.43.0": {
         "url": "https://foam.gallery.vsassets.io/_apis/public/gallery/publisher/foam/extension/foam-vscode/0.43.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:88037cf2a0cf39247b8be18dbcbcd3d4f8bc206f4d5f1e477c9950b35bee5e15"
+      },
+      "0.43.1": {
+        "url": "https://foam.gallery.vsassets.io/_apis/public/gallery/publisher/foam/extension/foam-vscode/0.43.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:ad98dd073a97a521b8682323442988ad6b507669a1eef10940b22e1fae44c1fd"
       }
     }
   }
