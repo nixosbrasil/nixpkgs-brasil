@@ -893,6 +893,10 @@
       "1.3.1": {
         "url": "https://arrterian.gallery.vsassets.io/_apis/public/gallery/publisher/arrterian/extension/nix-env-selector/1.3.1/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
         "sha256": "sha256:755d4590039991682a964ea3ea9a50494cf93770281933e03e47a9eb480678ff"
+      },
+      "1.3.2": {
+        "url": "https://arrterian.gallery.vsassets.io/_apis/public/gallery/publisher/arrterian/extension/nix-env-selector/1.3.2/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage",
+        "sha256": "sha256:6c4bd2680d6950d9b3ecb09272ca84d125d532d705ecf6973b892ea19c88af28"
       }
     }
   },
