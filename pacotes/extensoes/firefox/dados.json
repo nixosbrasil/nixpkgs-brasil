@@ -90,7 +90,7 @@
     "name": "floccus"
   },
   "video-downloadhelper": {
-    "nome": "Video DownloadHelper",
+    "nome": "Video Download Helper",
     "description": "Download videos from the web. Easy, smart, no tracking.",
     "version": "10.2.71.2",
     "download_url": "https://addons.mozilla.org/firefox/downloads/file/4835863/video_downloadhelper-10.2.71.2.xpi",
