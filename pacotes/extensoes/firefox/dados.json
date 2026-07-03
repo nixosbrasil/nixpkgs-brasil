@@ -2,27 +2,27 @@
   "sponsorblock": {
     "nome": "SponsorBlock - Skip Sponsorships on YouTube",
     "description": "Easily skip YouTube video sponsors. When you visit a YouTube video, the extension will check the database for reported sponsors and automatically skip known sponsors. You can also report sponsors in videos. Other browsers: https://sponsor.ajay.app",
-    "version": "6.1.5",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4773757/sponsorblock-6.1.5.xpi",
-    "download_hash": "sha256:d8ec229aecb0b78e307a86d436496891b755f874c24c0f7324551c7ffd1b2e14",
+    "version": "6.1.6",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4870235/sponsorblock-6.1.6.xpi",
+    "download_hash": "sha256:ab8e4cc26e68070c3c6f379b253330b95677e2d25b52149580daa879cf9ba954",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/",
     "name": "sponsorblock"
   },
   "ublock-origin": {
     "nome": "uBlock Origin",
     "description": "Finally, an efficient wide-spectrum content blocker. Easy on CPU and memory.",
-    "version": "1.71.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4814095/ublock_origin-1.71.0.xpi",
-    "download_hash": "sha256:47f788a1fc2c014830b30bb0ef9588615701b98c5265fb19b8cf4ba779849feb",
+    "version": "1.72.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4872816/ublock_origin-1.72.0.xpi",
+    "download_hash": "sha256:79cd426ab599801c59dfe9895cb4b8002faf3da059f7111c2721ac10168a3b64",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/",
     "name": "ublock-origin"
   },
   "bitwarden-password-manager": {
     "nome": "Bitwarden Password Manager",
     "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.",
-    "version": "2026.5.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4842111/bitwarden_password_manager-2026.5.1.xpi",
-    "download_hash": "sha256:d32f61f4fb95728ab450edabc88fe195400adfafab488ca949b5a355298f27b8",
+    "version": "2026.6.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4875950/bitwarden_password_manager-2026.6.1.xpi",
+    "download_hash": "sha256:7ba16c3d422ab287db17b014a4683bace36341e471e4d4fd58ac2b616c6ac17d",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
@@ -92,9 +92,9 @@
   "video-downloadhelper": {
     "nome": "Video Download Helper",
     "description": "Download videos from the web. Easy, smart, no tracking.",
-    "version": "10.2.71.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4835863/video_downloadhelper-10.2.71.2.xpi",
-    "download_hash": "sha256:fc9c82c9e861b557faa3d54b43e6ed7936bafb2704894083e4b75b2a6d53c7f4",
+    "version": "10.5.2.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4875807/video_downloadhelper-10.5.2.2.xpi",
+    "download_hash": "sha256:860b906d8b672bcda35d30752ca7274dd055372b254ebba0bcb313770a5d1935",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/video-downloadhelper/",
     "name": "video-downloadhelper"
   },
