@@ -83,9 +83,9 @@
   "floccus": {
     "nome": "floccus",
     "description": "Securely synchronize bookmarks across Chrome, Firefox, Edge, and more using your own cloud storage.",
-    "version": "5.10.1",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4887521/floccus-5.10.1.xpi",
-    "download_hash": "sha256:ff42ae958319b2f33deeddd020bd91f22b57a6f382040f72f1273a439d5b2136",
+    "version": "5.10.2",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4905907/floccus-5.10.2.xpi",
+    "download_hash": "sha256:e84bc56c4e1bfc3cc3aec2a74003c9955ab8f55a3f51394754d2c773afe4f483",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/floccus/",
     "name": "floccus"
   },
