@@ -20,7 +20,7 @@
     },
     "nixpkgs": {
       "locked": {
-        "narHash": "sha256-NebGpEUD7MV7GWfUhDErp7imOKX2rFSUDtqkO5ryJ/o=",
+        "narHash": "sha256-LGkFiPNiMfZHIXX//qTAMGaaLo+2pvS7MEdInQZR/0s=",
         "type": "tarball",
         "url": "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz"
       },
