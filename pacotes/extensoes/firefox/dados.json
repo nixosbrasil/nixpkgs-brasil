@@ -20,18 +20,18 @@
   "bitwarden-password-manager": {
     "nome": "Bitwarden Password Manager",
     "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.",
-    "version": "2026.7.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4915668/bitwarden_password_manager-2026.7.0.xpi",
-    "download_hash": "sha256:11836eb9d2abc9914bb337b57e20c5a09cf44f24fa572f7e886384fd350a5112",
+    "version": "2026.8.0",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4970633/bitwarden_password_manager-2026.8.0.xpi",
+    "download_hash": "sha256:989ee33f19329af1fc155dcebb7f90a517a7259cea4bfbdd660923d25a7d465a",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
   "languagetool": {
     "nome": "Grammar and Spell Checker - LanguageTool",
     "description": "With this extension you can check text with the style and grammar checker LanguageTool. It finds many errors that a simple spell checker cannot detect, like mixing up there/their, a/an, or repeating a word.",
-    "version": "11.0.2",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4888981/languagetool-11.0.2.xpi",
-    "download_hash": "sha256:e36466c0267500311e9a7a0f3de94f61c9ab46c3fcfc7265fa73377ddeee4fa2",
+    "version": "11.3.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/4958761/languagetool-11.3.1.xpi",
+    "download_hash": "sha256:54919c8f79989646e9ea4db5901eec7ce123170838b6db909cfd0e1e262854ae",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/languagetool/",
     "name": "languagetool"
   },
