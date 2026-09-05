@@ -1,149 +1,149 @@
 {
-  "version": "1.4.1",
+  "version": "1.4.2",
   "variacoes": {
     "bun-darwin-aarch64-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-darwin-aarch64-profile.zip",
-      "sha256": "sha256:3186ebd44b1ccfadec7015ab309320b3fac8c04826678f4ae6a0fe1bd2542a51"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-darwin-aarch64-profile.zip",
+      "sha256": "sha256:09a5c3053e94669c837591bf9cf16a5ff84b2234dfb32304a251213f9816c7d1"
     },
     "bun-darwin-aarch64": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-darwin-aarch64.zip",
-      "sha256": "sha256:d8973ce835fa7867e5cc79afee6fc6f1ae0117aa4bd5fc2546fd00c512f71386"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-darwin-aarch64.zip",
+      "sha256": "sha256:90987a3a16d7db556d886ac3d551e7b6d3edf0a1cf43acaed622e8676be1d12f"
     },
     "bun-darwin-x64-baseline-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-darwin-x64-baseline-profile.zip",
-      "sha256": "sha256:d0adf87d504e41239965452405021a81c53dfe52ddbe658a140252afa8a75ac0"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-darwin-x64-baseline-profile.zip",
+      "sha256": "sha256:bfa5b456144cbb2064f477f3f2eb4afd7d4db39222329c1df7a7ce81b64ffa40"
     },
     "bun-darwin-x64-baseline": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-darwin-x64-baseline.zip",
-      "sha256": "sha256:498e76d61bbe87d2306f65fed60ae86b6b0c8ee2da709f83202808db1a09e407"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-darwin-x64-baseline.zip",
+      "sha256": "sha256:bad5bbd6cf14d0980d115f5954c9ff904df619d5e994d2da1ffccd3f316300b0"
     },
     "bun-darwin-x64-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-darwin-x64-profile.zip",
-      "sha256": "sha256:a751d282d520ed8dcb0a625a39ba9ed5dfe073f390388c422c5c6e6dc60698ff"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-darwin-x64-profile.zip",
+      "sha256": "sha256:07367d2acad8af980944c247f57ce5a154c5b6f1964017fc6fbfb6e8bf2dc7d9"
     },
     "bun-darwin-x64": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-darwin-x64.zip",
-      "sha256": "sha256:8f34239f276a3f0d27bfcd1ffecfe5d2127e74fb0aa4c0971a0cdec7b225c965"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-darwin-x64.zip",
+      "sha256": "sha256:80520d7e17526308c9185d261679ac6d27798d3803a0e9f7ff9121ab8affb012"
     },
     "bun-freebsd-aarch64-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-freebsd-aarch64-profile.zip",
-      "sha256": "sha256:dd5670f8ed550985fafa25191fed599657cff868eee59912ed4bd1389d734556"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-freebsd-aarch64-profile.zip",
+      "sha256": "sha256:744d7f0e9f423d6b81231fbabec5b033054759f25a05db7dbf6d8b0923da2cd8"
     },
     "bun-freebsd-aarch64": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-freebsd-aarch64.zip",
-      "sha256": "sha256:97845cc2effe1fe0a788a2b8b989bd4a3c6bc7ac1db1f5b544a7a9c9609e4724"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-freebsd-aarch64.zip",
+      "sha256": "sha256:a554958e5691c5036e576da78efb4114665da354c882cb0ca059bbd4a896b44a"
     },
     "bun-freebsd-x64-baseline-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-freebsd-x64-baseline-profile.zip",
-      "sha256": "sha256:4356c7ed192facf16106ef79c8b09cab405af166fc98866f07cc1ba8b7769692"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-freebsd-x64-baseline-profile.zip",
+      "sha256": "sha256:9b2f3ba6f07548ee4868280092a6892b6092cee9c0f1ef1374b684ada5c3548b"
     },
     "bun-freebsd-x64-baseline": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-freebsd-x64-baseline.zip",
-      "sha256": "sha256:0863f353dce8e0e792ad6eeee1100af497d1296456f31b9825a46b2d7802c492"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-freebsd-x64-baseline.zip",
+      "sha256": "sha256:f01d1789358f02625300776925cc8f67cf7c232fb8a394e186f5fa59300eed2d"
     },
     "bun-freebsd-x64-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-freebsd-x64-profile.zip",
-      "sha256": "sha256:2bd96dcf673fb5d69907fb28a59f31f31af9a35e56976e0d2f9f197db3a75787"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-freebsd-x64-profile.zip",
+      "sha256": "sha256:1c587c7dad54f91afa3a29f6dd4846b548436e9e432112268c108013171c6461"
     },
     "bun-freebsd-x64": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-freebsd-x64.zip",
-      "sha256": "sha256:d4cf437ece4fd4eab253a4998c91af047c3dc27864ea3e8f763d412a068752a4"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-freebsd-x64.zip",
+      "sha256": "sha256:ec044ed91c370a16f5e434208dd502093e98ec86a3cb1aff3aad29b13426ecc2"
     },
     "bun-linux-aarch64-android-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-aarch64-android-profile.zip",
-      "sha256": "sha256:5a04c11bb9ae1b2669ee4b1cdac2583d5b3b5042fd8d12295e9c4fd2280c72af"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-aarch64-android-profile.zip",
+      "sha256": "sha256:2deea01701da5934f7b5be361f808e6222bc039ee1aa110454878a001c207af3"
     },
     "bun-linux-aarch64-android": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-aarch64-android.zip",
-      "sha256": "sha256:bfe0f40e83ee7df32096a93a0eed175288155f513c0939ea95b439f9385eb5ea"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-aarch64-android.zip",
+      "sha256": "sha256:a1c7e2983f1bb65146beb256a4d72449f23042412bc2cf278aa6397ba27e0274"
     },
     "bun-linux-aarch64-musl-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-aarch64-musl-profile.zip",
-      "sha256": "sha256:6d3e1df9e6e4db45dc2b6c21ca657ac678d9f3de4421eedc2a2de7db705b22f4"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-aarch64-musl-profile.zip",
+      "sha256": "sha256:9c0642d57132315b90be04cfd272f6a16ac1c677f431c16144c6cdeee2be6550"
     },
     "bun-linux-aarch64-musl": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-aarch64-musl.zip",
-      "sha256": "sha256:53895807a00508f70e76715947097aa533ec520aac066501c00fb77d2b1a7a6c"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-aarch64-musl.zip",
+      "sha256": "sha256:71760b6c8ea30623b81a4907cb815d48e2ea266f2e73e751534a44a0607950df"
     },
     "bun-linux-aarch64-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-aarch64-profile.zip",
-      "sha256": "sha256:80b11c19d29f90262529272866590f76d9d751b75cc3206c9bb865c9cfa58e72"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-aarch64-profile.zip",
+      "sha256": "sha256:905c31a277101362e63ddc07f5ff81e73b00fcd5d03eb05ed3a3cefd8fcef08d"
     },
     "bun-linux-aarch64": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-aarch64.zip",
-      "sha256": "sha256:580ce77533108dc6b10bec1721397e4f5aa44e909726da2451d483dfc5e581d6"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-aarch64.zip",
+      "sha256": "sha256:54328bbc2d9c8e0c9f892c544d66c57a83b84139e34909e5ee81758f1ac8fda7"
     },
     "bun-linux-x64-android-baseline-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64-android-baseline-profile.zip",
-      "sha256": "sha256:8ec51a05efa32c10c24cb7a059be69126cd13ad5593e65b29a80e4957ad55920"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64-android-baseline-profile.zip",
+      "sha256": "sha256:d9e0811fe1fe68cd7963c40710b3afaeae5bebfd3663714e94a659e72c53bce5"
     },
     "bun-linux-x64-android-baseline": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64-android-baseline.zip",
-      "sha256": "sha256:0ff6d5d0610b582c960a4186007c100bc26cd8535345921b7637c56cc683ec27"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64-android-baseline.zip",
+      "sha256": "sha256:fe36d8d4795e0eadc22fb6696d44d168491c2e5b9b7cbb12b8c96b0c0c40a4f9"
     },
     "bun-linux-x64-android-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64-android-profile.zip",
-      "sha256": "sha256:0d454149da01f8daa129e5de33e703d87407f6bec21516fd361f95f5c0f5dcd7"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64-android-profile.zip",
+      "sha256": "sha256:c2a09028a8178246737f8ecb127aa6f9a789576162ea934e30b4b36a1aa387b8"
     },
     "bun-linux-x64-android": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64-android.zip",
-      "sha256": "sha256:d2c3cc4053ed79dc09db5cdd9d0cbbf96c8fd57afaecd78d58202e37d3400749"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64-android.zip",
+      "sha256": "sha256:1e90fc0d3b83cb847b34338aff2765a7034bf53c50414344b3b0bf07a330a144"
     },
     "bun-linux-x64-baseline-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64-baseline-profile.zip",
-      "sha256": "sha256:86fb5c5c1409f2f0d67ea5b64cabeb2615bf236f21c6f611f5ab094299a6ce04"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64-baseline-profile.zip",
+      "sha256": "sha256:574be420a9e5212b082079a60af2f23f66b7d3f7713abb046d2f140ea63e5150"
     },
     "bun-linux-x64-baseline": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64-baseline.zip",
-      "sha256": "sha256:a8c9c6738202e2fced555dd860a953c56c0cd059f75041e7010ae81a32802646"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64-baseline.zip",
+      "sha256": "sha256:c678040f14fe0440eb839d37cbd0ce4c051a32da72806ac97de6a6aab6bf728f"
     },
     "bun-linux-x64-musl-baseline-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64-musl-baseline-profile.zip",
-      "sha256": "sha256:8f10b3442e321e088d8bc89038881af23b6f7840466e8bffca4aadad66fae946"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64-musl-baseline-profile.zip",
+      "sha256": "sha256:f33acc7e775585218a300ae62377ab1dd02c5d624ff970fc9e0096505fd6e0c1"
     },
     "bun-linux-x64-musl-baseline": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64-musl-baseline.zip",
-      "sha256": "sha256:74d04038a21e6ae816f9e74525b754b85294be99632b336cb4c57019c9313829"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64-musl-baseline.zip",
+      "sha256": "sha256:76e1db84e98f22f78de0a87e309bfbbf297732847f9720db36750646c85c8c18"
     },
     "bun-linux-x64-musl-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64-musl-profile.zip",
-      "sha256": "sha256:9b54a56ed49e0df572e0fb5c6bba76a467b03b0d4cf858f593c1cfa336a561e6"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64-musl-profile.zip",
+      "sha256": "sha256:21754222f1aafea211c76dfb188044bc2010aec581a3f77c664f3b0b2d53b01a"
     },
     "bun-linux-x64-musl": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64-musl.zip",
-      "sha256": "sha256:ea116fe09f2f764c87b9bf735225b781d1f7674ca58d66040470f38a7943c8ab"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64-musl.zip",
+      "sha256": "sha256:4835eca59d6da70f4674f5642f6e459dcadab773695b2ed9922d131057989742"
     },
     "bun-linux-x64-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64-profile.zip",
-      "sha256": "sha256:3ce3c2ab49c44797e4a024c6a2baffe6ef777ce1d5e68bcaa005d8f425b26f1d"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64-profile.zip",
+      "sha256": "sha256:fad558e312e123abc9abc6fcdc2370b60e8a9726575fc6bcc2fdc93e6b600a7f"
     },
     "bun-linux-x64": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-linux-x64.zip",
-      "sha256": "sha256:74c1c3bee7cd998500c8f969cd8972355ac6a07207e94a39eece1999b56ffabf"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-linux-x64.zip",
+      "sha256": "sha256:36368faef7527875d5ffa52e53cd48021741f2a83eb6208a8dd64068d422a913"
     },
     "bun-windows-aarch64-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-windows-aarch64-profile.zip",
-      "sha256": "sha256:2e23caac0927f482f2d5f2372c8fe7a77aa70a612b440372788b12794014ffd1"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-windows-aarch64-profile.zip",
+      "sha256": "sha256:5bf36e7d64ea4fb7bef4e910e13199b4c9eb288b8217150d7a21ea4eacec4510"
     },
     "bun-windows-aarch64": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-windows-aarch64.zip",
-      "sha256": "sha256:41ea66155baf0ac1f8545f8d54544bcaf4908104193c5db9aad85d6f53ae1bd7"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-windows-aarch64.zip",
+      "sha256": "sha256:a7a16b876a305fd1029c66dbd27007b4f6112ae896532f675878731a21e50cfd"
     },
     "bun-windows-x64-baseline-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-windows-x64-baseline-profile.zip",
-      "sha256": "sha256:94d622894575f403a04bdb17048a9b66e9adcbe07a77fd9e9821f0e23c19358f"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-windows-x64-baseline-profile.zip",
+      "sha256": "sha256:0fee81c76931b843bcc22a05cceac4e44abaa1684555d3347541c4dd6a26e748"
     },
     "bun-windows-x64-baseline": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-windows-x64-baseline.zip",
-      "sha256": "sha256:2d1871e72b28165a8574a9c91de867cbe499f55b8c75facf4fb9e42888eddba6"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-windows-x64-baseline.zip",
+      "sha256": "sha256:78c221c2376f79731ccf4e4af0b3bb46d81fefa3296c5abee09ad8a1b21e68c6"
     },
     "bun-windows-x64-profile": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-windows-x64-profile.zip",
-      "sha256": "sha256:0659e651435aff5f406de2e8be8a67143572c8ebb26736bf3b4edb725d36f037"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-windows-x64-profile.zip",
+      "sha256": "sha256:b79685e9a1d1bc8ba7c1b51ff6301c4650e524e4dfb73c16728903f16d9d8c5b"
     },
     "bun-windows-x64": {
-      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.1/bun-windows-x64.zip",
-      "sha256": "sha256:52b1f3028b01f43d37fefdf669d034a1ee2e0d96c56bb13c393bdaf169b1af84"
+      "url": "https://github.com/oven-sh/bun-releases-for-updater/releases/download/bun-v1.4.2/bun-windows-x64.zip",
+      "sha256": "sha256:ce4c17497b2f29712a99d3d53f028de28cd42e3bacb8589599e7f000e49b6405"
     }
   }
 }
