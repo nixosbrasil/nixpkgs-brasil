@@ -20,9 +20,9 @@
   "bitwarden-password-manager": {
     "nome": "Bitwarden Password Manager",
     "description": "At home, at work, or on the go, Bitwarden easily secures all your passwords, passkeys, and sensitive information.",
-    "version": "2026.10.0",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/5125667/bitwarden_password_manager-2026.10.0.xpi",
-    "download_hash": "sha256:a25e02e961f4ffcecda12584f32f1993102ad7509e9ca84582e5287109f5bd20",
+    "version": "2026.10.1",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/5182191/bitwarden_password_manager-2026.10.1.xpi",
+    "download_hash": "sha256:25cd5e074628058474ca7578269c75e3e136569e6a821a0da07d56ed761e11fa",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/bitwarden-password-manager/",
     "name": "bitwarden-password-manager"
   },
