@@ -101,9 +101,9 @@
   "control-panel-for-twitter": {
     "nome": "Control Panel for Twitter",
     "description": "Gives you more control over Twitter and adds missing features and UI improvements",
-    "version": "4.99.3",
-    "download_url": "https://addons.mozilla.org/firefox/downloads/file/5289071/control_panel_for_twitter-4.99.3.xpi",
-    "download_hash": "sha256:81eb67486aa150b78b37fef5e6040ede60569ece3f88a0567953faf246db0463",
+    "version": "4.99.4",
+    "download_url": "https://addons.mozilla.org/firefox/downloads/file/5297310/control_panel_for_twitter-4.99.4.xpi",
+    "download_hash": "sha256:da1a5b6ba9715dc104b156d03f58b8b0e2534a1183cb15c98fc9183575e2d89c",
     "homepage": "https://addons.mozilla.org/en-US/firefox/addon/control-panel-for-twitter/",
     "name": "control-panel-for-twitter"
   }
